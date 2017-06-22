@@ -10070,3 +10070,278 @@ Make sure 'MyPlayer_BP_C' has been compiled for  Set bShowMouseCursor
 [2017.06.22-08.24.03:945][453]SourceControl: Info 	Prototype/Saved/Logs/Git-TempF72BF38041DE3BE0747AACB22D1A2342.txt
 [2017.06.22-08.24.03:945][453]SourceControl: Info no changes added to commit
 [2017.06.22-08.24.03:954][453]SourceControl: Info Commited On branch master.
+[2017.06.22-08.24.56:022][892]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-08.24.56:069][892]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-08.24.56:069][892]PIE: New page: PIE session: NewMap (Jun 21, 2017, 6:24:56 PM)
+[2017.06.22-08.24.56:069][892]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-08.24.56:071][892]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002159s)
+[2017.06.22-08.24.56:073][892]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-08.24.56:073][892]LogPlayLevel: PIE: World Init took: (0.001517s)
+[2017.06.22-08.24.56:073][892]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003976s)
+[2017.06.22-08.24.56:126][892]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-08.24.56:137][892]LogInit: FAudioDevice initialized.
+[2017.06.22-08.24.56:174][892]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-08.24.56:177][892]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-01.24.56
+[2017.06.22-08.24.56:177][892]LogWorld: Bringing up level for play took: 0.001123
+[2017.06.22-08.24.56:180][892]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.951
+[2017.06.22-08.25.23:963][ 31]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-08.25.24:714][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.22-08.25.24:916][ 40]LogSavePackage: Save=172.36ms
+[2017.06.22-08.25.24:916][ 40]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BP9B091AA94F4B4981545063B6CBDFFC58.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.22-08.25.24:922][ 40]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.22-08.25.26:295][112]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-08.25.26:351][112]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-08.25.26:351][112]PIE: New page: PIE session: NewMap (Jun 21, 2017, 6:25:26 PM)
+[2017.06.22-08.25.26:351][112]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-08.25.26:354][112]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002412s)
+[2017.06.22-08.25.26:355][112]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-08.25.26:355][112]LogPlayLevel: PIE: World Init took: (0.001572s)
+[2017.06.22-08.25.26:356][112]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.004440s)
+[2017.06.22-08.25.26:407][112]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-08.25.26:420][112]LogInit: FAudioDevice initialized.
+[2017.06.22-08.25.26:459][112]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-08.25.26:462][112]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-01.25.26
+[2017.06.22-08.25.26:463][112]LogWorld: Bringing up level for play took: 0.001301
+[2017.06.22-08.25.26:466][112]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.764
+[2017.06.22-08.25.46:821][385]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-08.25.47:502][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.22-08.25.47:702][391]LogSavePackage: Save=183.35ms
+[2017.06.22-08.25.47:702][391]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BP7872D1054CD0E9C9B9ED46B9741DCD05.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.22-08.25.47:705][391]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.22-08.25.48:876][452]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-08.25.48:935][452]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-08.25.48:935][452]PIE: New page: PIE session: NewMap (Jun 21, 2017, 6:25:48 PM)
+[2017.06.22-08.25.48:936][452]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-08.25.48:939][452]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002588s)
+[2017.06.22-08.25.48:940][452]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-08.25.48:940][452]LogPlayLevel: PIE: World Init took: (0.001391s)
+[2017.06.22-08.25.48:940][452]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.004306s)
+[2017.06.22-08.25.49:001][452]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-08.25.49:013][452]LogInit: FAudioDevice initialized.
+[2017.06.22-08.25.49:053][452]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-08.25.49:056][452]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-01.25.49
+[2017.06.22-08.25.49:056][452]LogWorld: Bringing up level for play took: 0.001091
+[2017.06.22-08.25.49:059][452]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.17
+[2017.06.22-08.26.09:953][121]LogActorFactory: Actor Factory created Cube
+[2017.06.22-08.26.10:504][124]LogActorFactory: Actor Factory created Cube
+[2017.06.22-08.26.18:243][617]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.06.22-08.26.36:778][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.22-08.26.36:933][751]LogSavePackage: Save=71.04ms
+[2017.06.22-08.26.36:933][751]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/NewMap8FD9B34041B5F1CE32A222924CD450E0.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap'
+[2017.06.22-08.26.36:937][751]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap
+[2017.06.22-08.26.37:795][794]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-08.26.37:855][794]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-08.26.37:855][794]PIE: New page: PIE session: NewMap (Jun 21, 2017, 6:26:37 PM)
+[2017.06.22-08.26.37:855][794]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-08.26.37:860][794]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004796s)
+[2017.06.22-08.26.37:861][794]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-08.26.37:861][794]LogPlayLevel: PIE: World Init took: (0.001082s)
+[2017.06.22-08.26.37:861][794]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.006228s)
+[2017.06.22-08.26.37:988][794]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-08.26.38:001][794]LogInit: FAudioDevice initialized.
+[2017.06.22-08.26.38:044][794]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-08.26.38:048][794]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-01.26.38
+[2017.06.22-08.26.38:048][794]LogWorld: Bringing up level for play took: 0.001674
+[2017.06.22-08.26.38:055][794]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.826
+[2017.06.22-08.26.46:999][478]MapCheck: New page: Map Check
+[2017.06.22-08.26.47:279][478]LightingResults: New page: Lighting Build - Jun 21, 2017, 6:26:47 PM
+[2017.06.22-08.26.48:218][478]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.06.22-08.26.48:910][478]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.06.22-08.26.49:375][478]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.06.22-08.26.53:004][478]LogSwarmInterface:Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2017.06.22-08.26.53:361][478]LogSwarmInterface:Error: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:8008
+
+Server stack trace: 
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   at NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2017.06.22-08.26.59:505][478]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.06.22-08.26.59:505][478]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8700
+[2017.06.22-08.27.11:883][478]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.06.22-08.27.11:962][478]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.06.22-08.27.11:962][478]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.06.22-08.27.11:962][478]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.06.22-08.27.11:962][478]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.06.22-08.27.11:962][478]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.06.22-08.27.14:030][478]LogEditorBuildUtils: Build time 0:26
+[2017.06.22-08.27.14:124][478]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2017.06.22-08.27.14:234][478]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2017.06.22-08.27.14:729][480]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2017.06.22-08.27.14:840][480]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2017.06.22-08.27.22:337][483]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.06.22-08.27.22:391][483]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube3)
+[2017.06.22-08.27.43:736][858]Job is a success!
+[2017.06.22-08.27.44:660][859]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2017.06.22-08.27.44:660][859]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.06.22-08.27.44:660][859]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.06.22-08.27.44:660][859]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2017.06.22-08.27.44:807][859]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 256X128)
+[2017.06.22-08.27.44:807][859]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2017.06.22-08.27.45:670][859]Lightmass on DESKTOP-71K0SKI: 8.15 sec total, 5.78 sec importing, 138 ms setup, 317 ms photons, 1.58 sec processing, 0 ms extra exporting [5/5 mappings]. Threads: 10.9 sec total, 945 ms processing.
+[2017.06.22-08.27.45:781][859]LogStaticLightingSystem: Illumination: 58.4 sec (623 ms encoding lightmaps, 143 ms encoding shadowmaps)
+[2017.06.22-08.27.45:781][859]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.06.22-08.27.45:781][859]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.06.22-08.27.46:930][859]DumpUnbuiltLightIteractions
+[2017.06.22-08.27.46:930][859]Lights with unbuilt interactions: 0
+[2017.06.22-08.27.46:930][859]
+[2017.06.22-08.27.46:930][859]Primitives with unbuilt interactions: 0
+[2017.06.22-08.27.46:956][860]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.06.22-08.27.46:966][860]MapCheck: New page: NewMap - Jun 21, 2017, 6:27:46 PM
+[2017.06.22-08.27.47:672][860]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 715.149ms to complete.
+[2017.06.22-08.27.59:515][762]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-08.27.59:572][762]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-08.27.59:572][762]PIE: New page: PIE session: NewMap (Jun 21, 2017, 6:27:59 PM)
+[2017.06.22-08.27.59:572][762]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-08.27.59:575][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002791s)
+[2017.06.22-08.27.59:576][762]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-08.27.59:576][762]LogPlayLevel: PIE: World Init took: (0.001099s)
+[2017.06.22-08.27.59:576][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.004205s)
+[2017.06.22-08.27.59:622][762]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-08.27.59:634][762]LogInit: FAudioDevice initialized.
+[2017.06.22-08.27.59:672][762]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-08.27.59:676][762]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-01.27.59
+[2017.06.22-08.27.59:676][762]LogWorld: Bringing up level for play took: 0.001235
+[2017.06.22-08.27.59:679][762]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.45
+[2017.06.22-08.28.48:442][816]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-08.30.08:206][105]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.22-08.30.08:340][105]LogSavePackage: Save=55.79ms
+[2017.06.22-08.30.08:340][105]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/NewMap0543E8AD40CD8A77F35EDFA32BEB2488.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap'
+[2017.06.22-08.30.08:344][105]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap
+[2017.06.22-08.30.08:391][105]LogFileHelpers: Saving map 'NewMap' took 0.291
+[2017.06.22-08.30.08:393][105]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap_BuiltData" FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset" SILENT=true
+[2017.06.22-08.30.08:440][105]LogSavePackage: Save=45.25ms
+[2017.06.22-08.30.08:440][105]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/NewMap_BuiltData635E462F4E68D09B5CC68680D3012B18.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset'
+[2017.06.22-08.30.08:443][105]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset
+[2017.06.22-08.30.08:706][105]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.22-08.30.08:979][105]LogSavePackage: Save=257.92ms
+[2017.06.22-08.30.08:979][105]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BP727DFAF543BBF2F812459D8EFE931FC4.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.22-08.30.08:982][105]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.22-08.32.02:709][832]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-08.32.05:543][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.22-08.32.05:823][930]LogSavePackage: Save=254.14ms
+[2017.06.22-08.32.05:823][930]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BP36F20FB642A858E3CA0DB3B5D8547ACA.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.22-08.32.05:826][930]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.22-08.32.07:050][972]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-08.32.07:091][972]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-08.32.07:091][972]PIE: New page: PIE session: NewMap (Jun 21, 2017, 6:32:07 PM)
+[2017.06.22-08.32.07:091][972]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-08.32.07:094][972]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002325s)
+[2017.06.22-08.32.07:094][972]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-08.32.07:094][972]LogPlayLevel: PIE: World Init took: (0.000940s)
+[2017.06.22-08.32.07:095][972]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003520s)
+[2017.06.22-08.32.07:159][972]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-08.32.07:170][972]LogInit: FAudioDevice initialized.
+[2017.06.22-08.32.07:207][972]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-08.32.07:211][972]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-01.32.07
+[2017.06.22-08.32.07:211][972]LogWorld: Bringing up level for play took: 0.001205
+[2017.06.22-08.32.07:214][972]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.015
+[2017.06.22-08.32.12:048][250]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-08.32.12:087][250]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-08.32.12:088][250]PIE: New page: PIE session: NewMap (Jun 21, 2017, 6:32:12 PM)
+[2017.06.22-08.32.12:088][250]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-08.32.12:093][250]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005348s)
+[2017.06.22-08.32.12:094][250]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-08.32.12:094][250]LogPlayLevel: PIE: World Init took: (0.000946s)
+[2017.06.22-08.32.12:095][250]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.006540s)
+[2017.06.22-08.32.12:147][250]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-08.32.12:161][250]LogInit: FAudioDevice initialized.
+[2017.06.22-08.32.12:216][250]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-08.32.12:220][250]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-01.32.12
+[2017.06.22-08.32.12:220][250]LogWorld: Bringing up level for play took: 0.001152
+[2017.06.22-08.32.12:223][250]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.994
+[2017.06.22-08.32.19:826][713]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-08.32.19:858][713]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-08.32.19:858][713]PIE: New page: PIE session: NewMap (Jun 21, 2017, 6:32:19 PM)
+[2017.06.22-08.32.19:858][713]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-08.32.19:861][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002388s)
+[2017.06.22-08.32.19:861][713]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-08.32.19:862][713]LogPlayLevel: PIE: World Init took: (0.000901s)
+[2017.06.22-08.32.19:862][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003515s)
+[2017.06.22-08.32.19:916][713]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-08.32.19:927][713]LogInit: FAudioDevice initialized.
+[2017.06.22-08.32.19:968][713]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-08.32.19:972][713]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-01.32.19
+[2017.06.22-08.32.19:972][713]LogWorld: Bringing up level for play took: 0.001258
+[2017.06.22-08.32.19:975][713]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.746
+[2017.06.22-08.34.44:520][189]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-08.34.45:187][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.22-08.34.45:640][203]LogSavePackage: Save=241.66ms
+[2017.06.22-08.34.45:640][203]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BP0BFF49F346E084A617B0E89D7B28FDCC.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.22-08.34.45:644][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.22-08.34.47:276][277]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-08.34.47:313][277]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-08.34.47:313][277]PIE: New page: PIE session: NewMap (Jun 21, 2017, 6:34:47 PM)
+[2017.06.22-08.34.47:313][277]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-08.34.47:316][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002706s)
+[2017.06.22-08.34.47:316][277]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-08.34.47:317][277]LogPlayLevel: PIE: World Init took: (0.001014s)
+[2017.06.22-08.34.47:317][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003978s)
+[2017.06.22-08.34.47:373][277]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-08.34.47:386][277]LogInit: FAudioDevice initialized.
+[2017.06.22-08.34.47:427][277]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-08.34.47:431][277]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-01.34.47
+[2017.06.22-08.34.47:432][277]LogWorld: Bringing up level for play took: 0.001338
+[2017.06.22-08.34.47:434][277]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.205
+[2017.06.22-08.34.55:690][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.22-08.34.55:963][716]LogSavePackage: Save=257.29ms
+[2017.06.22-08.34.55:963][716]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BP4F3464E544E6895B553ABDA0FE8E21CB.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.22-08.34.55:966][716]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.22-08.35.08:008][243]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-08.36.40:870][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.22-08.36.41:057][959]LogSavePackage: Save=168.10ms
+[2017.06.22-08.36.41:057][959]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BPB940490C442F4D8A9031EFB27836C1FB.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.22-08.36.41:061][959]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.22-08.41.38:339][225]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-08.41.39:084][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.22-08.41.39:292][240]LogSavePackage: Save=184.80ms
+[2017.06.22-08.41.39:293][240]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BP7350AF1B4F2299EAE115E6915363DC53.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.22-08.41.39:296][240]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.22-08.42.19:442][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.22-08.42.19:677][196]LogSavePackage: Save=216.01ms
+[2017.06.22-08.42.19:677][196]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BPA976D44F4B898502E5E254AEBE0CBE55.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.22-08.42.19:680][196]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.22-08.42.21:760][270]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-08.42.21:794][270]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-08.42.21:794][270]PIE: New page: PIE session: NewMap (Jun 21, 2017, 6:42:21 PM)
+[2017.06.22-08.42.21:795][270]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-08.42.21:797][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002761s)
+[2017.06.22-08.42.21:798][270]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-08.42.21:799][270]LogPlayLevel: PIE: World Init took: (0.001223s)
+[2017.06.22-08.42.21:799][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.004280s)
+[2017.06.22-08.42.21:851][270]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-08.42.21:864][270]LogInit: FAudioDevice initialized.
+[2017.06.22-08.42.21:903][270]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-08.42.21:906][270]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-01.42.21
+[2017.06.22-08.42.21:906][270]LogWorld: Bringing up level for play took: 0.001245
+[2017.06.22-08.42.21:909][270]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.68
+[2017.06.22-08.42.51:049][661]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.032
+[2017.06.22-08.42.51:051][661]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/FadeObjComponent] ([1] browsable assets)...
+[2017.06.22-08.42.51:051][661]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/FadeObjComponent]
+[2017.06.22-08.42.51:066][661]LogSavePackage: Save=13.26ms
+[2017.06.22-08.42.51:066][661]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/FadeObjComponent_Auto700B5D6D247938CAF79FA4D86785EA348.tmp' to '../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/FadeObjComponent_Auto7.uasset'
+[2017.06.22-08.42.51:067][661]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/FadeObjComponent_Auto7.uasset
+[2017.06.22-08.42.51:067][661]LogFileHelpers: Auto-saving content packages took 0.017
+[2017.06.22-08.44.12:150][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FadeObjComponent" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/FadeObjComponent.uasset" SILENT=true
+[2017.06.22-08.44.12:163][  0]LogSavePackage: Save=10.51ms
+[2017.06.22-08.44.12:163][  0]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/FadeObjComponent6999AA054EC7AADB97020C8FD303850E.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/FadeObjComponent.uasset'
+[2017.06.22-08.44.12:165][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/FadeObjComponent.uasset
+[2017.06.22-08.44.14:604][ 62]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BlueprintComponentNodeSpawner_226' or package '/Engine/Transient'.
+[2017.06.22-08.44.14:604][ 62]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_AddComponent_150' or package '/Engine/Transient'.
+[2017.06.22-08.44.14:604][ 62]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_FadeObjComponent_C_0' or package '/Engine/Transient'.
+[2017.06.22-08.44.14:604][ 62]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_FadeObjComponent_C_1' or package '/Engine/Transient'.
+[2017.06.22-08.44.14:604][ 62]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_FadeObjComponent_C_703' or package '/Engine/Transient'.
+[2017.06.22-08.44.14:604][ 62]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_FadeObjComponent_C_702' or package '/Engine/Transient'.
+[2017.06.22-08.44.18:378][370]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2017.06.22-08.44.24:443][370]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.06.22-08.44.24:604][370]SourceControl:Error: Error Aborting commit due to empty commit message.
+[2017.06.22-08.44.24:616][370]SourceControl: Info Submitted revision.
