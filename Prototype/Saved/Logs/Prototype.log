@@ -10345,3 +10345,644 @@ Exception rethrown at [0]:
 [2017.06.22-08.44.24:443][370]LogSourceControl: FGitCheckInWorker: commit successful
 [2017.06.22-08.44.24:604][370]SourceControl:Error: Error Aborting commit due to empty commit message.
 [2017.06.22-08.44.24:616][370]SourceControl: Info Submitted revision.
+[2017.06.22-08.46.57:376][691]SourceControl: Info On branch master
+[2017.06.22-08.46.57:376][691]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.06.22-08.46.57:376][691]SourceControl: Info nothing to commit, working tree clean
+[2017.06.22-08.46.57:766][691]LogMetaData: Removing '/Game/Blueprints/FadeComponent_BP.FadeComponent_BP_C' ref from Metadata '/Game/Blueprints/FadeObjComponent.PackageMetaData'
+[2017.06.22-08.46.57:766][691]LogMetaData: Removing '/Game/Blueprints/FadeComponent_BP.FadeComponent_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/FadeObjComponent.PackageMetaData'
+[2017.06.22-08.46.57:766][691]LogMetaData: Removing '/Game/Blueprints/FadeComponent_BP.FadeComponent_BP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/FadeObjComponent.PackageMetaData'
+[2017.06.22-08.46.57:766][691]LogMetaData: Removing '/Game/Blueprints/FadeComponent_BP.SKEL_FadeComponent_BP_C' ref from Metadata '/Game/Blueprints/FadeObjComponent.PackageMetaData'
+[2017.06.22-08.46.57:787][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FadeComponent_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/FadeComponent_BP.uasset" SILENT=true
+[2017.06.22-08.46.57:799][691]LogSavePackage: Save=10.77ms
+[2017.06.22-08.46.57:799][691]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/FadeComponent_BPCAED2AAF41CC2C2001AC03AF2CA7613F.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/FadeComponent_BP.uasset'
+[2017.06.22-08.46.57:802][691]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/FadeComponent_BP.uasset
+[2017.06.22-08.46.57:916][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FadeObjComponent" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/FadeObjComponent.uasset" SILENT=true
+[2017.06.22-08.46.57:942][691]LogSavePackage: Save=5.07ms
+[2017.06.22-08.46.57:942][691]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/FadeObjComponent5B8295C444A5B409B4147F8027911891.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/FadeObjComponent.uasset'
+[2017.06.22-08.46.57:945][691]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/FadeObjComponent.uasset
+[2017.06.22-08.49.47:136][981]SourceControl: Info On branch master
+[2017.06.22-08.49.47:136][981]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.06.22-08.49.47:136][981]SourceControl: Info Changes to be committed:
+[2017.06.22-08.49.47:136][981]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2017.06.22-08.49.47:136][981]SourceControl: Info 	copied:     Prototype/Content/Blueprints/FadeObjComponent.uasset -> Prototype/Content/Blueprints/FadeComponent_BP.uasset
+[2017.06.22-08.49.47:136][981]SourceControl: Info 	modified:   Prototype/Content/Blueprints/FadeObjComponent.uasset
+[2017.06.22-08.49.47:136][981]SourceControl: Info Untracked files:
+[2017.06.22-08.49.47:136][981]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.06.22-08.49.47:136][981]SourceControl: Info 	Prototype/Saved/Backup/FadeObjComponent_2017-06-22-01-46-57.uasset
+[2017.06.22-08.49.47:381][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BasicEase_C" FILE="../../../../../../Github/Prototype/Prototype/Content/BasicEase_C.uasset" SILENT=true
+[2017.06.22-08.49.47:403][981]LogSavePackage: Save=20.20ms
+[2017.06.22-08.49.47:403][981]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/BasicEase_C26F0BEAE496AA5B7645B9280DD03A651.tmp' to '../../../../../../Github/Prototype/Prototype/Content/BasicEase_C.uasset'
+[2017.06.22-08.49.47:406][981]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/BasicEase_C.uasset
+[2017.06.22-08.49.55:209][762]SourceControl: Info On branch master
+[2017.06.22-08.49.55:209][762]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.06.22-08.49.55:209][762]SourceControl: Info Changes to be committed:
+[2017.06.22-08.49.55:209][762]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2017.06.22-08.49.55:209][762]SourceControl: Info 	new file:   Prototype/Content/BasicEase_C.uasset
+[2017.06.22-08.49.55:209][762]SourceControl: Info 	copied:     Prototype/Content/Blueprints/FadeObjComponent.uasset -> Prototype/Content/Blueprints/FadeComponent_BP.uasset
+[2017.06.22-08.49.55:209][762]SourceControl: Info 	modified:   Prototype/Content/Blueprints/FadeObjComponent.uasset
+[2017.06.22-08.49.55:209][762]SourceControl: Info Untracked files:
+[2017.06.22-08.49.55:209][762]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.06.22-08.49.55:209][762]SourceControl: Info 	Prototype/Saved/Backup/FadeObjComponent_2017-06-22-01-46-57.uasset
+[2017.06.22-08.49.55:455][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Curves/BasicEase_C" FILE="../../../../../../Github/Prototype/Prototype/Content/Curves/BasicEase_C.uasset" SILENT=true
+[2017.06.22-08.49.55:463][762]LogSavePackage: Save=5.99ms
+[2017.06.22-08.49.55:463][762]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/BasicEase_C7A3B327D4BF9A01496876386B18E72AC.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Curves/BasicEase_C.uasset'
+[2017.06.22-08.49.55:465][762]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Curves/BasicEase_C.uasset
+[2017.06.22-08.49.58:332][979]SourceControl: Info On branch master
+[2017.06.22-08.49.58:332][979]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.06.22-08.49.58:332][979]SourceControl: Info Changes to be committed:
+[2017.06.22-08.49.58:332][979]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2017.06.22-08.49.58:332][979]SourceControl: Info 	new file:   Prototype/Content/BasicEase_C.uasset
+[2017.06.22-08.49.58:332][979]SourceControl: Info 	copied:     Prototype/Content/Blueprints/FadeObjComponent.uasset -> Prototype/Content/Blueprints/FadeComponent_BP.uasset
+[2017.06.22-08.49.58:332][979]SourceControl: Info 	modified:   Prototype/Content/Blueprints/FadeObjComponent.uasset
+[2017.06.22-08.49.58:332][979]SourceControl: Info 	new file:   Prototype/Content/Curves/BasicEase_C.uasset
+[2017.06.22-08.49.58:332][979]SourceControl: Info Untracked files:
+[2017.06.22-08.49.58:332][979]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.06.22-08.49.58:332][979]SourceControl: Info 	Prototype/Saved/Backup/FadeObjComponent_2017-06-22-01-46-57.uasset
+[2017.06.22-08.52.05:374][479]LogEditorTransaction: Undo Mouse Drag
+[2017.06.22-08.52.36:265][ 87]LogEditorTransaction: Undo Mouse Drag
+[2017.06.22-08.52.45:514][649]LogEditorTransaction: Undo Mouse Drag
+[2017.06.22-08.52.55:646][153]LogAudio:Warning: Current Audio Device with ID {0.0.0.00000000}.{a22ffe96-9640-44b0-9489-0c970a8d9dd5} was removed. Shutting down audio device.
+[2017.06.22-08.52.57:430][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Curves/BasicEase_C" FILE="../../../../../../Github/Prototype/Prototype/Content/Curves/BasicEase_C.uasset" SILENT=true
+[2017.06.22-08.52.57:503][268]LogSavePackage: Save=26.00ms
+[2017.06.22-08.52.57:503][268]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/BasicEase_C13AF22774F1E61767C489AA0C42C2EAD.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Curves/BasicEase_C.uasset'
+[2017.06.22-08.52.57:506][268]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Curves/BasicEase_C.uasset
+[2017.06.22-08.53.22:906][448]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.031
+[2017.06.22-08.53.22:908][448]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Fade_M] ([1] browsable assets)...
+[2017.06.22-08.53.22:960][448]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/Fade_M.Fade_M]
+[2017.06.22-08.53.22:960][448]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Fade_M]
+[2017.06.22-08.53.22:960][448]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Fade_M" FILE="../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Materials/Fade_M_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2017.06.22-08.53.22:993][448]LogSavePackage: Save=30.82ms
+[2017.06.22-08.53.22:993][448]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/Fade_M_Auto8845B317F479D4E429F3CA0957B054302.tmp' to '../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Materials/Fade_M_Auto8.uasset'
+[2017.06.22-08.53.22:994][448]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Materials/Fade_M_Auto8.uasset
+[2017.06.22-08.53.22:994][448]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Opaque_M] ([1] browsable assets)...
+[2017.06.22-08.53.23:017][448]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/Opaque_M.Opaque_M]
+[2017.06.22-08.53.23:017][448]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Opaque_M]
+[2017.06.22-08.53.23:017][448]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Opaque_M" FILE="../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Materials/Opaque_M_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2017.06.22-08.53.23:040][448]LogSavePackage: Save=21.00ms
+[2017.06.22-08.53.23:040][448]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/Opaque_M_Auto8D32BD83041EAEE210073B89BE129E497.tmp' to '../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Materials/Opaque_M_Auto8.uasset'
+[2017.06.22-08.53.23:041][448]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Materials/Opaque_M_Auto8.uasset
+[2017.06.22-08.53.23:042][448]LogFileHelpers: Auto-saving content packages took 0.135
+[2017.06.22-08.53.58:570][832]LogAudio:Warning: Current Audio Device with ID {0.0.0.00000000}.{a22ffe96-9640-44b0-9489-0c970a8d9dd5} was removed. Shutting down audio device.
+[2017.06.22-08.54.32:198][502]LogMaterial: Missing cached shader map for material Fade_M, compiling. 
+[2017.06.22-08.54.32:886][502]LogMaterial: Missing cached shader map for material Fade_M, compiling. 
+[2017.06.22-08.54.37:401][553]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.06.22-08.54.37:401][553]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.06.22-08.54.37:401][553]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.06.22-08.54.41:184][797]LogMaterial: Missing cached shader map for material Fade_M, compiling. 
+[2017.06.22-08.54.41:243][797]LogMaterial: Missing cached shader map for material Fade_M, compiling. 
+[2017.06.22-08.54.44:890][839]MaterialEditorStats: Info Base pass shader: 44 instructions
+[2017.06.22-08.54.44:890][839]MaterialEditorStats: Info Vertex shader: 121 instructions
+[2017.06.22-08.54.44:890][839]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.06.22-08.55.54:035][618]LogMaterial: Missing cached shader map for material Fade_M, compiling. 
+[2017.06.22-08.55.54:083][618]LogMaterial: Missing cached shader map for material Fade_M, compiling. 
+[2017.06.22-08.55.56:268][698]LogMaterial: Missing cached shader map for material Fade_M, compiling. 
+[2017.06.22-08.55.56:347][698]LogMaterial: Missing cached shader map for material Fade_M, compiling. 
+[2017.06.22-08.55.58:768][777]LogMaterial: Missing cached shader map for material Fade_M, compiling. 
+[2017.06.22-08.55.58:837][777]LogMaterial: Missing cached shader map for material Fade_M, compiling. 
+[2017.06.22-08.56.08:655][830]MaterialEditorStats: Info Base pass shader: 272 instructions
+[2017.06.22-08.56.08:655][830]MaterialEditorStats: Info Vertex shader: 121 instructions
+[2017.06.22-08.56.08:655][830]MaterialEditorStats: Info Texture samplers: 8/16
+[2017.06.22-08.57.50:841][392]LogMaterialEditor: Saving and Compiling material Fade_M
+[2017.06.22-08.57.55:758][392]LogMaterial: Missing cached shader map for material Fade_M, compiling. 
+[2017.06.22-08.57.55:824][392]LogMaterial: Missing cached shader map for material Fade_M, compiling. 
+[2017.06.22-08.57.55:870][392]LogMaterial: Missing cached shader map for material Fade_M, compiling. 
+[2017.06.22-08.57.55:951][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Fade_M, compiling. 
+[2017.06.22-08.58.01:652][392]TextureStreamingBuild:Display: Compiling optional shaders took 5.725 seconds.
+[2017.06.22-08.58.14:937][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Fade_M" FILE="../../../../../../Github/Prototype/Prototype/Content/Materials/Fade_M.uasset" SILENT=true
+[2017.06.22-08.58.14:955][392]LogSavePackage: Save=16.40ms
+[2017.06.22-08.58.14:955][392]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/Fade_M1800B122418D019314140A896878042A.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Materials/Fade_M.uasset'
+[2017.06.22-08.58.14:960][392]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Materials/Fade_M.uasset
+[2017.06.22-09.00.01:744][781]LogMaterial: Missing cached shader map for material Fade_M, compiling. 
+[2017.06.22-09.00.01:819][781]LogMaterial: Missing cached shader map for material Fade_M, compiling. 
+[2017.06.22-09.00.01:820][781]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Fade_M for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.22-09.00.01:820][781]LogMaterial:Warning: 	(Node Desaturation) Missing Desaturation input
+[2017.06.22-09.00.01:826][781]MaterialEditorStats:Error: Error [SM5] (Node Desaturation) Missing Desaturation input
+[2017.06.22-09.00.04:235][926]LogMaterial: Missing cached shader map for material Fade_M, compiling. 
+[2017.06.22-09.00.12:033][246]MaterialEditorStats: Info Base pass shader: 272 instructions
+[2017.06.22-09.00.12:033][246]MaterialEditorStats: Info Vertex shader: 121 instructions
+[2017.06.22-09.00.12:033][246]MaterialEditorStats: Info Texture samplers: 8/16
+[2017.06.22-09.00.38:833][236]LogMaterial: Missing cached shader map for material Fade_M, compiling. 
+[2017.06.22-09.00.38:961][236]LogMaterial: Missing cached shader map for material Fade_M, compiling. 
+[2017.06.22-09.00.39:018][236]LogMaterial: Missing cached shader map for material Fade_M, compiling. 
+[2017.06.22-09.00.39:090][236]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Fade_M, compiling. 
+[2017.06.22-09.00.45:319][236]TextureStreamingBuild:Display: Compiling optional shaders took 6.252 seconds.
+[2017.06.22-09.01.00:743][332]LogMaterial: Missing cached shader map for material Opaque_M, compiling. 
+[2017.06.22-09.01.00:874][332]LogMaterial: Missing cached shader map for material Opaque_M, compiling. 
+[2017.06.22-09.01.00:907][332]LogMaterial: Missing cached shader map for material Opaque_M, compiling. 
+[2017.06.22-09.01.02:161][376]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.06.22-09.01.02:161][376]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.06.22-09.01.02:161][376]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.06.22-09.03.48:477][ 15]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-09.03.49:268][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.22-09.03.49:465][ 40]LogSavePackage: Save=162.17ms
+[2017.06.22-09.03.49:466][ 40]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BPD645940E425E141CC8D570947E91E77D.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.22-09.03.49:469][ 40]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.22-09.03.50:964][121]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-09.03.50:992][121]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-09.03.50:992][121]PIE: New page: PIE session: NewMap (Jun 21, 2017, 7:03:50 PM)
+[2017.06.22-09.03.50:992][121]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-09.03.50:995][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002718s)
+[2017.06.22-09.03.50:996][121]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-09.03.50:996][121]LogPlayLevel: PIE: World Init took: (0.001005s)
+[2017.06.22-09.03.50:996][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.004015s)
+[2017.06.22-09.03.51:136][121]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-09.03.52:300][121]LogInit: FAudioDevice initialized.
+[2017.06.22-09.03.52:340][121]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-09.03.52:344][121]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-02.03.52
+[2017.06.22-09.03.52:344][121]LogWorld: Bringing up level for play took: 0.001193
+[2017.06.22-09.03.52:347][121]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 1.118
+[2017.06.22-09.04.29:740][  9]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-09.04.30:412][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.22-09.04.30:598][ 27]LogSavePackage: Save=173.14ms
+[2017.06.22-09.04.30:598][ 27]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BP03710ECB4C9A437AC573D4BA731AC91E.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.22-09.04.30:601][ 27]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.22-09.04.35:770][306]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-09.04.35:796][306]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-09.04.35:796][306]PIE: New page: PIE session: NewMap (Jun 21, 2017, 7:04:35 PM)
+[2017.06.22-09.04.35:796][306]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-09.04.35:799][306]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002332s)
+[2017.06.22-09.04.35:799][306]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-09.04.35:800][306]LogPlayLevel: PIE: World Init took: (0.000896s)
+[2017.06.22-09.04.35:800][306]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003463s)
+[2017.06.22-09.04.35:832][306]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-09.04.35:852][306]LogInit: FAudioDevice initialized.
+[2017.06.22-09.04.35:891][306]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-09.04.35:895][306]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-02.04.35
+[2017.06.22-09.04.35:895][306]LogWorld: Bringing up level for play took: 0.001259
+[2017.06.22-09.04.35:898][306]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.669
+[2017.06.22-09.05.06:629][148]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2017.06.22-09.05.10:250][355]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.032
+[2017.06.22-09.05.10:250][355]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Fade_M] ([1] browsable assets)...
+[2017.06.22-09.05.10:269][355]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/Fade_M.Fade_M]
+[2017.06.22-09.05.10:269][355]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Fade_M]
+[2017.06.22-09.05.10:269][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Fade_M" FILE="../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Materials/Fade_M_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2017.06.22-09.05.10:303][355]LogSavePackage: Save=16.27ms
+[2017.06.22-09.05.10:303][355]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/Fade_M_Auto98B85D2DC4EC8838A844E4E85D704CBE2.tmp' to '../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Materials/Fade_M_Auto9.uasset'
+[2017.06.22-09.05.10:304][355]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Materials/Fade_M_Auto9.uasset
+[2017.06.22-09.05.10:304][355]LogFileHelpers: Auto-saving content packages took 0.054
+[2017.06.22-09.06.12:661][739]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-09.06.13:310][754]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.22-09.06.13:492][754]LogSavePackage: Save=168.26ms
+[2017.06.22-09.06.13:492][754]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BPBC1D7495430222DB2EFE7B87D0B14351.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.22-09.06.13:495][754]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.22-09.06.15:201][843]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-09.06.15:233][843]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-09.06.15:234][843]PIE: New page: PIE session: NewMap (Jun 21, 2017, 7:06:15 PM)
+[2017.06.22-09.06.15:234][843]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-09.06.15:236][843]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002490s)
+[2017.06.22-09.06.15:237][843]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-09.06.15:238][843]LogPlayLevel: PIE: World Init took: (0.001405s)
+[2017.06.22-09.06.15:238][843]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.004166s)
+[2017.06.22-09.06.15:290][843]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-09.06.15:396][843]LogInit: FAudioDevice initialized.
+[2017.06.22-09.06.15:443][843]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-09.06.15:447][843]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-02.06.15
+[2017.06.22-09.06.15:447][843]LogWorld: Bringing up level for play took: 0.001340
+[2017.06.22-09.06.15:450][843]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.221
+[2017.06.22-09.06.47:282][981]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.06.22-09.06.54:370][310]LogRenderer: Reallocating scene render targets to support 1432x924 NumSamples 1 (Frame:94).
+[2017.06.22-09.07.29:683][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.22-09.07.29:823][379]LogSavePackage: Save=89.13ms
+[2017.06.22-09.07.29:823][379]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/NewMapEB8433A84BA96EF89AD3E3A37CA7BD8E.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap'
+[2017.06.22-09.07.29:826][379]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap
+[2017.06.22-09.07.29:937][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap_BuiltData" FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset" SILENT=true
+[2017.06.22-09.07.29:979][379]LogSavePackage: Save=22.91ms
+[2017.06.22-09.07.29:979][379]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/NewMap_BuiltData6C081AB742031D188937BBB4FCAAC4A1.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset'
+[2017.06.22-09.07.29:980][379]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset
+[2017.06.22-09.07.31:790][546]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-09.07.31:813][546]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-09.07.31:813][546]PIE: New page: PIE session: NewMap (Jun 21, 2017, 7:07:31 PM)
+[2017.06.22-09.07.31:814][546]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-09.07.31:816][546]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002421s)
+[2017.06.22-09.07.31:817][546]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-09.07.31:817][546]LogPlayLevel: PIE: World Init took: (0.001286s)
+[2017.06.22-09.07.31:818][546]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.004116s)
+[2017.06.22-09.07.31:933][546]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-09.07.32:754][546]LogInit: FAudioDevice initialized.
+[2017.06.22-09.07.32:790][546]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-09.07.32:794][546]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-02.07.32
+[2017.06.22-09.07.32:795][546]LogWorld: Bringing up level for play took: 0.001483
+[2017.06.22-09.07.32:798][546]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 1.569
+[2017.06.22-09.07.41:576][505]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.06.22-09.07.52:816][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.22-09.07.52:906][624]LogSavePackage: Save=48.57ms
+[2017.06.22-09.07.52:906][624]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/NewMap4AF5637E4D7A5DCDE7E4F78FB628897C.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap'
+[2017.06.22-09.07.52:909][624]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap
+[2017.06.22-09.07.53:014][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap_BuiltData" FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset" SILENT=true
+[2017.06.22-09.07.53:049][624]LogSavePackage: Save=23.00ms
+[2017.06.22-09.07.53:049][624]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/NewMap_BuiltDataFA69C67A41264FFBFF8270828C93351F.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset'
+[2017.06.22-09.07.53:051][624]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset
+[2017.06.22-09.07.53:730][694]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-09.07.53:753][694]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-09.07.53:753][694]PIE: New page: PIE session: NewMap (Jun 21, 2017, 7:07:53 PM)
+[2017.06.22-09.07.53:753][694]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-09.07.53:756][694]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002449s)
+[2017.06.22-09.07.53:757][694]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-09.07.53:757][694]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2017.06.22-09.07.53:757][694]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003551s)
+[2017.06.22-09.07.53:792][694]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-09.07.53:813][694]LogInit: FAudioDevice initialized.
+[2017.06.22-09.07.53:850][694]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-09.07.53:854][694]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-02.07.53
+[2017.06.22-09.07.53:854][694]LogWorld: Bringing up level for play took: 0.001222
+[2017.06.22-09.07.53:857][694]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.629
+[2017.06.22-09.07.58:568][208]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.06.22-09.08.04:020][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.22-09.08.04:135][753]LogSavePackage: Save=66.83ms
+[2017.06.22-09.08.04:135][753]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/NewMapB23DF70B42199122D928D4B3B0E0D017.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap'
+[2017.06.22-09.08.04:138][753]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap
+[2017.06.22-09.08.04:242][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap_BuiltData" FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset" SILENT=true
+[2017.06.22-09.08.04:283][753]LogSavePackage: Save=23.65ms
+[2017.06.22-09.08.04:283][753]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/NewMap_BuiltDataAC003269457977833730B0AC1C2448A0.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset'
+[2017.06.22-09.08.04:284][753]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset
+[2017.06.22-09.08.04:624][788]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-09.08.04:650][788]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-09.08.04:650][788]PIE: New page: PIE session: NewMap (Jun 21, 2017, 7:08:04 PM)
+[2017.06.22-09.08.04:650][788]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-09.08.04:652][788]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002508s)
+[2017.06.22-09.08.04:653][788]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-09.08.04:653][788]LogPlayLevel: PIE: World Init took: (0.000977s)
+[2017.06.22-09.08.04:654][788]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003743s)
+[2017.06.22-09.08.04:692][788]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-09.08.04:712][788]LogInit: FAudioDevice initialized.
+[2017.06.22-09.08.04:751][788]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-09.08.04:755][788]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-02.08.04
+[2017.06.22-09.08.04:755][788]LogWorld: Bringing up level for play took: 0.001139
+[2017.06.22-09.08.04:758][788]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.472
+[2017.06.22-09.08.16:168][  1]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-09.08.16:194][  1]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-09.08.16:194][  1]PIE: New page: PIE session: NewMap (Jun 21, 2017, 7:08:16 PM)
+[2017.06.22-09.08.16:194][  1]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-09.08.16:196][  1]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002383s)
+[2017.06.22-09.08.16:197][  1]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-09.08.16:197][  1]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2017.06.22-09.08.16:197][  1]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003534s)
+[2017.06.22-09.08.16:239][  1]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-09.08.16:258][  1]LogInit: FAudioDevice initialized.
+[2017.06.22-09.08.16:293][  1]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-09.08.16:297][  1]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-02.08.16
+[2017.06.22-09.08.16:297][  1]LogWorld: Bringing up level for play took: 0.001281
+[2017.06.22-09.08.16:300][  1]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 1.071
+[2017.06.22-09.08.34:944][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.22-09.08.35:033][ 36]LogSavePackage: Save=46.32ms
+[2017.06.22-09.08.35:033][ 36]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/NewMapA10A9D164FDB91F8213C719665A439F2.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap'
+[2017.06.22-09.08.35:036][ 36]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap
+[2017.06.22-09.08.35:149][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap_BuiltData" FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset" SILENT=true
+[2017.06.22-09.08.35:190][ 36]LogSavePackage: Save=28.73ms
+[2017.06.22-09.08.35:190][ 36]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/NewMap_BuiltData24D931A344C3C10EF3646B99F155FC94.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset'
+[2017.06.22-09.08.35:191][ 36]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset
+[2017.06.22-09.08.36:313][165]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-09.08.36:339][165]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-09.08.36:339][165]PIE: New page: PIE session: NewMap (Jun 21, 2017, 7:08:36 PM)
+[2017.06.22-09.08.36:339][165]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-09.08.36:342][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002556s)
+[2017.06.22-09.08.36:342][165]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-09.08.36:343][165]LogPlayLevel: PIE: World Init took: (0.000989s)
+[2017.06.22-09.08.36:343][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003868s)
+[2017.06.22-09.08.36:382][165]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-09.08.36:402][165]LogInit: FAudioDevice initialized.
+[2017.06.22-09.08.36:436][165]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-09.08.36:439][165]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-02.08.36
+[2017.06.22-09.08.36:439][165]LogWorld: Bringing up level for play took: 0.001208
+[2017.06.22-09.08.36:442][165]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.787
+[2017.06.22-09.08.43:841][980]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.22-09.08.43:932][980]LogSavePackage: Save=51.92ms
+[2017.06.22-09.08.43:932][980]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/NewMapB81B5B344E08A2B94867D2B1B4B9E5FD.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap'
+[2017.06.22-09.08.43:933][980]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap
+[2017.06.22-09.08.44:040][980]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap_BuiltData" FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset" SILENT=true
+[2017.06.22-09.08.44:077][980]LogSavePackage: Save=23.09ms
+[2017.06.22-09.08.44:077][980]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/NewMap_BuiltDataC16D44724FF28DD749EB54AD3DD155C7.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset'
+[2017.06.22-09.08.44:078][980]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset
+[2017.06.22-09.09.18:947][201]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-09.09.19:718][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.22-09.09.20:014][221]LogSavePackage: Save=258.68ms
+[2017.06.22-09.09.20:014][221]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BPCBCEEE304B7FB12085A53385614C9710.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.22-09.09.20:017][221]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.22-09.09.24:436][435]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-09.09.25:082][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.22-09.09.25:278][449]LogSavePackage: Save=183.53ms
+[2017.06.22-09.09.25:279][449]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BP76D476BB4B482ABF2F9670835AFA7A56.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.22-09.09.25:282][449]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.22-09.09.26:473][504]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-09.09.26:509][504]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-09.09.26:509][504]PIE: New page: PIE session: NewMap (Jun 21, 2017, 7:09:26 PM)
+[2017.06.22-09.09.26:509][504]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-09.09.26:512][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002574s)
+[2017.06.22-09.09.26:513][504]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-09.09.26:513][504]LogPlayLevel: PIE: World Init took: (0.001505s)
+[2017.06.22-09.09.26:514][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.004647s)
+[2017.06.22-09.09.26:563][504]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-09.09.27:470][504]LogInit: FAudioDevice initialized.
+[2017.06.22-09.09.27:518][504]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-09.09.27:521][504]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-02.09.27
+[2017.06.22-09.09.27:522][504]LogWorld: Bringing up level for play took: 0.001279
+[2017.06.22-09.09.27:524][504]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.296
+[2017.06.22-09.09.38:603][232]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-09.09.47:004][696]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-09.09.47:538][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.22-09.09.47:750][700]LogSavePackage: Save=190.09ms
+[2017.06.22-09.09.47:750][700]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BP60D794D943FF781912770D8C4966E521.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.22-09.09.47:753][700]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.22-09.09.50:008][820]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-09.09.50:040][820]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-09.09.50:040][820]PIE: New page: PIE session: NewMap (Jun 21, 2017, 7:09:50 PM)
+[2017.06.22-09.09.50:040][820]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-09.09.50:043][820]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002415s)
+[2017.06.22-09.09.50:043][820]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-09.09.50:044][820]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2017.06.22-09.09.50:044][820]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003619s)
+[2017.06.22-09.09.50:092][820]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-09.09.50:118][820]LogInit: FAudioDevice initialized.
+[2017.06.22-09.09.50:163][820]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-09.09.50:167][820]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-02.09.50
+[2017.06.22-09.09.50:167][820]LogWorld: Bringing up level for play took: 0.001258
+[2017.06.22-09.09.50:170][820]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.941
+[2017.06.22-09.10.09:577][244]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-09.10.10:483][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.22-09.10.10:701][268]LogSavePackage: Save=205.94ms
+[2017.06.22-09.10.10:701][268]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BP9B1486EE4613B9FE302B1D80004CABDB.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.22-09.10.10:704][268]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.22-09.10.12:670][361]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-09.10.12:705][361]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-09.10.12:705][361]PIE: New page: PIE session: NewMap (Jun 21, 2017, 7:10:12 PM)
+[2017.06.22-09.10.12:705][361]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-09.10.12:708][361]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002421s)
+[2017.06.22-09.10.12:708][361]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-09.10.12:709][361]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2017.06.22-09.10.12:709][361]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003620s)
+[2017.06.22-09.10.12:774][361]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-09.10.12:814][361]LogInit: FAudioDevice initialized.
+[2017.06.22-09.10.12:850][361]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-09.10.12:855][361]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-02.10.12
+[2017.06.22-09.10.12:856][361]LogWorld: Bringing up level for play took: 0.001198
+[2017.06.22-09.10.12:858][361]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.37
+[2017.06.22-09.13.12:111][346]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-09.13.51:458][813]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-09.14.11:718][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.22-09.14.11:986][ 11]LogSavePackage: Save=250.67ms
+[2017.06.22-09.14.11:986][ 11]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BP6BEB8D9347CDC20D54BCB89459E5C3F3.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.22-09.14.11:990][ 11]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.22-09.15.36:239][307]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-09.15.36:288][307]LogBlueprint:Error: [Compiler MyCharacter_BP] Error The current value of the ' Object Types ' pin is invalid: Array inputs (like 'Object Types') must have an input wired into them (try connecting a MakeArray node).
+[2017.06.22-09.15.36:620][307]BlueprintEditorCompileResults:Error: Error The current value of the ' Object Types ' pin is invalid: Array inputs (like 'Object Types') must have an input wired into them (try connecting a MakeArray node).
+[2017.06.22-09.15.36:620][307]LogBlueprint:Warning: [Compiler MyCharacter_BP] Warning [0096.90] Compile of MyCharacter_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 381 ms] (/Game/Blueprints/MyCharacter_BP.MyCharacter_BP)
+[2017.06.22-09.16.33:514][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.22-09.16.33:824][660]LogSavePackage: Save=267.00ms
+[2017.06.22-09.16.33:824][660]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BP054526094C21054B7FD7A3A1D19E54A9.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.22-09.16.33:827][660]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.22-09.16.50:855][235]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-09.20.14:194][395]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-09.20.42:798][895]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.037
+[2017.06.22-09.20.42:801][895]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter_BP] ([1] browsable assets)...
+[2017.06.22-09.20.42:808][895]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter_BP.MyCharacter_BP]
+[2017.06.22-09.20.42:808][895]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter_BP]
+[2017.06.22-09.20.42:808][895]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/MyCharacter_BP_Auto0.uasset" SILENT=false AUTOSAVING=true
+[2017.06.22-09.20.43:062][895]LogSavePackage: Save=237.70ms
+[2017.06.22-09.20.43:062][895]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BP_Auto0EB7262EA45F3F34E77447694C59119F9.tmp' to '../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/MyCharacter_BP_Auto0.uasset'
+[2017.06.22-09.20.43:064][895]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/MyCharacter_BP_Auto0.uasset
+[2017.06.22-09.20.43:064][895]LogFileHelpers: Auto-saving content packages took 0.263
+[2017.06.22-09.22.04:949][769]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.22-09.22.55:734][155]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-09.22.57:364][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.22-09.22.57:628][236]LogSavePackage: Save=229.26ms
+[2017.06.22-09.22.57:628][236]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BP639F903341F93AB1C32CBF8FC9F8A892.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.22-09.22.57:632][236]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.22-09.25.02:994][  8]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.22-09.25.06:773][236]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-09.25.06:851][236]LogBlueprint:Error: [Compiler MyCharacter_BP] Error The type of  Target Array  is undetermined.  Connect something to  Length  to imply a specific type.
+[2017.06.22-09.25.06:851][236]LogBlueprint:Error: [Compiler MyCharacter_BP] Error The type of  Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2017.06.22-09.25.07:259][236]BlueprintEditorCompileResults:Error: Error The type of  Target Array  is undetermined.  Connect something to  Length  to imply a specific type.
+[2017.06.22-09.25.07:260][236]BlueprintEditorCompileResults:Error: Error The type of  Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2017.06.22-09.25.07:260][236]LogBlueprint:Warning: [Compiler MyCharacter_BP] Warning [0667.54] Compile of MyCharacter_BP failed. 2 Fatal Issue(s) 0 Warning(s) [in 487 ms] (/Game/Blueprints/MyCharacter_BP.MyCharacter_BP)
+[2017.06.22-09.25.33:647][508]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-09.26.18:550][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.22-09.26.18:910][910]LogSavePackage: Save=280.34ms
+[2017.06.22-09.26.18:910][910]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BP5CC144AF42E2D319199FD1BEB788AC41.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.22-09.26.18:913][910]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.22-09.26.18:916][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Fade_M" FILE="../../../../../../Github/Prototype/Prototype/Content/Materials/Fade_M.uasset" SILENT=true
+[2017.06.22-09.26.18:997][910]LogSavePackage: Save=7.06ms
+[2017.06.22-09.26.18:998][910]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/Fade_MA168233A4F204C5E198F018018BFA867.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Materials/Fade_M.uasset'
+[2017.06.22-09.26.19:000][910]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Materials/Fade_M.uasset
+[2017.06.22-09.26.19:030][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Opaque_M" FILE="../../../../../../Github/Prototype/Prototype/Content/Materials/Opaque_M.uasset" SILENT=true
+[2017.06.22-09.26.19:064][910]LogSavePackage: Save=30.28ms
+[2017.06.22-09.26.19:064][910]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/Opaque_ME7391D77432B482E8E88F787A63CDECA.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Materials/Opaque_M.uasset'
+[2017.06.22-09.26.19:069][910]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Materials/Opaque_M.uasset
+[2017.06.22-09.27.43:596][581]BlueprintLog: New page: Compile FadeComponent_BP
+[2017.06.22-09.27.51:826][ 74]BlueprintLog: New page: Compile FadeComponent_BP
+[2017.06.22-09.27.52:436][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FadeComponent_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/FadeComponent_BP.uasset" SILENT=true
+[2017.06.22-09.27.52:485][100]LogSavePackage: Save=10.95ms
+[2017.06.22-09.27.52:485][100]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/FadeComponent_BPD9F712EA469102EBA73F749C042C0A33.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/FadeComponent_BP.uasset'
+[2017.06.22-09.27.52:488][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/FadeComponent_BP.uasset
+[2017.06.22-09.29.56:751][108]LogEditorTransaction: Undo Move Node
+[2017.06.22-09.30.39:676][ 50]LogEditorTransaction: Undo Add Node
+[2017.06.22-09.30.58:027][911]BlueprintLog: New page: Compile FadeComponent_BP
+[2017.06.22-09.30.58:039][911]LogBlueprint:Error: [Compiler FadeComponent_BP] Error The type of  A  is undetermined.  Connect something to  Toggle Hide Mesh  to imply a specific type.
+[2017.06.22-09.30.58:431][911]BlueprintEditorCompileResults:Error: Error The type of  A  is undetermined.  Connect something to  Toggle Hide Mesh  to imply a specific type.
+[2017.06.22-09.30.58:431][911]LogBlueprint:Warning: [Compiler FadeComponent_BP] Warning [1018.71] Compile of FadeComponent_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 404 ms] (/Game/Blueprints/FadeComponent_BP.FadeComponent_BP)
+[2017.06.22-09.31.11:962][843]BlueprintLog: New page: Compile FadeComponent_BP
+[2017.06.22-09.31.11:967][843]LogBlueprint:Error: [Compiler FadeComponent_BP] Error The type of  A  is undetermined.  Connect something to  Toggle Hide Mesh  to imply a specific type.
+[2017.06.22-09.31.12:381][843]BlueprintEditorCompileResults:Error: Error The type of  A  is undetermined.  Connect something to  Toggle Hide Mesh  to imply a specific type.
+[2017.06.22-09.31.12:381][843]LogBlueprint:Warning: [Compiler FadeComponent_BP] Warning [1032.66] Compile of FadeComponent_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 419 ms] (/Game/Blueprints/FadeComponent_BP.FadeComponent_BP)
+[2017.06.22-09.32.00:818][106]BlueprintLog: New page: Compile FadeComponent_BP
+[2017.06.22-09.32.00:825][106]LogBlueprint:Error: [Compiler FadeComponent_BP] Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2017.06.22-09.32.00:825][106]LogBlueprint:Error: [Compiler FadeComponent_BP] Error The type of  A  is undetermined.  Connect something to  Toggle Hide Mesh  to imply a specific type.
+[2017.06.22-09.32.01:163][106]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2017.06.22-09.32.01:163][106]BlueprintEditorCompileResults:Error: Error The type of  A  is undetermined.  Connect something to  Toggle Hide Mesh  to imply a specific type.
+[2017.06.22-09.32.01:163][106]LogBlueprint:Warning: [Compiler FadeComponent_BP] Warning [1081.44] Compile of FadeComponent_BP failed. 2 Fatal Issue(s) 0 Warning(s) [in 344 ms] (/Game/Blueprints/FadeComponent_BP.FadeComponent_BP)
+[2017.06.22-09.32.47:608][545]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.034
+[2017.06.22-09.32.47:610][545]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/FadeComponent_BP] ([1] browsable assets)...
+[2017.06.22-09.32.47:610][545]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/FadeComponent_BP]
+[2017.06.22-09.32.47:654][545]LogSavePackage: Save=27.31ms
+[2017.06.22-09.32.47:654][545]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/FadeComponent_BP_Auto1E54990AD45A93539C908CC94C0966E9C.tmp' to '../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/FadeComponent_BP_Auto1.uasset'
+[2017.06.22-09.32.47:655][545]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/FadeComponent_BP_Auto1.uasset
+[2017.06.22-09.32.47:655][545]LogFileHelpers: Auto-saving content packages took 0.046
+[2017.06.22-09.33.05:234][662]LogEditorTransaction: Undo Move Nodes
+[2017.06.22-09.33.05:887][696]LogEditorTransaction: Undo Add Node
+[2017.06.22-09.33.23:167][696]LogEditorTransaction: Undo Delete current selection
+[2017.06.22-09.33.38:849][630]BlueprintLog: New page: Compile FadeComponent_BP
+[2017.06.22-09.33.38:860][630]LogBlueprint:Error: [Compiler FadeComponent_BP] Error The type of  A  is undetermined.  Connect something to  Toggle Hide Mesh  to imply a specific type.
+[2017.06.22-09.33.39:265][630]BlueprintEditorCompileResults:Error: Error The type of  A  is undetermined.  Connect something to  Toggle Hide Mesh  to imply a specific type.
+[2017.06.22-09.33.39:266][630]LogBlueprint:Warning: [Compiler FadeComponent_BP] Warning [1179.55] Compile of FadeComponent_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 416 ms] (/Game/Blueprints/FadeComponent_BP.FadeComponent_BP)
+[2017.06.22-09.33.54:820][628]BlueprintLog: New page: Compile FadeComponent_BP
+[2017.06.22-09.33.54:830][628]LogBlueprint:Error: [Compiler FadeComponent_BP] Error The type of  A  is undetermined.  Connect something to  Toggle Hide Mesh  to imply a specific type.
+[2017.06.22-09.33.55:167][628]BlueprintEditorCompileResults:Error: Error The type of  A  is undetermined.  Connect something to  Toggle Hide Mesh  to imply a specific type.
+[2017.06.22-09.33.55:167][628]LogBlueprint:Warning: [Compiler FadeComponent_BP] Warning [1195.45] Compile of FadeComponent_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 347 ms] (/Game/Blueprints/FadeComponent_BP.FadeComponent_BP)
+[2017.06.22-09.33.57:861][811]BlueprintLog: New page: Compile FadeComponent_BP
+[2017.06.22-09.33.57:872][811]LogBlueprint:Error: [Compiler FadeComponent_BP] Error The type of  A  is undetermined.  Connect something to  Toggle Hide Mesh  to imply a specific type.
+[2017.06.22-09.33.58:202][811]BlueprintEditorCompileResults:Error: Error The type of  A  is undetermined.  Connect something to  Toggle Hide Mesh  to imply a specific type.
+[2017.06.22-09.33.58:202][811]LogBlueprint:Warning: [Compiler FadeComponent_BP] Warning [1198.48] Compile of FadeComponent_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 340 ms] (/Game/Blueprints/FadeComponent_BP.FadeComponent_BP)
+[2017.06.22-09.34.24:263][473]LogEditorTransaction: Undo Add Node
+[2017.06.22-09.34.32:854][  3]Cmd: TRANSACTION UNDO
+[2017.06.22-09.34.32:854][  3]LogEditorTransaction: Undo Add Node
+[2017.06.22-09.34.42:987][665]LogEditorTransaction: Undo Create Pin Link
+[2017.06.22-09.34.43:465][688]LogEditorTransaction: Undo Add Node
+[2017.06.22-09.34.45:425][829]BlueprintLog: New page: Compile FadeComponent_BP
+[2017.06.22-09.34.45:436][829]LogBlueprint:Error: [Compiler FadeComponent_BP] Error The type of  A  is undetermined.  Connect something to  Toggle Hide Mesh  to imply a specific type.
+[2017.06.22-09.34.45:778][829]BlueprintEditorCompileResults:Error: Error The type of  A  is undetermined.  Connect something to  Toggle Hide Mesh  to imply a specific type.
+[2017.06.22-09.34.45:778][829]LogBlueprint:Warning: [Compiler FadeComponent_BP] Warning [1246.06] Compile of FadeComponent_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 352 ms] (/Game/Blueprints/FadeComponent_BP.FadeComponent_BP)
+[2017.06.22-09.34.59:578][775]LogEditorTransaction: Undo Straighten Connection(s)
+[2017.06.22-09.36.16:721][614]BlueprintLog: New page: Compile FadeComponent_BP
+[2017.06.22-09.36.16:732][614]LogBlueprint:Error: [Compiler FadeComponent_BP] Error The type of  A  is undetermined.  Connect something to  Toggle Hide Mesh  to imply a specific type.
+[2017.06.22-09.36.17:211][614]BlueprintEditorCompileResults:Error: Error The type of  A  is undetermined.  Connect something to  Toggle Hide Mesh  to imply a specific type.
+[2017.06.22-09.36.17:211][614]LogBlueprint:Warning: [Compiler FadeComponent_BP] Warning [1337.49] Compile of FadeComponent_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 490 ms] (/Game/Blueprints/FadeComponent_BP.FadeComponent_BP)
+[2017.06.22-09.36.41:947][ 95]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-09.36.55:764][952]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-09.37.14:447][696]BlueprintLog: New page: Compile FadeComponent_BP
+[2017.06.22-09.37.14:455][696]LogBlueprint:Error: [Compiler FadeComponent_BP] Error The type of  A  is undetermined.  Connect something to  Toggle Hide Mesh  to imply a specific type.
+[2017.06.22-09.37.14:813][696]BlueprintEditorCompileResults:Error: Error The type of  A  is undetermined.  Connect something to  Toggle Hide Mesh  to imply a specific type.
+[2017.06.22-09.37.14:813][696]LogBlueprint:Warning: [Compiler FadeComponent_BP] Warning [1395.09] Compile of FadeComponent_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 365 ms] (/Game/Blueprints/FadeComponent_BP.FadeComponent_BP)
+[2017.06.22-09.38.33:680][209]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ToggleHideMesh' or package '/Engine/Transient'.
+[2017.06.22-09.38.33:680][209]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'FadeMaterial' or package '/Engine/Transient'.
+[2017.06.22-09.38.33:680][209]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'FadeCurve' or package '/Engine/Transient'.
+[2017.06.22-09.38.33:680][209]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ParentMesh' or package '/Engine/Transient'.
+[2017.06.22-09.38.33:680][209]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Hidden' or package '/Engine/Transient'.
+[2017.06.22-09.38.33:680][209]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'FadeMaterialMid' or package '/Engine/Transient'.
+[2017.06.22-09.38.33:680][209]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_FadeComponent_BP_C_710' or package '/Engine/Transient'.
+[2017.06.22-09.38.33:681][209]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CallFunc_GetComponentsByClass_ReturnValue' or package '/Engine/Transient'.
+[2017.06.22-09.38.33:681][209]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CallFunc_GetComponentsByClass_ReturnValue' or package '/Engine/Transient'.
+[2017.06.22-09.38.33:681][209]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BlueprintComponentNodeSpawner_3874' or package '/Engine/Transient'.
+[2017.06.22-09.38.33:681][209]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_AddComponent_378' or package '/Engine/Transient'.
+[2017.06.22-09.38.33:681][209]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_FadeComponent_BP_C_3' or package '/Engine/Transient'.
+[2017.06.22-09.38.33:681][209]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_FadeComponent_BP_C_2' or package '/Engine/Transient'.
+[2017.06.22-09.38.33:681][209]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_FadeComponent_BP_C_1002' or package '/Engine/Transient'.
+[2017.06.22-09.38.33:681][209]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_FadeComponent_BP_C_1001' or package '/Engine/Transient'.
+[2017.06.22-09.38.49:101][  2]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-09.38.53:579][235]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-09.38.53:615][235]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-09.38.53:615][235]PIE: New page: PIE session: NewMap (Jun 21, 2017, 7:38:53 PM)
+[2017.06.22-09.38.53:615][235]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-09.38.53:618][235]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002413s)
+[2017.06.22-09.38.53:619][235]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-09.38.53:619][235]LogPlayLevel: PIE: World Init took: (0.000950s)
+[2017.06.22-09.38.53:619][235]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003575s)
+[2017.06.22-09.38.53:665][235]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-09.38.54:094][235]LogInit: FAudioDevice initialized.
+[2017.06.22-09.38.54:130][235]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-09.38.54:134][235]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-02.38.54
+[2017.06.22-09.38.54:134][235]LogWorld: Bringing up level for play took: 0.001295
+[2017.06.22-09.38.54:160][235]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (UpdateFadeActors) or object (MyCharacter_BP_C_0)
+[2017.06.22-09.38.54:160][235]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.931
+[2017.06.22-09.43.24:878][733]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.039
+[2017.06.22-09.43.24:880][733]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter_BP] ([1] browsable assets)...
+[2017.06.22-09.43.24:887][733]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter_BP.MyCharacter_BP]
+[2017.06.22-09.43.24:887][733]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter_BP]
+[2017.06.22-09.43.24:887][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/MyCharacter_BP_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.06.22-09.43.25:150][733]LogSavePackage: Save=229.76ms
+[2017.06.22-09.43.25:150][733]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BP_Auto24CA7C06C4A134F97A4212AB823C08217.tmp' to '../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/MyCharacter_BP_Auto2.uasset'
+[2017.06.22-09.43.25:151][733]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/MyCharacter_BP_Auto2.uasset
+[2017.06.22-09.43.25:152][733]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/FadeObjComponent] ([3] browsable assets)...
+[2017.06.22-09.43.25:152][733]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/FadeObjComponent]
+[2017.06.22-09.43.25:195][733]LogSavePackage: Save=19.40ms
+[2017.06.22-09.43.25:195][733]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/FadeObjComponent_Auto276959F7746547718275108A7CB631A26.tmp' to '../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/FadeObjComponent_Auto2.uasset'
+[2017.06.22-09.43.25:196][733]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/FadeObjComponent_Auto2.uasset
+[2017.06.22-09.43.25:196][733]LogFileHelpers: Auto-saving content packages took 0.318
+[2017.06.22-09.44.21:931][997]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-09.44.54:485][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.22-09.44.54:705][346]LogSavePackage: Save=207.59ms
+[2017.06.22-09.44.54:705][346]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BPBF3EC23847F6E03C3435FB810D4D906F.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.22-09.44.54:711][346]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.22-09.44.54:714][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FadeObjComponent" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/FadeObjComponent.uasset" SILENT=true
+[2017.06.22-09.44.54:735][346]LogSavePackage: Save=4.92ms
+[2017.06.22-09.44.54:735][346]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/FadeObjComponent95FCB54442B98AC9D5C219BAC60691BF.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/FadeObjComponent.uasset'
+[2017.06.22-09.44.54:738][346]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/FadeObjComponent.uasset
+[2017.06.22-09.45.02:671][717]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-09.45.02:704][717]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-09.45.02:704][717]PIE: New page: PIE session: NewMap (Jun 21, 2017, 7:45:02 PM)
+[2017.06.22-09.45.02:704][717]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-09.45.02:706][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002332s)
+[2017.06.22-09.45.02:707][717]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-09.45.02:707][717]LogPlayLevel: PIE: World Init took: (0.000921s)
+[2017.06.22-09.45.02:708][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003484s)
+[2017.06.22-09.45.02:750][717]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-09.45.03:179][717]LogInit: FAudioDevice initialized.
+[2017.06.22-09.45.03:215][717]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-09.45.03:219][717]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-02.45.03
+[2017.06.22-09.45.03:219][717]LogWorld: Bringing up level for play took: 0.001228
+[2017.06.22-09.45.03:222][717]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.007
+[2017.06.22-09.45.10:638][266]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.22-09.45.21:488][ 60]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.06.22-09.45.21:499][ 60]LogPhysics:Warning: ForeachShape(Convex): [/Engine/MapTemplates/SM_Template_Map_Floor.SM_Template_Map_Floor] ScaledElem[0] invalid
+[2017.06.22-09.45.21:500][ 60]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.06.22-09.45.21:500][ 60]LogPhysics:Warning: ForeachShape(Convex): [/Engine/MapTemplates/SM_Template_Map_Floor.SM_Template_Map_Floor] ScaledElem[0] invalid
+[2017.06.22-09.45.27:141][421]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.06.22-09.45.30:902][791]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.22-09.45.36:507][182]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.06.22-09.45.37:549][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.22-09.45.37:718][272]LogSavePackage: Save=48.91ms
+[2017.06.22-09.45.37:718][272]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/NewMap0D77690949E0BC0DD3E0328B94BC2685.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap'
+[2017.06.22-09.45.37:721][272]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap
+[2017.06.22-09.45.37:838][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap_BuiltData" FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset" SILENT=true
+[2017.06.22-09.45.37:891][272]LogSavePackage: Save=25.60ms
+[2017.06.22-09.45.37:891][272]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/NewMap_BuiltDataA6FC49144F453DE5DA13339FA6ED7C4E.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset'
+[2017.06.22-09.45.37:907][272]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset
+[2017.06.22-09.45.38:313][311]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-09.45.38:344][311]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-09.45.38:344][311]PIE: New page: PIE session: NewMap (Jun 21, 2017, 7:45:38 PM)
+[2017.06.22-09.45.38:344][311]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-09.45.38:347][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002544s)
+[2017.06.22-09.45.38:348][311]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-09.45.38:348][311]LogPlayLevel: PIE: World Init took: (0.001331s)
+[2017.06.22-09.45.38:348][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.004128s)
+[2017.06.22-09.45.38:398][311]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-09.45.39:090][311]LogInit: FAudioDevice initialized.
+[2017.06.22-09.45.39:128][311]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-09.45.39:132][311]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-02.45.39
+[2017.06.22-09.45.39:132][311]LogWorld: Bringing up level for play took: 0.001165
+[2017.06.22-09.45.39:135][311]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.094
+[2017.06.22-09.46.13:178][950]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.06.22-09.46.20:397][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.06.22-09.46.23:522][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.22-09.46.23:669][839]LogSavePackage: Save=75.94ms
+[2017.06.22-09.46.23:669][839]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/NewMap7195505643E5FBBE66E61D8C052C23F7.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap'
+[2017.06.22-09.46.23:672][839]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap
+[2017.06.22-09.46.23:790][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap_BuiltData" FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset" SILENT=true
+[2017.06.22-09.46.23:831][839]LogSavePackage: Save=26.01ms
+[2017.06.22-09.46.23:832][839]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/NewMap_BuiltData5140011D44683DDFA620BCB96EFE0FEA.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset'
+[2017.06.22-09.46.23:833][839]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset
+[2017.06.22-09.46.28:819][178]MapCheck: New page: Map Check
+[2017.06.22-09.46.28:835][178]LightingResults: New page: Lighting Build - Jun 21, 2017, 7:46:28 PM
+[2017.06.22-09.46.28:909][178]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.06.22-09.46.28:911][178]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.06.22-09.46.28:911][178]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.06.22-09.46.28:928][178]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.06.22-09.46.28:928][178]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8700
+[2017.06.22-09.46.33:443][178]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.06.22-09.46.33:443][178]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.06.22-09.46.33:443][178]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.06.22-09.46.33:443][178]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.06.22-09.46.33:443][178]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.06.22-09.46.33:443][178]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.06.22-09.46.33:606][178]LogEditorBuildUtils: Build time 0:04
+[2017.06.22-09.46.41:036][181]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.06.22-09.46.41:087][181]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2017.06.22-09.46.47:756][268]Job is a success!
+[2017.06.22-09.46.49:505][269]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.06.22-09.46.49:505][269]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2017.06.22-09.46.49:505][269]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2017.06.22-09.46.49:505][269]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.06.22-09.46.49:682][269]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2017.06.22-09.46.49:682][269]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 256X128)
+[2017.06.22-09.46.49:739][269]LogStaticLightingSystem: Illumination: 20.5 sec (646 ms encoding lightmaps, 159 ms encoding shadowmaps)
+[2017.06.22-09.46.49:739][269]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.06.22-09.46.49:739][269]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.06.22-09.46.50:460][269]Lightmass on DESKTOP-71K0SKI: 6.34 sec total, 2.34 sec importing, 313 ms setup, 636 ms photons, 2.54 sec processing, 0 ms extra exporting [5/5 mappings]. Threads: 17.6 sec total, 1.20 sec processing.
+[2017.06.22-09.46.50:460][269]DumpUnbuiltLightIteractions
+[2017.06.22-09.46.50:460][269]Lights with unbuilt interactions: 0
+[2017.06.22-09.46.50:460][269]
+[2017.06.22-09.46.50:460][269]Primitives with unbuilt interactions: 0
+[2017.06.22-09.46.50:469][270]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.06.22-09.46.50:470][270]MapCheck: New page: NewMap - Jun 21, 2017, 7:46:50 PM
+[2017.06.22-09.47.13:753][270]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 23,283.504ms to complete.
+[2017.06.22-09.50.24:716][ 29]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2017.06.22-09.50.32:559][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.22-09.50.32:871][ 29]LogSavePackage: Save=45.96ms
+[2017.06.22-09.50.32:871][ 29]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/NewMap1CF3ED3644C4CB35E7543E910F282C16.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap'
+[2017.06.22-09.50.32:874][ 29]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap
+[2017.06.22-09.50.32:912][ 29]LogFileHelpers: Saving map 'NewMap' took 2.363
+[2017.06.22-09.50.32:915][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap_BuiltData" FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset" SILENT=true
+[2017.06.22-09.50.32:951][ 29]LogSavePackage: Save=22.35ms
+[2017.06.22-09.50.32:951][ 29]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/NewMap_BuiltData9A470FBD4646ABC571793BAF99A5018C.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset'
+[2017.06.22-09.50.32:954][ 29]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset
+[2017.06.22-09.50.45:057][ 29]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.06.22-09.50.45:292][ 29]SourceControl:Error: Error Aborting commit due to empty commit message.
+[2017.06.22-09.50.45:298][ 29]SourceControl: Info Submitted revision.
