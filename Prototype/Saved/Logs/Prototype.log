@@ -461,3 +461,249 @@ LogInit: Object subsystem initialized
 [2017.06.22-06.44.57:589][314]SourceControl: Info  create mode 100644 Prototype/Content/Blueprints/MyCharacter_BP.uasset
 [2017.06.22-06.44.57:589][314]SourceControl: Info  create mode 100644 Prototype/Content/Blueprints/ThirdPersonCharacter.uasset
 [2017.06.22-06.44.57:598][314]SourceControl: Info Commited [master 27a7658] Camera setup.
+[2017.06.22-06.45.38:883][578]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-06.45.39:575][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.22-06.45.39:750][599]LogSavePackage: Save=159.98ms
+[2017.06.22-06.45.39:750][599]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BPE0F9DD154E3FC5708326E9B0D43B496D.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.22-06.45.39:753][599]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.22-06.45.40:306][634]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-06.45.40:336][634]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-06.45.40:337][634]PIE: New page: PIE session: NewMap (Jun 21, 2017, 4:45:40 PM)
+[2017.06.22-06.45.40:337][634]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-06.45.40:339][634]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002141s)
+[2017.06.22-06.45.40:340][634]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-06.45.40:340][634]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2017.06.22-06.45.40:340][634]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003316s)
+[2017.06.22-06.45.40:392][634]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-06.45.40:404][634]LogInit: FAudioDevice initialized.
+[2017.06.22-06.45.40:438][634]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-06.45.40:441][634]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.21-23.45.40
+[2017.06.22-06.45.40:441][634]LogWorld: Bringing up level for play took: 0.001067
+[2017.06.22-06.45.40:444][634]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.785
+[2017.06.22-06.45.59:024][645]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-06.46.59:108][826]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-06.46.59:835][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.22-06.47.00:006][845]LogSavePackage: Save=155.14ms
+[2017.06.22-06.47.00:006][845]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BP146973094905AEFBDCE70180BCD9A630.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.22-06.47.00:009][845]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.22-06.47.01:495][913]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-06.47.01:529][913]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-06.47.01:529][913]PIE: New page: PIE session: NewMap (Jun 21, 2017, 4:47:01 PM)
+[2017.06.22-06.47.01:529][913]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-06.47.01:535][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005884s)
+[2017.06.22-06.47.01:537][913]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-06.47.01:537][913]LogPlayLevel: PIE: World Init took: (0.001495s)
+[2017.06.22-06.47.01:537][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.007676s)
+[2017.06.22-06.47.01:580][913]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-06.47.01:593][913]LogInit: FAudioDevice initialized.
+[2017.06.22-06.47.01:631][913]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-06.47.01:635][913]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.21-23.47.01
+[2017.06.22-06.47.01:635][913]LogWorld: Bringing up level for play took: 0.001061
+[2017.06.22-06.47.01:638][913]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.409
+[2017.06.22-06.47.58:757][989]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-06.47.58:791][989]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-06.47.58:791][989]PIE: New page: PIE session: NewMap (Jun 21, 2017, 4:47:58 PM)
+[2017.06.22-06.47.58:791][989]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-06.47.58:797][989]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005161s)
+[2017.06.22-06.47.58:797][989]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-06.47.58:798][989]LogPlayLevel: PIE: World Init took: (0.000904s)
+[2017.06.22-06.47.58:798][989]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.006298s)
+[2017.06.22-06.47.58:853][989]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-06.47.58:868][989]LogInit: FAudioDevice initialized.
+[2017.06.22-06.47.58:905][989]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-06.47.58:908][989]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.21-23.47.58
+[2017.06.22-06.47.58:909][989]LogWorld: Bringing up level for play took: 0.001099
+[2017.06.22-06.47.58:912][989]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.317
+[2017.06.22-06.48.29:641][814]LogSlate: Took 0.000342 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.22-06.48.38:358][ 43]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.043
+[2017.06.22-06.48.38:386][ 43]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/GamePlay_BP] ([1] browsable assets)...
+[2017.06.22-06.48.38:386][ 43]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/GamePlay_BP]
+[2017.06.22-06.48.38:386][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GamePlay_BP" FILE="../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/GamePlay_BP_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.06.22-06.48.38:405][ 43]LogSavePackage: Save=16.92ms
+[2017.06.22-06.48.38:405][ 43]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/GamePlay_BP_Auto1D880C65F4B03E1BEEF318D920AB7C99C.tmp' to '../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/GamePlay_BP_Auto1.uasset'
+[2017.06.22-06.48.38:406][ 43]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/GamePlay_BP_Auto1.uasset
+[2017.06.22-06.48.38:407][ 43]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyPlayer_BP] ([1] browsable assets)...
+[2017.06.22-06.48.38:407][ 43]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyPlayer_BP]
+[2017.06.22-06.48.38:407][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer_BP" FILE="../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/MyPlayer_BP_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.06.22-06.48.38:429][ 43]LogSavePackage: Save=21.05ms
+[2017.06.22-06.48.38:429][ 43]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyPlayer_BP_Auto19E95B9ED45FD5C9AE4464E816500BA91.tmp' to '../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/MyPlayer_BP_Auto1.uasset'
+[2017.06.22-06.48.38:431][ 43]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/MyPlayer_BP_Auto1.uasset
+[2017.06.22-06.48.38:431][ 43]LogFileHelpers: Auto-saving content packages took 0.061
+[2017.06.22-06.49.22:365][550]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.22-06.49.23:052][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.22-06.49.23:273][560]LogSavePackage: Save=206.61ms
+[2017.06.22-06.49.23:275][560]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BP51D9615449887E965549DFA5021FAA42.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.22-06.49.23:280][560]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.22-06.49.24:723][614]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-06.49.24:757][614]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-06.49.24:757][614]PIE: New page: PIE session: NewMap (Jun 21, 2017, 4:49:24 PM)
+[2017.06.22-06.49.24:757][614]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-06.49.24:760][614]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002764s)
+[2017.06.22-06.49.24:761][614]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-06.49.24:761][614]LogPlayLevel: PIE: World Init took: (0.001006s)
+[2017.06.22-06.49.24:761][614]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.004037s)
+[2017.06.22-06.49.24:830][614]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-06.49.24:843][614]LogInit: FAudioDevice initialized.
+[2017.06.22-06.49.24:878][614]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-06.49.24:882][614]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.21-23.49.24
+[2017.06.22-06.49.24:882][614]LogWorld: Bringing up level for play took: 0.001260
+[2017.06.22-06.49.24:888][614]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.341
+[2017.06.22-06.49.36:144][303]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GamePlay_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/GamePlay_BP.uasset" SILENT=true
+[2017.06.22-06.49.36:167][303]LogSavePackage: Save=21.10ms
+[2017.06.22-06.49.36:167][303]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/GamePlay_BP1F95CCA746EE2930A90381BA58EFBFA0.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/GamePlay_BP.uasset'
+[2017.06.22-06.49.36:172][303]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/GamePlay_BP.uasset
+[2017.06.22-06.50.30:841][874]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.22-06.55.54:623][899]BlueprintLog: New page: Compile MyPlayer_BP
+[2017.06.22-06.55.54:635][899]LogBlueprint:Error: [Compiler MyPlayer_BP] Error This blueprint (self) is not a MyCharacter_BP_C, therefore ' Target ' must have a connection.
+[2017.06.22-06.55.54:654][899]LogBlueprint:Error: [Compiler MyPlayer_BP] Error Variable node  Get IsMouseOn  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.22-06.55.55:135][899]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a MyCharacter_BP_C, therefore ' Target ' must have a connection.
+[2017.06.22-06.55.55:135][899]BlueprintEditorCompileResults:Error: Error Variable node  Get IsMouseOn  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.22-06.55.55:135][899]LogBlueprint:Warning: [Compiler MyPlayer_BP] Warning [1715.42] Compile of MyPlayer_BP failed. 2 Fatal Issue(s) 0 Warning(s) [in 512 ms] (/Game/Blueprints/MyPlayer_BP.MyPlayer_BP)
+[2017.06.22-06.57.11:121][743]LogEditorTransaction: Undo Create Pin Link
+[2017.06.22-06.57.11:793][774]LogEditorTransaction: Undo Promote To Variable
+[2017.06.22-06.57.15:777][992]LogEditorTransaction: Undo Create Pin Link
+[2017.06.22-06.57.16:353][ 18]LogEditorTransaction: Undo Promote To Variable
+[2017.06.22-06.57.50:804][790]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.22-06.58.00:006][175]LogBlueprint:Warning: Reparenting blueprint Blueprint /Game/Blueprints/MyPlayer_BP.MyPlayer_BP from PlayerController to MyCharacter_BP_C...
+[2017.06.22-06.58.00:021][175]LogBlueprint:Warning: [MyPlayer_BP] 'bShowMouseCursor' variable not found. Base class was probably changed.
+[2017.06.22-06.58.00:021][175]LogBlueprint:Warning: [MyPlayer_BP] 'bShowMouseCursor' variable not found. Base class was probably changed.
+[2017.06.22-06.58.00:021][175]LogBlueprint:Warning: [MyPlayer_BP] 'bShowMouseCursor' variable not found. Base class was probably changed.
+[2017.06.22-06.58.00:021][175]LogBlueprint:Warning: [MyPlayer_BP] 'bShowMouseCursor' variable not found. Base class was probably changed.
+[2017.06.22-06.58.00:021][175]BlueprintLog: New page: Compile MyPlayer_BP
+[2017.06.22-06.58.00:033][175]LogBlueprint:Warning: [Compiler MyPlayer_BP] Warning Could not find a variable named "bShowMouseCursor" in 'MyPlayer_BP_C'.
+Make sure 'MyPlayer_BP_C' has been compiled for  Set bShowMouseCursor
+[2017.06.22-06.58.00:033][175]LogBlueprint:Warning: [Compiler MyPlayer_BP] Warning Could not find a variable named "bShowMouseCursor" in 'MyPlayer_BP_C'.
+Make sure 'MyPlayer_BP_C' has been compiled for  Set bShowMouseCursor
+[2017.06.22-06.58.00:034][175]LogBlueprint:Error: [Compiler MyPlayer_BP] Error Variable node  Get IsMouseOn  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.22-06.58.00:034][175]LogBlueprint:Error: [Compiler MyPlayer_BP] Error The property associated with  Show Mouse Cursor  could not be found
+[2017.06.22-06.58.00:034][175]LogBlueprint:Error: [Compiler MyPlayer_BP] Error The property associated with  Show Mouse Cursor  could not be found
+[2017.06.22-06.58.00:039][175]LogBlueprint:Warning: [Compiler MyPlayer_BP] Warning Could not find a variable named "bShowMouseCursor" in 'MyPlayer_BP_C'.
+Make sure 'MyPlayer_BP_C' has been compiled for  Set bShowMouseCursor
+[2017.06.22-06.58.00:039][175]LogBlueprint:Warning: [Compiler MyPlayer_BP] Warning Could not find a variable named "bShowMouseCursor" in 'MyPlayer_BP_C'.
+Make sure 'MyPlayer_BP_C' has been compiled for  Set bShowMouseCursor
+[2017.06.22-06.58.00:041][175]LogBlueprint:Error: [Compiler MyPlayer_BP] Error Variable node  Get IsMouseOn  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.22-06.58.00:042][175]LogBlueprint:Error: [Compiler MyPlayer_BP] Error The property associated with  Show Mouse Cursor  could not be found
+[2017.06.22-06.58.00:042][175]LogBlueprint:Error: [Compiler MyPlayer_BP] Error The property associated with  Show Mouse Cursor  could not be found
+[2017.06.22-06.58.00:442][175]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "bShowMouseCursor" in 'MyPlayer_BP_C'.
+Make sure 'MyPlayer_BP_C' has been compiled for  Set bShowMouseCursor
+[2017.06.22-06.58.00:442][175]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "bShowMouseCursor" in 'MyPlayer_BP_C'.
+Make sure 'MyPlayer_BP_C' has been compiled for  Set bShowMouseCursor
+[2017.06.22-06.58.00:442][175]BlueprintEditorCompileResults:Error: Error Variable node  Get IsMouseOn  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.22-06.58.00:443][175]BlueprintEditorCompileResults:Error: Error The property associated with  Show Mouse Cursor  could not be found
+[2017.06.22-06.58.00:443][175]BlueprintEditorCompileResults:Error: Error The property associated with  Show Mouse Cursor  could not be found
+[2017.06.22-06.58.00:445][175]LogBlueprint:Warning: [Compiler MyPlayer_BP] Warning [1840.72] Compile of MyPlayer_BP failed. 3 Fatal Issue(s) 2 Warning(s) [in 423 ms] (/Game/Blueprints/MyPlayer_BP.MyPlayer_BP)
+[2017.06.22-06.58.06:739][528]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.22-06.58.18:175][ 78]LogBlueprint:Warning: Reparenting blueprint Blueprint /Game/Blueprints/MyPlayer_BP.MyPlayer_BP from MyCharacter_BP_C to PlayerController...
+[2017.06.22-06.58.18:187][ 78]BlueprintLog: New page: Compile MyPlayer_BP
+[2017.06.22-06.58.18:199][ 78]LogBlueprint:Error: [Compiler MyPlayer_BP] Error This blueprint (self) is not a MyCharacter_BP_C, therefore ' Target ' must have a connection.
+[2017.06.22-06.58.18:199][ 78]LogBlueprint:Error: [Compiler MyPlayer_BP] Error Variable node  Get IsMouseOn  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.22-06.58.18:369][ 78]LogProperty:Warning: Serialized BlueprintGeneratedClass /Game/Blueprints/MyPlayer_BP.MyPlayer_BP_C for a property of Class /Script/Engine.Pawn. Reference will be NULLed.
+    Property = ObjectProperty /Game/ExampleContent/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP.CallFunc_TryGetPawnOwner_ReturnValue
+    Item = MyPlayer_BP_C /Engine/Transient.World_6:PersistentLevel.MyPlayer_BP_C_0
+[2017.06.22-06.58.18:369][ 78]LogProperty:Warning: Serialized BlueprintGeneratedClass /Game/Blueprints/MyPlayer_BP.MyPlayer_BP_C for a property of Class /Script/Engine.Pawn. Reference will be NULLed.
+    Property = ObjectProperty /Game/ExampleContent/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP.CallFunc_TryGetPawnOwner_ReturnValue
+    Item = MyPlayer_BP_C /Engine/Transient.World_5:PersistentLevel.MyPlayer_BP_C_0
+[2017.06.22-06.58.18:594][ 78]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a MyCharacter_BP_C, therefore ' Target ' must have a connection.
+[2017.06.22-06.58.18:594][ 78]BlueprintEditorCompileResults:Error: Error Variable node  Get IsMouseOn  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.22-06.58.18:597][ 78]LogBlueprint:Warning: [Compiler MyPlayer_BP] Warning [1858.88] Compile of MyPlayer_BP failed. 2 Fatal Issue(s) 0 Warning(s) [in 409 ms] (/Game/Blueprints/MyPlayer_BP.MyPlayer_BP)
+[2017.06.22-06.58.29:798][676]LogEditorTransaction: Undo Create Pin Link
+[2017.06.22-06.58.30:546][710]LogEditorTransaction: Undo Promote To Variable
+[2017.06.22-06.58.43:763][526]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.22-06.59.46:178][ 16]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.038
+[2017.06.22-06.59.46:183][ 16]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyPlayer_BP] ([1] browsable assets)...
+[2017.06.22-06.59.46:183][ 16]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyPlayer_BP]
+[2017.06.22-06.59.46:183][ 16]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer_BP" FILE="../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/MyPlayer_BP_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.06.22-06.59.46:226][ 16]LogSavePackage: Save=41.06ms
+[2017.06.22-06.59.46:226][ 16]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyPlayer_BP_Auto2FDEF4D464CA391340C41DFAC76FB7D0B.tmp' to '../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/MyPlayer_BP_Auto2.uasset'
+[2017.06.22-06.59.46:228][ 16]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/MyPlayer_BP_Auto2.uasset
+[2017.06.22-06.59.46:228][ 16]LogFileHelpers: Auto-saving content packages took 0.047
+[2017.06.22-07.00.37:804][107]LogEditorTransaction: Undo Create Pin Link
+[2017.06.22-07.00.39:813][210]LogEditorTransaction: Undo Promote To Variable
+[2017.06.22-07.00.49:153][682]LogEditorTransaction: Undo Create Pin Link
+[2017.06.22-07.00.49:595][701]LogEditorTransaction: Undo Promote To Variable
+[2017.06.22-07.00.50:116][728]LogEditorTransaction: Undo Move Node
+[2017.06.22-07.00.50:928][772]LogEditorTransaction: Undo Create Pin Link
+[2017.06.22-07.00.51:369][798]LogEditorTransaction: Undo Promote To Variable
+[2017.06.22-07.09.48:221][487]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.035
+[2017.06.22-07.09.48:223][487]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyPlayer_BP] ([1] browsable assets)...
+[2017.06.22-07.09.48:223][487]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyPlayer_BP]
+[2017.06.22-07.09.48:223][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer_BP" FILE="../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/MyPlayer_BP_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.06.22-07.09.48:257][487]LogSavePackage: Save=31.84ms
+[2017.06.22-07.09.48:257][487]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyPlayer_BP_Auto3A5F7380045AF4E5B24EADCABBA4595AE.tmp' to '../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/MyPlayer_BP_Auto3.uasset'
+[2017.06.22-07.09.48:258][487]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/MyPlayer_BP_Auto3.uasset
+[2017.06.22-07.09.48:258][487]LogFileHelpers: Auto-saving content packages took 0.036
+[2017.06.22-07.14.46:541][610]BlueprintLog: New page: Compile MyPlayer_BP
+[2017.06.22-07.14.46:566][610]LogBlueprint:Error: [Compiler MyPlayer_BP] Error The type of  Object  is undetermined.  Connect something to  Cast To MyCharacter_BP  to imply a specific type.
+[2017.06.22-07.14.46:566][610]LogBlueprint:Error: [Compiler MyPlayer_BP] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.06.22-07.14.46:877][610]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To MyCharacter_BP  to imply a specific type.
+[2017.06.22-07.14.46:877][610]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.06.22-07.14.46:877][610]LogBlueprint:Warning: [Compiler MyPlayer_BP] Warning [2847.16] Compile of MyPlayer_BP failed. 2 Fatal Issue(s) 0 Warning(s) [in 336 ms] (/Game/Blueprints/MyPlayer_BP.MyPlayer_BP)
+[2017.06.22-07.16.19:730][811]BlueprintLog: New page: Compile MyPlayer_BP
+[2017.06.22-07.16.19:760][811]LogBlueprint:Warning: [Compiler MyPlayer_BP] Warning 'My Character BP' does not inherit from 'Player Controller' ( Cast To MyCharacter_BP  would always fail).
+[2017.06.22-07.16.20:270][811]BlueprintEditorCompileResults:Warning: Warning 'My Character BP' does not inherit from 'Player Controller' ( Cast To MyCharacter_BP  would always fail).
+[2017.06.22-07.16.20:270][811]LogBlueprint:Warning: [Compiler MyPlayer_BP] Warning [2940.55] Compile of MyPlayer_BP successful, but with 1 Warning(s) [in 540 ms] (/Game/Blueprints/MyPlayer_BP.MyPlayer_BP)
+[2017.06.22-07.16.36:406][806]BlueprintLog: New page: Compile MyPlayer_BP
+[2017.06.22-07.16.40:769][ 91]BlueprintLog: New page: Compile MyPlayer_BP
+[2017.06.22-07.16.41:413][116]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyPlayer_BP.uasset" SILENT=true
+[2017.06.22-07.16.41:455][116]LogSavePackage: Save=40.28ms
+[2017.06.22-07.16.41:455][116]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyPlayer_BPCB08FCE54D3C8A5404A9B9B4B6771588.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyPlayer_BP.uasset'
+[2017.06.22-07.16.41:458][116]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyPlayer_BP.uasset
+[2017.06.22-07.16.43:348][209]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-07.16.43:383][209]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-07.16.43:384][209]PIE: New page: PIE session: NewMap (Jun 21, 2017, 5:16:43 PM)
+[2017.06.22-07.16.43:384][209]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-07.16.43:387][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002952s)
+[2017.06.22-07.16.43:388][209]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-07.16.43:388][209]LogPlayLevel: PIE: World Init took: (0.001451s)
+[2017.06.22-07.16.43:388][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.004711s)
+[2017.06.22-07.16.43:434][209]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-07.16.43:446][209]LogInit: FAudioDevice initialized.
+[2017.06.22-07.16.43:481][209]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-07.16.43:484][209]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-00.16.43
+[2017.06.22-07.16.43:484][209]LogWorld: Bringing up level for play took: 0.001077
+[2017.06.22-07.16.43:487][209]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.258
+[2017.06.22-07.17.00:063][335]BlueprintLog: New page: Compile MyPlayer_BP
+[2017.06.22-07.17.05:252][573]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-07.17.05:290][573]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-07.17.05:290][573]PIE: New page: PIE session: NewMap (Jun 21, 2017, 5:17:05 PM)
+[2017.06.22-07.17.05:290][573]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-07.17.05:294][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004235s)
+[2017.06.22-07.17.05:295][573]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-07.17.05:295][573]LogPlayLevel: PIE: World Init took: (0.001299s)
+[2017.06.22-07.17.05:296][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.005842s)
+[2017.06.22-07.17.05:353][573]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-07.17.05:369][573]LogInit: FAudioDevice initialized.
+[2017.06.22-07.17.05:405][573]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-07.17.05:409][573]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-00.17.05
+[2017.06.22-07.17.05:409][573]LogWorld: Bringing up level for play took: 0.001116
+[2017.06.22-07.17.05:412][573]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.183
+[2017.06.22-07.17.51:984][284]BlueprintLog: New page: Compile MyPlayer_BP
+[2017.06.22-07.17.54:676][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyPlayer_BP.uasset" SILENT=true
+[2017.06.22-07.17.54:746][410]LogSavePackage: Save=42.05ms
+[2017.06.22-07.17.54:746][410]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyPlayer_BP82AF9DE947DFFBFE352ABE9BA35C7733.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyPlayer_BP.uasset'
+[2017.06.22-07.17.54:749][410]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyPlayer_BP.uasset
+[2017.06.22-07.17.55:367][463]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.22-07.17.55:400][463]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-07.17.55:401][463]PIE: New page: PIE session: NewMap (Jun 21, 2017, 5:17:55 PM)
+[2017.06.22-07.17.55:401][463]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.22-07.17.55:403][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002170s)
+[2017.06.22-07.17.55:404][463]LogAIModule: Creating AISystem for world NewMap
+[2017.06.22-07.17.55:404][463]LogPlayLevel: PIE: World Init took: (0.000917s)
+[2017.06.22-07.17.55:404][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003354s)
+[2017.06.22-07.17.55:461][463]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-07.17.55:474][463]LogInit: FAudioDevice initialized.
+[2017.06.22-07.17.55:508][463]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.22-07.17.55:512][463]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-00.17.55
+[2017.06.22-07.17.55:512][463]LogWorld: Bringing up level for play took: 0.001184
+[2017.06.22-07.17.55:515][463]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.286
+[2017.06.22-07.18.00:543][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyPlayer_BP.uasset" SILENT=true
+[2017.06.22-07.18.00:602][863]LogSavePackage: Save=46.10ms
+[2017.06.22-07.18.00:602][863]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyPlayer_BP1BD25EDC421C7E52E90520AB2335661B.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyPlayer_BP.uasset'
+[2017.06.22-07.18.00:604][863]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyPlayer_BP.uasset
+[2017.06.22-07.18.04:577][100]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2017.06.22-07.18.09:984][100]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.06.22-07.18.10:039][100]SourceControl: Info [master d510c88] mouse
+[2017.06.22-07.18.10:039][100]SourceControl: Info  3 files changed, 0 insertions(+), 0 deletions(-)
+[2017.06.22-07.18.10:039][100]SourceControl: Info  create mode 100644 Prototype/Content/Blueprints/GamePlay_BP.uasset
+[2017.06.22-07.18.10:039][100]SourceControl: Info  create mode 100644 Prototype/Content/Blueprints/MyPlayer_BP.uasset
+[2017.06.22-07.18.10:052][100]SourceControl: Info Commited [master d510c88] mouse.
