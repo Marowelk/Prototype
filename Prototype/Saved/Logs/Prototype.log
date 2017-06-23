@@ -1376,3 +1376,84 @@ Make sure 'HouseFade_C' has been compiled for  On Actor Begin Overlap Event 0
 [2017.06.23-01.14.31:697][201]LogSourceControl: FGitCheckInWorker: commit successful
 [2017.06.23-01.14.31:878][201]SourceControl:Error: Error Aborting commit due to empty commit message.
 [2017.06.23-01.14.31:883][201]SourceControl: Info Submitted revision.
+[2017.06.23-01.18.31:893][729]BlueprintLog: New page: Compile TestHouse_BP
+[2017.06.23-01.19.19:784][914]BlueprintLog: New page: Compile TestHouse_BP
+[2017.06.23-01.19.20:820][943]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TestHouse_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset" SILENT=true
+[2017.06.23-01.19.21:011][943]LogSavePackage: Save=149.63ms
+[2017.06.23-01.19.21:011][943]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/TestHouse_BP3526968047A2DC224A3A2AA2675AD2C9.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset'
+[2017.06.23-01.19.21:015][943]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset
+[2017.06.23-01.19.22:197][994]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.23-01.19.22:243][994]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.23-01.19.22:243][994]PIE: New page: PIE session: NewMap (Jun 22, 2017, 11:19:22 AM)
+[2017.06.23-01.19.22:243][994]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.23-01.19.22:246][994]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002780s)
+[2017.06.23-01.19.22:247][994]LogAIModule: Creating AISystem for world NewMap
+[2017.06.23-01.19.22:247][994]LogPlayLevel: PIE: World Init took: (0.000934s)
+[2017.06.23-01.19.22:247][994]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.004066s)
+[2017.06.23-01.19.22:336][994]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.23-01.19.22:340][994]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-18.19.22
+[2017.06.23-01.19.22:340][994]LogWorld: Bringing up level for play took: 0.001435
+[2017.06.23-01.19.22:343][994]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.113
+[2017.06.23-01.19.26:108][248]LogScript:Warning: Accessed None trying to read property WallRef
+	TestHouse_BP_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.TestHouse_BP
+	Function /Game/Blueprints/TestHouse_BP.TestHouse_BP_C:HideWalls:00B6
+[2017.06.23-01.19.26:109][248]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property WallRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: TestHouse_BP with description: Accessed None trying to read property WallRef
+[2017.06.23-01.19.26:109][248]LogScript:Warning: Accessed None trying to read property RoofRef
+	TestHouse_BP_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.TestHouse_BP
+	Function /Game/Blueprints/TestHouse_BP.TestHouse_BP_C:HideWalls:00D7
+[2017.06.23-01.19.26:109][248]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property RoofRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: TestHouse_BP with description: Accessed None trying to read property RoofRef
+[2017.06.23-01.19.27:182][320]LogScript:Warning: Accessed None trying to read property RoofRef
+	TestHouse_BP_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.TestHouse_BP
+	Function /Game/Blueprints/TestHouse_BP.TestHouse_BP_C:HideWalls:00FF
+[2017.06.23-01.19.27:182][320]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property RoofRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: TestHouse_BP with description: Accessed None trying to read property RoofRef
+[2017.06.23-01.19.27:182][320]LogScript:Warning: Accessed None trying to read property WallRef
+	TestHouse_BP_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.TestHouse_BP
+	Function /Game/Blueprints/TestHouse_BP.TestHouse_BP_C:HideWalls:0120
+[2017.06.23-01.19.27:182][320]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property WallRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: TestHouse_BP with description: Accessed None trying to read property WallRef
+[2017.06.23-01.19.27:960][374]LogScript:Warning: Accessed None trying to read property WallRef
+	TestHouse_BP_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.TestHouse_BP
+	Function /Game/Blueprints/TestHouse_BP.TestHouse_BP_C:HideWalls:00B6
+[2017.06.23-01.19.27:961][374]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property WallRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: TestHouse_BP with description: Accessed None trying to read property WallRef
+[2017.06.23-01.19.27:961][374]LogScript:Warning: Accessed None trying to read property RoofRef
+	TestHouse_BP_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.TestHouse_BP
+	Function /Game/Blueprints/TestHouse_BP.TestHouse_BP_C:HideWalls:00D7
+[2017.06.23-01.19.27:961][374]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property RoofRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: TestHouse_BP with description: Accessed None trying to read property RoofRef
+[2017.06.23-01.19.29:444][477]LogScript:Warning: Accessed None trying to read property RoofRef
+	TestHouse_BP_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.TestHouse_BP
+	Function /Game/Blueprints/TestHouse_BP.TestHouse_BP_C:HideWalls:00FF
+[2017.06.23-01.19.29:444][477]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property RoofRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: TestHouse_BP with description: Accessed None trying to read property RoofRef
+[2017.06.23-01.19.29:444][477]LogScript:Warning: Accessed None trying to read property WallRef
+	TestHouse_BP_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.TestHouse_BP
+	Function /Game/Blueprints/TestHouse_BP.TestHouse_BP_C:HideWalls:0120
+[2017.06.23-01.19.29:444][477]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property WallRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: TestHouse_BP with description: Accessed None trying to read property WallRef
+[2017.06.23-01.20.30:942][648]BlueprintLog: New page: Compile TestHouse_BP
+[2017.06.23-01.21.42:820][986]BlueprintLog: New page: Compile TestHouse_BP
+[2017.06.23-01.22.02:961][872]BlueprintLog: New page: Compile TestHouse_BP
+[2017.06.23-01.22.04:774][936]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TestHouse_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset" SILENT=true
+[2017.06.23-01.22.04:960][936]LogSavePackage: Save=162.29ms
+[2017.06.23-01.22.04:960][936]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/TestHouse_BP9C9F225446A5B3468FF131A0487C6809.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset'
+[2017.06.23-01.22.04:963][936]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset
+[2017.06.23-01.22.06:752][  9]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.23-01.22.06:797][  9]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.23-01.22.06:797][  9]PIE: New page: PIE session: NewMap (Jun 22, 2017, 11:22:06 AM)
+[2017.06.23-01.22.06:798][  9]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.23-01.22.06:802][  9]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004710s)
+[2017.06.23-01.22.06:803][  9]LogAIModule: Creating AISystem for world NewMap
+[2017.06.23-01.22.06:803][  9]LogPlayLevel: PIE: World Init took: (0.000953s)
+[2017.06.23-01.22.06:804][  9]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.005965s)
+[2017.06.23-01.22.06:884][  9]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.23-01.22.06:888][  9]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-18.22.06
+[2017.06.23-01.22.06:888][  9]LogWorld: Bringing up level for play took: 0.001459
+[2017.06.23-01.22.06:891][  9]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.661
+[2017.06.23-01.22.17:104][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.23-01.22.17:244][616]LogSavePackage: Save=72.63ms
+[2017.06.23-01.22.17:244][616]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/NewMapACC5C1234D330840214BA99C38F5BDA0.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap'
+[2017.06.23-01.22.17:247][616]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap.umap
+[2017.06.23-01.22.17:393][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap_BuiltData" FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset" SILENT=true
+[2017.06.23-01.22.17:450][616]LogSavePackage: Save=33.43ms
+[2017.06.23-01.22.17:450][616]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/NewMap_BuiltDataBA99C26141F53D88FAF341BB5A98A3B5.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset'
+[2017.06.23-01.22.17:451][616]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Maps/NewMap_BuiltData.uasset
+[2017.06.23-01.22.19:093][696]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2017.06.23-01.22.22:268][696]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.06.23-01.22.22:470][696]SourceControl:Error: Error Aborting commit due to empty commit message.
+[2017.06.23-01.22.22:481][696]SourceControl: Info Submitted revision.
