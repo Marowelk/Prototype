@@ -1457,3 +1457,603 @@ Make sure 'HouseFade_C' has been compiled for  On Actor Begin Overlap Event 0
 [2017.06.23-01.22.22:268][696]LogSourceControl: FGitCheckInWorker: commit successful
 [2017.06.23-01.22.22:470][696]SourceControl:Error: Error Aborting commit due to empty commit message.
 [2017.06.23-01.22.22:481][696]SourceControl: Info Submitted revision.
+[2017.06.23-01.23.19:975][973]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.23-01.24.39:606][ 55]BlueprintLog: New page: Compile HideWalls
+[2017.06.23-01.24.40:831][106]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HideWalls" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/HideWalls.uasset" SILENT=true
+[2017.06.23-01.24.40:870][106]LogSavePackage: Save=33.74ms
+[2017.06.23-01.24.40:870][106]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/HideWalls3E63DE0643EACFF2BF88F9BE3281E7E0.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/HideWalls.uasset'
+[2017.06.23-01.24.40:876][106]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/HideWalls.uasset
+[2017.06.23-01.26.02:628][996]BlueprintLog: New page: Compile TestHouse_BP
+[2017.06.23-01.26.04:802][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TestHouse_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset" SILENT=true
+[2017.06.23-01.26.04:918][ 94]LogSavePackage: Save=89.68ms
+[2017.06.23-01.26.04:918][ 94]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/TestHouse_BP8119BD634497AD8EB111B9AEF85F6EDA.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset'
+[2017.06.23-01.26.04:921][ 94]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset
+[2017.06.23-01.26.06:296][163]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.23-01.26.06:334][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.23-01.26.06:334][163]PIE: New page: PIE session: NewMap (Jun 22, 2017, 11:26:06 AM)
+[2017.06.23-01.26.06:334][163]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.23-01.26.06:337][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003184s)
+[2017.06.23-01.26.06:339][163]LogAIModule: Creating AISystem for world NewMap
+[2017.06.23-01.26.06:340][163]LogPlayLevel: PIE: World Init took: (0.002375s)
+[2017.06.23-01.26.06:341][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.006449s)
+[2017.06.23-01.26.06:423][163]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.23-01.26.06:427][163]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-18.26.06
+[2017.06.23-01.26.06:427][163]LogWorld: Bringing up level for play took: 0.001504
+[2017.06.23-01.26.06:430][163]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.201
+[2017.06.23-01.26.10:367][489]LogScript:Warning: Accessed None trying to read property WallRef
+	HideWalls_C /Game/Blueprints/HideWalls.Default__HideWalls_C
+	Function /Game/Blueprints/HideWalls.HideWalls_C:HideWalls:00BE
+[2017.06.23-01.26.10:367][489]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property WallRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property WallRef
+[2017.06.23-01.26.10:367][489]LogScript:Warning: Accessed None trying to read property RoofRef
+	HideWalls_C /Game/Blueprints/HideWalls.Default__HideWalls_C
+	Function /Game/Blueprints/HideWalls.HideWalls_C:HideWalls:00DF
+[2017.06.23-01.26.10:367][489]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property RoofRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property RoofRef
+[2017.06.23-01.26.11:574][588]LogScript:Warning: Accessed None trying to read property WallRef
+	HideWalls_C /Game/Blueprints/HideWalls.Default__HideWalls_C
+	Function /Game/Blueprints/HideWalls.HideWalls_C:HideWalls:0107
+[2017.06.23-01.26.11:574][588]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property WallRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property WallRef
+[2017.06.23-01.26.11:574][588]LogScript:Warning: Accessed None trying to read property RoofRef
+	HideWalls_C /Game/Blueprints/HideWalls.Default__HideWalls_C
+	Function /Game/Blueprints/HideWalls.HideWalls_C:HideWalls:0128
+[2017.06.23-01.26.11:574][588]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property RoofRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property RoofRef
+[2017.06.23-01.28.37:456][730]BlueprintLog: New page: Compile HideWalls
+[2017.06.23-01.28.37:465][730]LogBlueprint:Error: [Compiler HideWalls] Error The type of  Object  is undetermined.  Connect something to  Cast To TestHouse_BP  to imply a specific type.
+[2017.06.23-01.28.37:465][730]LogBlueprint:Error: [Compiler HideWalls] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.06.23-01.28.37:856][730]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To TestHouse_BP  to imply a specific type.
+[2017.06.23-01.28.37:856][730]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.06.23-01.28.37:856][730]LogBlueprint:Warning: [Compiler HideWalls] Warning [7249.31] Compile of HideWalls failed. 2 Fatal Issue(s) 0 Warning(s) [in 400 ms] (/Game/Blueprints/HideWalls.HideWalls)
+[2017.06.23-01.28.48:829][412]BlueprintLog: New page: Compile HideWalls
+[2017.06.23-01.28.48:838][412]LogBlueprint:Warning: [Compiler HideWalls] Warning 'Test House BP' does not inherit from 'Static Mesh Component' ( Cast To TestHouse_BP  would always fail).
+[2017.06.23-01.28.48:839][412]LogBlueprint:Error: [Compiler HideWalls] Error Dependency cycle detected, preventing node  Set Owner No See  from being scheduled
+[2017.06.23-01.28.48:839][412]LogBlueprint:Error: [Compiler HideWalls] Error Dependency cycle detected, preventing node  Get WallRef  from being scheduled
+[2017.06.23-01.28.48:839][412]LogBlueprint:Error: [Compiler HideWalls] Error Dependency cycle detected, preventing node  Cast To TestHouse_BP  from being scheduled
+[2017.06.23-01.28.49:205][412]BlueprintEditorCompileResults:Warning: Warning 'Test House BP' does not inherit from 'Static Mesh Component' ( Cast To TestHouse_BP  would always fail).
+[2017.06.23-01.28.49:205][412]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Set Owner No See  from being scheduled
+[2017.06.23-01.28.49:205][412]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Get WallRef  from being scheduled
+[2017.06.23-01.28.49:205][412]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Cast To TestHouse_BP  from being scheduled
+[2017.06.23-01.28.49:206][412]LogBlueprint:Warning: [Compiler HideWalls] Warning [7260.66] Compile of HideWalls failed. 3 Fatal Issue(s) 1 Warning(s) [in 376 ms] (/Game/Blueprints/HideWalls.HideWalls)
+[2017.06.23-01.28.55:669][820]LogEditorTransaction: Undo Move Node
+[2017.06.23-01.28.56:167][843]LogEditorTransaction: Undo Create Pin Link
+[2017.06.23-01.28.58:689][994]LogEditorTransaction: Undo Move Node
+[2017.06.23-01.28.59:209][ 26]LogEditorTransaction: Undo Create Pin Link
+[2017.06.23-01.29.15:058][  7]BlueprintLog: New page: Compile HideWalls
+[2017.06.23-01.30.19:076][ 80]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.23-01.31.04:162][835]BlueprintLog: New page: Compile TestHouse_BP
+[2017.06.23-01.31.04:181][835]LogBlueprint:Error: [Compiler TestHouse_BP] Error This blueprint (self) is not a MyCharacter_BP_C, therefore ' Target ' must have a connection.
+[2017.06.23-01.31.04:181][835]LogBlueprint:Error: [Compiler TestHouse_BP] Error This blueprint (self) is not a MyCharacter_BP_C, therefore ' Target ' must have a connection.
+[2017.06.23-01.31.04:200][835]LogBlueprint:Error: [Compiler TestHouse_BP] Error Variable node  Set WallRef  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.23-01.31.04:200][835]LogBlueprint:Error: [Compiler TestHouse_BP] Error Variable node  Set RoofRef  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.23-01.31.04:590][835]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a MyCharacter_BP_C, therefore ' Target ' must have a connection.
+[2017.06.23-01.31.04:590][835]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a MyCharacter_BP_C, therefore ' Target ' must have a connection.
+[2017.06.23-01.31.04:590][835]BlueprintEditorCompileResults:Error: Error Variable node  Set WallRef  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.23-01.31.04:590][835]BlueprintEditorCompileResults:Error: Error Variable node  Set RoofRef  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.23-01.31.04:591][835]LogBlueprint:Warning: [Compiler TestHouse_BP] Warning [7396.04] Compile of TestHouse_BP failed. 4 Fatal Issue(s) 0 Warning(s) [in 428 ms] (/Game/Blueprints/TestHouse_BP.TestHouse_BP)
+[2017.06.23-01.31.52:009][929]BlueprintLog: New page: Compile TestHouse_BP
+[2017.06.23-01.31.52:028][929]LogBlueprint:Warning: [Compiler TestHouse_BP] Warning 'My Character BP' does not inherit from 'Static Mesh Component' ( Cast To MyCharacter_BP  would always fail).
+[2017.06.23-01.31.52:240][929]BlueprintEditorCompileResults:Warning: Warning 'My Character BP' does not inherit from 'Static Mesh Component' ( Cast To MyCharacter_BP  would always fail).
+[2017.06.23-01.31.52:240][929]LogBlueprint:Warning: [Compiler TestHouse_BP] Warning [7443.69] Compile of TestHouse_BP successful, but with 1 Warning(s) [in 231 ms] (/Game/Blueprints/TestHouse_BP.TestHouse_BP)
+[2017.06.23-01.32.07:743][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TestHouse_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset" SILENT=true
+[2017.06.23-01.32.07:871][746]LogSavePackage: Save=96.89ms
+[2017.06.23-01.32.07:871][746]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/TestHouse_BP7499D9364BA7C673E0236E82B8323854.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset'
+[2017.06.23-01.32.07:874][746]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset
+[2017.06.23-01.32.10:060][866]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.23-01.32.10:102][866]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.06.23-01.32.10:102][866]LogPlayLevel: [PlayLevel] Compiling HideWalls before play...
+[2017.06.23-01.32.10:110][866]LogBlueprint:Error: [Compiler HideWalls] Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2017.06.23-01.32.10:110][866]LogBlueprint:Error: [Compiler HideWalls] Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2017.06.23-01.32.10:456][866]LogBlueprint:Warning: [Compiler HideWalls] Warning [7461.91] Compile of HideWalls failed. 2 Fatal Issue(s) 0 Warning(s) [in 350 ms] (/Game/Blueprints/HideWalls.HideWalls)
+[2017.06.23-01.32.10:456][866]LogBlueprint:Warning: [Compiler HideWalls] Warning [7461.91] Compile of HideWalls failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Blueprints/HideWalls.HideWalls)
+[2017.06.23-01.32.10:456][866]LogBlueprint:Warning: [Compiler HideWalls] Warning [7461.91] Compile of HideWalls failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Blueprints/HideWalls.HideWalls)
+[2017.06.23-01.32.10:456][866]LogBlueprint:Warning: [Compiler HideWalls] Warning [7461.91] Compile of HideWalls failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Blueprints/HideWalls.HideWalls)
+[2017.06.23-01.32.10:457][866]LogBlueprint:Warning: [Compiler HideWalls] Warning [7461.91] Compile of HideWalls failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/Blueprints/HideWalls.HideWalls)
+[2017.06.23-01.32.10:457][866]LogBlueprint:Warning: [Compiler HideWalls] Warning [7461.91] Compile of HideWalls failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Blueprints/HideWalls.HideWalls)
+[2017.06.23-01.32.10:492][866]LogPlayLevel: PlayLevel: Blueprint regeneration took 390 ms (1 blueprints)
+[2017.06.23-01.32.10:492][866]BlueprintLog: Info Blueprint HideWalls failed to compile
+[2017.06.23-01.32.14:326][ 26]BlueprintLog: New page: Compile HideWalls
+[2017.06.23-01.32.14:334][ 26]LogBlueprint:Error: [Compiler HideWalls] Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2017.06.23-01.32.14:334][ 26]LogBlueprint:Error: [Compiler HideWalls] Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2017.06.23-01.32.14:723][ 26]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2017.06.23-01.32.14:723][ 26]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2017.06.23-01.32.14:723][ 26]LogBlueprint:Warning: [Compiler HideWalls] Warning [7466.18] Compile of HideWalls failed. 2 Fatal Issue(s) 0 Warning(s) [in 396 ms] (/Game/Blueprints/HideWalls.HideWalls)
+[2017.06.23-01.32.43:475][608]BlueprintLog: New page: Compile HideWalls
+[2017.06.23-01.32.44:187][627]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HideWalls" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/HideWalls.uasset" SILENT=true
+[2017.06.23-01.32.44:256][627]LogSavePackage: Save=34.79ms
+[2017.06.23-01.32.44:256][627]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/HideWalls363F11994FBA1A2D4F7BA7A8E73B1857.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/HideWalls.uasset'
+[2017.06.23-01.32.44:259][627]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/HideWalls.uasset
+[2017.06.23-01.32.45:609][685]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.23-01.32.45:664][685]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.23-01.32.45:664][685]PIE: New page: PIE session: NewMap (Jun 22, 2017, 11:32:45 AM)
+[2017.06.23-01.32.45:665][685]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.23-01.32.45:671][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006425s)
+[2017.06.23-01.32.45:672][685]LogAIModule: Creating AISystem for world NewMap
+[2017.06.23-01.32.45:672][685]LogPlayLevel: PIE: World Init took: (0.001086s)
+[2017.06.23-01.32.45:672][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.007781s)
+[2017.06.23-01.32.45:754][685]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.23-01.32.45:760][685]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-18.32.45
+[2017.06.23-01.32.45:761][685]LogWorld: Bringing up level for play took: 0.001647
+[2017.06.23-01.32.45:766][685]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.463
+[2017.06.23-01.32.51:426][162]LogScript:Warning: Accessed None trying to read property WallRef
+	HideWalls_C /Game/Blueprints/HideWalls.Default__HideWalls_C
+	Function /Game/Blueprints/HideWalls.HideWalls_C:HideWalls:0149
+[2017.06.23-01.32.51:426][162]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property WallRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property WallRef
+[2017.06.23-01.32.51:427][162]LogScript:Warning: Accessed None trying to read property RoofRef
+	HideWalls_C /Game/Blueprints/HideWalls.Default__HideWalls_C
+	Function /Game/Blueprints/HideWalls.HideWalls_C:HideWalls:0180
+[2017.06.23-01.32.51:427][162]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property RoofRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property RoofRef
+[2017.06.23-01.33.04:834][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.23-01.33.05:166][ 18]LogSavePackage: Save=261.46ms
+[2017.06.23-01.33.05:167][ 18]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BP9BD7896742B460067E4C2790B628780C.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.23-01.33.05:172][ 18]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.23-01.33.09:705][147]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.23-01.33.09:799][147]LogBlueprint:Warning: [Compiler TestHouse_BP] Warning 'My Character BP' does not inherit from 'Static Mesh Component' ( Cast To MyCharacter_BP  would always fail).
+[2017.06.23-01.33.10:525][156]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.23-01.33.10:786][156]LogSavePackage: Save=240.69ms
+[2017.06.23-01.33.10:786][156]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BP65AFB6094127ADA924533BAA5A8E4A66.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.23-01.33.10:790][156]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.23-01.33.12:037][203]BlueprintLog: New page: Compile TestHouse_BP
+[2017.06.23-01.33.12:059][203]LogBlueprint:Warning: [Compiler TestHouse_BP] Warning 'My Character BP' does not inherit from 'Static Mesh Component' ( Cast To MyCharacter_BP  would always fail).
+[2017.06.23-01.33.12:281][203]BlueprintEditorCompileResults:Warning: Warning 'My Character BP' does not inherit from 'Static Mesh Component' ( Cast To MyCharacter_BP  would always fail).
+[2017.06.23-01.33.12:281][203]LogBlueprint:Warning: [Compiler TestHouse_BP] Warning [7523.73] Compile of TestHouse_BP successful, but with 1 Warning(s) [in 243 ms] (/Game/Blueprints/TestHouse_BP.TestHouse_BP)
+[2017.06.23-01.33.48:480][638]BlueprintLog: New page: Compile TestHouse_BP
+[2017.06.23-01.33.50:237][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TestHouse_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset" SILENT=true
+[2017.06.23-01.33.50:353][709]LogSavePackage: Save=100.30ms
+[2017.06.23-01.33.50:353][709]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/TestHouse_BPF6B7C77B493DEB98411C5885C1E32F71.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset'
+[2017.06.23-01.33.50:356][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset
+[2017.06.23-01.33.53:876][880]BlueprintLog: New page: Compile TestHouse_BP
+[2017.06.23-01.33.53:898][880]LogBlueprint:Error: [Compiler TestHouse_BP] Error This blueprint (self) is not a MyCharacter_BP_C, therefore ' Target ' must have a connection.
+[2017.06.23-01.33.53:898][880]LogBlueprint:Error: [Compiler TestHouse_BP] Error This blueprint (self) is not a MyCharacter_BP_C, therefore ' Target ' must have a connection.
+[2017.06.23-01.33.53:899][880]LogBlueprint:Error: [Compiler TestHouse_BP] Error Variable node  Set WallRef  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.23-01.33.53:899][880]LogBlueprint:Error: [Compiler TestHouse_BP] Error Variable node  Set RoofRef  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.23-01.33.54:315][880]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a MyCharacter_BP_C, therefore ' Target ' must have a connection.
+[2017.06.23-01.33.54:315][880]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a MyCharacter_BP_C, therefore ' Target ' must have a connection.
+[2017.06.23-01.33.54:315][880]BlueprintEditorCompileResults:Error: Error Variable node  Set WallRef  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.23-01.33.54:315][880]BlueprintEditorCompileResults:Error: Error Variable node  Set RoofRef  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.23-01.33.54:315][880]LogBlueprint:Warning: [Compiler TestHouse_BP] Warning [7565.77] Compile of TestHouse_BP failed. 4 Fatal Issue(s) 0 Warning(s) [in 438 ms] (/Game/Blueprints/TestHouse_BP.TestHouse_BP)
+[2017.06.23-01.34.22:929][190]BlueprintLog: New page: Compile TestHouse_BP
+[2017.06.23-01.34.22:945][190]LogBlueprint:Warning: [Compiler TestHouse_BP] Warning 'My Character BP' does not inherit from 'Static Mesh Component' ( Cast To MyCharacter_BP  would always fail).
+[2017.06.23-01.34.22:946][190]LogBlueprint:Error: [Compiler TestHouse_BP] Error This blueprint (self) is not a MyCharacter_BP_C, therefore ' Target ' must have a connection.
+[2017.06.23-01.34.22:946][190]LogBlueprint:Error: [Compiler TestHouse_BP] Error Variable node  Set RoofRef  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.23-01.34.23:355][190]BlueprintEditorCompileResults:Warning: Warning 'My Character BP' does not inherit from 'Static Mesh Component' ( Cast To MyCharacter_BP  would always fail).
+[2017.06.23-01.34.23:355][190]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a MyCharacter_BP_C, therefore ' Target ' must have a connection.
+[2017.06.23-01.34.23:355][190]BlueprintEditorCompileResults:Error: Error Variable node  Set RoofRef  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.23-01.34.23:355][190]LogBlueprint:Warning: [Compiler TestHouse_BP] Warning [7594.81] Compile of TestHouse_BP failed. 2 Fatal Issue(s) 1 Warning(s) [in 426 ms] (/Game/Blueprints/TestHouse_BP.TestHouse_BP)
+[2017.06.23-01.34.34:711][716]BlueprintLog: New page: Compile TestHouse_BP
+[2017.06.23-01.34.34:732][716]LogBlueprint:Warning: [Compiler TestHouse_BP] Warning 'My Character BP' does not inherit from 'Static Mesh Component' ( Cast To MyCharacter_BP  would always fail).
+[2017.06.23-01.34.34:733][716]LogBlueprint:Error: [Compiler TestHouse_BP] Error This blueprint (self) is not a MyCharacter_BP_C, therefore ' Target ' must have a connection.
+[2017.06.23-01.34.34:733][716]LogBlueprint:Error: [Compiler TestHouse_BP] Error Variable node  Set RoofRef  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.23-01.34.35:141][716]BlueprintEditorCompileResults:Warning: Warning 'My Character BP' does not inherit from 'Static Mesh Component' ( Cast To MyCharacter_BP  would always fail).
+[2017.06.23-01.34.35:141][716]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a MyCharacter_BP_C, therefore ' Target ' must have a connection.
+[2017.06.23-01.34.35:141][716]BlueprintEditorCompileResults:Error: Error Variable node  Set RoofRef  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.23-01.34.35:141][716]LogBlueprint:Warning: [Compiler TestHouse_BP] Warning [7606.59] Compile of TestHouse_BP failed. 2 Fatal Issue(s) 1 Warning(s) [in 430 ms] (/Game/Blueprints/TestHouse_BP.TestHouse_BP)
+[2017.06.23-01.34.44:727][161]BlueprintLog: New page: Compile TestHouse_BP
+[2017.06.23-01.34.44:743][161]LogBlueprint:Warning: [Compiler TestHouse_BP] Warning 'My Character BP' does not inherit from 'Static Mesh Component' ( Cast To MyCharacter_BP  would always fail).
+[2017.06.23-01.34.44:987][161]BlueprintEditorCompileResults:Warning: Warning 'My Character BP' does not inherit from 'Static Mesh Component' ( Cast To MyCharacter_BP  would always fail).
+[2017.06.23-01.34.44:987][161]LogBlueprint:Warning: [Compiler TestHouse_BP] Warning [7616.44] Compile of TestHouse_BP successful, but with 1 Warning(s) [in 260 ms] (/Game/Blueprints/TestHouse_BP.TestHouse_BP)
+[2017.06.23-01.34.58:033][846]BlueprintLog: New page: Compile TestHouse_BP
+[2017.06.23-01.35.20:855][993]LogEditorTransaction: Undo Move Node
+[2017.06.23-01.35.21:139][  2]LogEditorTransaction: Undo Add Node
+[2017.06.23-01.35.21:400][ 10]LogEditorTransaction: Undo Delete current selection
+[2017.06.23-01.35.31:250][499]BlueprintLog: New page: Compile TestHouse_BP
+[2017.06.23-01.35.31:269][499]LogBlueprint:Warning: [Compiler TestHouse_BP] Warning 'My Character BP' does not inherit from 'Static Mesh Component' ( Cast To MyCharacter_BP  would always fail).
+[2017.06.23-01.35.31:493][499]BlueprintEditorCompileResults:Warning: Warning 'My Character BP' does not inherit from 'Static Mesh Component' ( Cast To MyCharacter_BP  would always fail).
+[2017.06.23-01.35.31:493][499]LogBlueprint:Warning: [Compiler TestHouse_BP] Warning [7662.95] Compile of TestHouse_BP successful, but with 1 Warning(s) [in 243 ms] (/Game/Blueprints/TestHouse_BP.TestHouse_BP)
+[2017.06.23-01.35.37:910][827]BlueprintLog: New page: Compile TestHouse_BP
+[2017.06.23-01.35.37:933][827]LogBlueprint:Warning: [Compiler TestHouse_BP] Warning 'My Character BP' does not inherit from 'Static Mesh Component' ( Cast To MyCharacter_BP  would always fail).
+[2017.06.23-01.35.38:139][827]BlueprintEditorCompileResults:Warning: Warning 'My Character BP' does not inherit from 'Static Mesh Component' ( Cast To MyCharacter_BP  would always fail).
+[2017.06.23-01.35.38:139][827]LogBlueprint:Warning: [Compiler TestHouse_BP] Warning [7669.59] Compile of TestHouse_BP successful, but with 1 Warning(s) [in 229 ms] (/Game/Blueprints/TestHouse_BP.TestHouse_BP)
+[2017.06.23-01.35.54:517][679]LogEditorTransaction: Undo Delete current selection
+[2017.06.23-01.36.36:806][307]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.23-01.36.38:763][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.23-01.36.39:048][326]LogSavePackage: Save=266.95ms
+[2017.06.23-01.36.39:049][326]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BPE0B356BA4C867E4D96770695E6513684.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.23-01.36.39:055][326]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.23-01.36.40:485][381]Cmd: TRANSACTION UNDO
+[2017.06.23-01.36.40:485][381]LogEditorTransaction: Undo Change Parameter Type
+[2017.06.23-01.36.40:728][391]Cmd: TRANSACTION UNDO
+[2017.06.23-01.36.40:728][391]LogEditorTransaction: Undo Change Parameter Type
+[2017.06.23-01.36.41:112][402]Cmd: TRANSACTION UNDO
+[2017.06.23-01.36.41:112][402]LogEditorTransaction: Undo Change Parameter Type
+[2017.06.23-01.36.41:922][437]Cmd: TRANSACTION REDO
+[2017.06.23-01.36.41:922][437]LogEditorTransaction: Redo Change Parameter Type
+[2017.06.23-01.36.42:259][450]Cmd: TRANSACTION REDO
+[2017.06.23-01.36.42:260][450]LogEditorTransaction: Redo Change Parameter Type
+[2017.06.23-01.36.42:759][471]Cmd: TRANSACTION REDO
+[2017.06.23-01.36.42:759][471]LogEditorTransaction: Redo Change Parameter Type
+[2017.06.23-01.36.57:394][ 27]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.23-01.37.53:715][447]BlueprintLog: New page: Compile TestHouse_BP
+[2017.06.23-01.37.53:733][447]LogBlueprint:Warning: [Compiler TestHouse_BP] Warning 'My Character BP' does not inherit from 'Static Mesh Component' ( Cast To MyCharacter_BP  would always fail).
+[2017.06.23-01.37.53:955][447]BlueprintEditorCompileResults:Warning: Warning 'My Character BP' does not inherit from 'Static Mesh Component' ( Cast To MyCharacter_BP  would always fail).
+[2017.06.23-01.37.53:955][447]LogBlueprint:Warning: [Compiler TestHouse_BP] Warning [7805.41] Compile of TestHouse_BP successful, but with 1 Warning(s) [in 239 ms] (/Game/Blueprints/TestHouse_BP.TestHouse_BP)
+[2017.06.23-01.39.03:495][705]BlueprintLog: New page: Compile TestHouse_BP
+[2017.06.23-01.39.03:514][705]LogBlueprint:Error: [Compiler TestHouse_BP] Error This blueprint (self) is not a MyCharacter_BP_C, therefore ' Target ' must have a connection.
+[2017.06.23-01.39.03:514][705]LogBlueprint:Error: [Compiler TestHouse_BP] Error The type of  Object  is undetermined.  Connect something to  Cast To MyCharacter_BP  to imply a specific type.
+[2017.06.23-01.39.03:514][705]LogBlueprint:Error: [Compiler TestHouse_BP] Error Variable node  Set PlayerEntered  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.23-01.39.03:514][705]LogBlueprint:Error: [Compiler TestHouse_BP] Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2017.06.23-01.39.03:920][705]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a MyCharacter_BP_C, therefore ' Target ' must have a connection.
+[2017.06.23-01.39.03:920][705]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To MyCharacter_BP  to imply a specific type.
+[2017.06.23-01.39.03:920][705]BlueprintEditorCompileResults:Error: Error Variable node  Set PlayerEntered  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.23-01.39.03:920][705]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2017.06.23-01.39.03:921][705]LogBlueprint:Warning: [Compiler TestHouse_BP] Warning [7875.37] Compile of TestHouse_BP failed. 4 Fatal Issue(s) 0 Warning(s) [in 425 ms] (/Game/Blueprints/TestHouse_BP.TestHouse_BP)
+[2017.06.23-01.39.10:622][ 16]BlueprintLog: New page: Compile TestHouse_BP
+[2017.06.23-01.39.10:638][ 16]LogBlueprint:Warning: [Compiler TestHouse_BP] Warning 'My Character BP' does not inherit from 'Static Mesh Component' ( Cast To MyCharacter_BP  would always fail).
+[2017.06.23-01.39.10:640][ 16]LogBlueprint:Error: [Compiler TestHouse_BP] Error This blueprint (self) is not a MyCharacter_BP_C, therefore ' Target ' must have a connection.
+[2017.06.23-01.39.10:641][ 16]LogBlueprint:Error: [Compiler TestHouse_BP] Error Variable node  Set PlayerEntered  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.23-01.39.11:044][ 16]BlueprintEditorCompileResults:Warning: Warning 'My Character BP' does not inherit from 'Static Mesh Component' ( Cast To MyCharacter_BP  would always fail).
+[2017.06.23-01.39.11:044][ 16]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a MyCharacter_BP_C, therefore ' Target ' must have a connection.
+[2017.06.23-01.39.11:044][ 16]BlueprintEditorCompileResults:Error: Error Variable node  Set PlayerEntered  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.23-01.39.11:044][ 16]LogBlueprint:Warning: [Compiler TestHouse_BP] Warning [7882.50] Compile of TestHouse_BP failed. 2 Fatal Issue(s) 1 Warning(s) [in 421 ms] (/Game/Blueprints/TestHouse_BP.TestHouse_BP)
+[2017.06.23-01.39.11:833][ 54]LogEditorTransaction: Undo Create Pin Link
+[2017.06.23-01.39.12:366][ 72]LogEditorTransaction: Undo Create Pin Link
+[2017.06.23-01.39.15:171][190]BlueprintLog: New page: Compile TestHouse_BP
+[2017.06.23-01.39.15:195][190]LogBlueprint:Error: [Compiler TestHouse_BP] Error This blueprint (self) is not a MyCharacter_BP_C, therefore ' Target ' must have a connection.
+[2017.06.23-01.39.15:195][190]LogBlueprint:Error: [Compiler TestHouse_BP] Error Dependency cycle detected, preventing node  Get Player Character  from being scheduled
+[2017.06.23-01.39.15:195][190]LogBlueprint:Error: [Compiler TestHouse_BP] Error Dependency cycle detected, preventing node  Cast To MyCharacter_BP  from being scheduled
+[2017.06.23-01.39.15:195][190]LogBlueprint:Error: [Compiler TestHouse_BP] Error Variable node  Set PlayerEntered  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.23-01.39.15:611][190]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a MyCharacter_BP_C, therefore ' Target ' must have a connection.
+[2017.06.23-01.39.15:611][190]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Get Player Character  from being scheduled
+[2017.06.23-01.39.15:611][190]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Cast To MyCharacter_BP  from being scheduled
+[2017.06.23-01.39.15:611][190]BlueprintEditorCompileResults:Error: Error Variable node  Set PlayerEntered  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.23-01.39.15:612][190]LogBlueprint:Warning: [Compiler TestHouse_BP] Warning [7887.06] Compile of TestHouse_BP failed. 4 Fatal Issue(s) 0 Warning(s) [in 440 ms] (/Game/Blueprints/TestHouse_BP.TestHouse_BP)
+[2017.06.23-01.39.21:177][449]BlueprintLog: New page: Compile TestHouse_BP
+[2017.06.23-01.39.21:197][449]LogBlueprint:Error: [Compiler TestHouse_BP] Error Dependency cycle detected, preventing node  Get Player Character  from being scheduled
+[2017.06.23-01.39.21:197][449]LogBlueprint:Error: [Compiler TestHouse_BP] Error Dependency cycle detected, preventing node  Cast To MyCharacter_BP  from being scheduled
+[2017.06.23-01.39.21:198][449]LogBlueprint:Error: [Compiler TestHouse_BP] Error Dependency cycle detected, preventing node  Set PlayerEntered  from being scheduled
+[2017.06.23-01.39.21:597][449]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Get Player Character  from being scheduled
+[2017.06.23-01.39.21:597][449]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Cast To MyCharacter_BP  from being scheduled
+[2017.06.23-01.39.21:597][449]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Set PlayerEntered  from being scheduled
+[2017.06.23-01.39.21:598][449]LogBlueprint:Warning: [Compiler TestHouse_BP] Warning [7893.05] Compile of TestHouse_BP failed. 3 Fatal Issue(s) 0 Warning(s) [in 420 ms] (/Game/Blueprints/TestHouse_BP.TestHouse_BP)
+[2017.06.23-01.39.46:507][606]BlueprintLog: New page: Compile TestHouse_BP
+[2017.06.23-01.39.46:527][606]LogBlueprint:Error: [Compiler TestHouse_BP] Error This blueprint (self) is not a MyCharacter_BP_C, therefore ' Target ' must have a connection.
+[2017.06.23-01.39.46:528][606]LogBlueprint:Error: [Compiler TestHouse_BP] Error Variable node  Set PlayerEntered  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.23-01.39.46:947][606]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a MyCharacter_BP_C, therefore ' Target ' must have a connection.
+[2017.06.23-01.39.46:947][606]BlueprintEditorCompileResults:Error: Error Variable node  Set PlayerEntered  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.23-01.39.46:947][606]LogBlueprint:Warning: [Compiler TestHouse_BP] Warning [7918.40] Compile of TestHouse_BP failed. 2 Fatal Issue(s) 0 Warning(s) [in 439 ms] (/Game/Blueprints/TestHouse_BP.TestHouse_BP)
+[2017.06.23-01.40.15:905][746]BlueprintLog: New page: Compile TestHouse_BP
+[2017.06.23-01.40.15:927][746]LogBlueprint:Warning: [Compiler TestHouse_BP] Warning 'My Character BP' does not inherit from 'Player Controller' ( Cast To MyCharacter_BP  would always fail).
+[2017.06.23-01.40.16:179][746]BlueprintEditorCompileResults:Warning: Warning 'My Character BP' does not inherit from 'Player Controller' ( Cast To MyCharacter_BP  would always fail).
+[2017.06.23-01.40.16:179][746]LogBlueprint:Warning: [Compiler TestHouse_BP] Warning [7947.63] Compile of TestHouse_BP successful, but with 1 Warning(s) [in 274 ms] (/Game/Blueprints/TestHouse_BP.TestHouse_BP)
+[2017.06.23-01.40.25:863][144]BlueprintLog: New page: Compile TestHouse_BP
+[2017.06.23-01.41.04:248][623]BlueprintLog: New page: Compile TestHouse_BP
+[2017.06.23-01.41.05:804][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TestHouse_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset" SILENT=true
+[2017.06.23-01.41.05:927][678]LogSavePackage: Save=94.15ms
+[2017.06.23-01.41.05:927][678]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/TestHouse_BPF01F972D414652BC613E3D801FD0C629.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset'
+[2017.06.23-01.41.05:930][678]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset
+[2017.06.23-01.41.07:493][745]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.23-01.41.07:531][745]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.23-01.41.07:531][745]PIE: New page: PIE session: NewMap (Jun 22, 2017, 11:41:07 AM)
+[2017.06.23-01.41.07:532][745]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.23-01.41.07:537][745]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005722s)
+[2017.06.23-01.41.07:539][745]LogAIModule: Creating AISystem for world NewMap
+[2017.06.23-01.41.07:539][745]LogPlayLevel: PIE: World Init took: (0.001346s)
+[2017.06.23-01.41.07:539][745]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.007345s)
+[2017.06.23-01.41.07:609][745]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.23-01.41.07:613][745]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-18.41.07
+[2017.06.23-01.41.07:613][745]LogWorld: Bringing up level for play took: 0.001377
+[2017.06.23-01.41.07:616][745]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.614
+[2017.06.23-01.41.11:830][ 66]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP
+	TestHouse_BP_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.TestHouse_BP
+	Function /Game/Blueprints/TestHouse_BP.TestHouse_BP_C:ExecuteUbergraph_TestHouse_BP:0233
+[2017.06.23-01.41.11:830][ 66]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set WallRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP
+[2017.06.23-01.41.11:830][ 66]LogScript:Warning: Accessed None attempting to assign variable on an object
+	TestHouse_BP_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.TestHouse_BP
+	Function /Game/Blueprints/TestHouse_BP.TestHouse_BP_C:ExecuteUbergraph_TestHouse_BP:0248
+[2017.06.23-01.41.11:830][ 66]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set WallRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None attempting to assign variable on an object
+[2017.06.23-01.41.11:830][ 66]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP
+	TestHouse_BP_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.TestHouse_BP
+	Function /Game/Blueprints/TestHouse_BP.TestHouse_BP_C:ExecuteUbergraph_TestHouse_BP:025E
+[2017.06.23-01.41.11:830][ 66]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set RoofRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP
+[2017.06.23-01.41.11:830][ 66]LogScript:Warning: Accessed None attempting to assign variable on an object
+	TestHouse_BP_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.TestHouse_BP
+	Function /Game/Blueprints/TestHouse_BP.TestHouse_BP_C:ExecuteUbergraph_TestHouse_BP:0273
+[2017.06.23-01.41.11:831][ 66]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set RoofRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None attempting to assign variable on an object
+[2017.06.23-01.41.11:831][ 66]LogScript:Warning: Accessed None trying to read property RoofRef
+	HideWalls_C /Game/Blueprints/HideWalls.Default__HideWalls_C
+	Function /Game/Blueprints/HideWalls.HideWalls_C:HideWalls:00D4
+[2017.06.23-01.41.11:831][ 66]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property RoofRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property RoofRef
+[2017.06.23-01.41.11:831][ 66]LogScript:Warning: Accessed None trying to read property WallRef
+	HideWalls_C /Game/Blueprints/HideWalls.Default__HideWalls_C
+	Function /Game/Blueprints/HideWalls.HideWalls_C:HideWalls:010B
+[2017.06.23-01.41.11:831][ 66]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property WallRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property WallRef
+[2017.06.23-01.41.13:268][171]LogScript:Warning: Accessed None trying to read property WallRef
+	HideWalls_C /Game/Blueprints/HideWalls.Default__HideWalls_C
+	Function /Game/Blueprints/HideWalls.HideWalls_C:HideWalls:0149
+[2017.06.23-01.41.13:268][171]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property WallRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property WallRef
+[2017.06.23-01.41.13:268][171]LogScript:Warning: Accessed None trying to read property RoofRef
+	HideWalls_C /Game/Blueprints/HideWalls.Default__HideWalls_C
+	Function /Game/Blueprints/HideWalls.HideWalls_C:HideWalls:0180
+[2017.06.23-01.41.13:268][171]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property RoofRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property RoofRef
+[2017.06.23-01.42.27:407][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HideWalls" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/HideWalls.uasset" SILENT=true
+[2017.06.23-01.42.27:487][ 54]LogSavePackage: Save=42.46ms
+[2017.06.23-01.42.27:487][ 54]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/HideWalls6E8962A441F611D98174B9A7E72DEB22.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/HideWalls.uasset'
+[2017.06.23-01.42.27:489][ 54]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/HideWalls.uasset
+[2017.06.23-01.42.28:488][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.23-01.42.28:874][ 84]LogSavePackage: Save=292.21ms
+[2017.06.23-01.42.28:874][ 84]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BPFC7ABE784F7A39FE5E2B01B5F9705B2E.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.23-01.42.28:877][ 84]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.23-01.42.29:787][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TestHouse_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset" SILENT=true
+[2017.06.23-01.42.29:892][114]LogSavePackage: Save=86.58ms
+[2017.06.23-01.42.29:892][114]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/TestHouse_BP778DE7784784B2234CF68099C4A678E3.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset'
+[2017.06.23-01.42.29:898][114]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset
+[2017.06.23-01.43.29:187][801]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.23-01.43.29:235][801]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.23-01.43.29:235][801]PIE: New page: PIE session: NewMap (Jun 22, 2017, 11:43:29 AM)
+[2017.06.23-01.43.29:235][801]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.23-01.43.29:238][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002913s)
+[2017.06.23-01.43.29:239][801]LogAIModule: Creating AISystem for world NewMap
+[2017.06.23-01.43.29:239][801]LogPlayLevel: PIE: World Init took: (0.000957s)
+[2017.06.23-01.43.29:239][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.004104s)
+[2017.06.23-01.43.29:321][801]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.23-01.43.29:325][801]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-18.43.29
+[2017.06.23-01.43.29:325][801]LogWorld: Bringing up level for play took: 0.001480
+[2017.06.23-01.43.29:332][801]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 1.103
+[2017.06.23-01.43.36:023][239]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP
+	TestHouse_BP_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.TestHouse_BP
+	Function /Game/Blueprints/TestHouse_BP.TestHouse_BP_C:ExecuteUbergraph_TestHouse_BP:0233
+[2017.06.23-01.43.36:024][239]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set WallRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP
+[2017.06.23-01.43.36:024][239]LogScript:Warning: Accessed None attempting to assign variable on an object
+	TestHouse_BP_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.TestHouse_BP
+	Function /Game/Blueprints/TestHouse_BP.TestHouse_BP_C:ExecuteUbergraph_TestHouse_BP:0248
+[2017.06.23-01.43.36:024][239]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set WallRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None attempting to assign variable on an object
+[2017.06.23-01.43.36:024][239]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP
+	TestHouse_BP_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.TestHouse_BP
+	Function /Game/Blueprints/TestHouse_BP.TestHouse_BP_C:ExecuteUbergraph_TestHouse_BP:025E
+[2017.06.23-01.43.36:025][239]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set RoofRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP
+[2017.06.23-01.43.36:025][239]LogScript:Warning: Accessed None attempting to assign variable on an object
+	TestHouse_BP_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.TestHouse_BP
+	Function /Game/Blueprints/TestHouse_BP.TestHouse_BP_C:ExecuteUbergraph_TestHouse_BP:0273
+[2017.06.23-01.43.36:025][239]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set RoofRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None attempting to assign variable on an object
+[2017.06.23-01.43.36:025][239]LogScript:Warning: Accessed None trying to read property RoofRef
+	HideWalls_C /Game/Blueprints/HideWalls.Default__HideWalls_C
+	Function /Game/Blueprints/HideWalls.HideWalls_C:HideWalls:00D4
+[2017.06.23-01.43.36:026][239]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property RoofRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property RoofRef
+[2017.06.23-01.43.36:026][239]LogScript:Warning: Accessed None trying to read property WallRef
+	HideWalls_C /Game/Blueprints/HideWalls.Default__HideWalls_C
+	Function /Game/Blueprints/HideWalls.HideWalls_C:HideWalls:010B
+[2017.06.23-01.43.36:026][239]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property WallRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property WallRef
+[2017.06.23-01.43.37:453][326]LogScript:Warning: Accessed None trying to read property WallRef
+	HideWalls_C /Game/Blueprints/HideWalls.Default__HideWalls_C
+	Function /Game/Blueprints/HideWalls.HideWalls_C:HideWalls:0149
+[2017.06.23-01.43.37:453][326]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property WallRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property WallRef
+[2017.06.23-01.43.37:453][326]LogScript:Warning: Accessed None trying to read property RoofRef
+	HideWalls_C /Game/Blueprints/HideWalls.Default__HideWalls_C
+	Function /Game/Blueprints/HideWalls.HideWalls_C:HideWalls:0180
+[2017.06.23-01.43.37:453][326]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property RoofRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property RoofRef
+[2017.06.23-01.44.08:408][945]BlueprintLog: New page: Compile TestHouse_BP
+[2017.06.23-01.44.09:256][969]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TestHouse_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset" SILENT=true
+[2017.06.23-01.44.09:377][969]LogSavePackage: Save=102.69ms
+[2017.06.23-01.44.09:377][969]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/TestHouse_BP9722021845DB4813F65C92A547EF5C6B.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset'
+[2017.06.23-01.44.09:380][969]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset
+[2017.06.23-01.44.10:545][ 28]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.23-01.44.10:589][ 28]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.23-01.44.10:589][ 28]PIE: New page: PIE session: NewMap (Jun 22, 2017, 11:44:10 AM)
+[2017.06.23-01.44.10:589][ 28]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.23-01.44.10:592][ 28]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002612s)
+[2017.06.23-01.44.10:592][ 28]LogAIModule: Creating AISystem for world NewMap
+[2017.06.23-01.44.10:592][ 28]LogPlayLevel: PIE: World Init took: (0.000866s)
+[2017.06.23-01.44.10:593][ 28]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003702s)
+[2017.06.23-01.44.10:667][ 28]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.23-01.44.10:671][ 28]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-18.44.10
+[2017.06.23-01.44.10:671][ 28]LogWorld: Bringing up level for play took: 0.001408
+[2017.06.23-01.44.10:674][ 28]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.444
+[2017.06.23-01.44.14:905][361]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP
+	TestHouse_BP_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.TestHouse_BP
+	Function /Game/Blueprints/TestHouse_BP.TestHouse_BP_C:ExecuteUbergraph_TestHouse_BP:0164
+[2017.06.23-01.44.14:905][361]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set PlayerEntered in graph: EventGraph in object: TestHouse_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP
+[2017.06.23-01.44.14:905][361]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set WallRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP
+[2017.06.23-01.44.14:905][361]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set WallRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None attempting to assign variable on an object
+[2017.06.23-01.44.14:905][361]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set RoofRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP
+[2017.06.23-01.44.14:905][361]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set RoofRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None attempting to assign variable on an object
+[2017.06.23-01.44.14:905][361]LogScript:Warning: Accessed None trying to read property WallRef
+	HideWalls_C /Game/Blueprints/HideWalls.Default__HideWalls_C
+	Function /Game/Blueprints/HideWalls.HideWalls_C:HideWalls:0149
+[2017.06.23-01.44.14:905][361]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property WallRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property WallRef
+[2017.06.23-01.44.14:905][361]LogScript:Warning: Accessed None trying to read property RoofRef
+	HideWalls_C /Game/Blueprints/HideWalls.Default__HideWalls_C
+	Function /Game/Blueprints/HideWalls.HideWalls_C:HideWalls:0180
+[2017.06.23-01.44.14:906][361]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property RoofRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property RoofRef
+[2017.06.23-01.44.16:053][453]LogScript:Warning: Accessed None trying to read property WallRef
+	HideWalls_C /Game/Blueprints/HideWalls.Default__HideWalls_C
+	Function /Game/Blueprints/HideWalls.HideWalls_C:HideWalls:0149
+[2017.06.23-01.44.16:053][453]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property WallRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property WallRef
+[2017.06.23-01.44.16:053][453]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property RoofRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property RoofRef
+[2017.06.23-01.45.02:246][175]BlueprintLog: New page: Compile HideWalls
+[2017.06.23-01.45.02:259][175]LogBlueprint:Error: [Compiler HideWalls] Error Dependency cycle detected, preventing node  Set Owner No See  from being scheduled
+[2017.06.23-01.45.02:259][175]LogBlueprint:Error: [Compiler HideWalls] Error Dependency cycle detected, preventing node  Set Owner No See  from being scheduled
+[2017.06.23-01.45.02:259][175]LogBlueprint:Error: [Compiler HideWalls] Error Dependency cycle detected, preventing node  Branch  from being scheduled
+[2017.06.23-01.45.02:259][175]LogBlueprint:Error: [Compiler HideWalls] Error Dependency cycle detected, preventing node  Get PlayerEntered  from being scheduled
+[2017.06.23-01.45.02:259][175]LogBlueprint:Error: [Compiler HideWalls] Error Dependency cycle detected, preventing node  Cast To MyCharacter_BP  from being scheduled
+[2017.06.23-01.45.02:259][175]LogBlueprint:Error: [Compiler HideWalls] Error Dependency cycle detected, preventing node  Get Player Character  from being scheduled
+[2017.06.23-01.45.02:260][175]LogBlueprint:Error: [Compiler HideWalls] Error Dependency cycle detected, preventing node  Get RoofRef  from being scheduled
+[2017.06.23-01.45.02:260][175]LogBlueprint:Error: [Compiler HideWalls] Error Dependency cycle detected, preventing node  Get WallRef  from being scheduled
+[2017.06.23-01.45.02:695][175]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Set Owner No See  from being scheduled
+[2017.06.23-01.45.02:695][175]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Set Owner No See  from being scheduled
+[2017.06.23-01.45.02:695][175]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Branch  from being scheduled
+[2017.06.23-01.45.02:695][175]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Get PlayerEntered  from being scheduled
+[2017.06.23-01.45.02:695][175]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Cast To MyCharacter_BP  from being scheduled
+[2017.06.23-01.45.02:695][175]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Get Player Character  from being scheduled
+[2017.06.23-01.45.02:695][175]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Get RoofRef  from being scheduled
+[2017.06.23-01.45.02:695][175]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Get WallRef  from being scheduled
+[2017.06.23-01.45.02:696][175]LogBlueprint:Warning: [Compiler HideWalls] Warning [8234.15] Compile of HideWalls failed. 8 Fatal Issue(s) 0 Warning(s) [in 450 ms] (/Game/Blueprints/HideWalls.HideWalls)
+[2017.06.23-01.45.04:201][261]LogEditorTransaction: Undo Create Pin Link
+[2017.06.23-01.45.04:483][273]LogEditorTransaction: Undo Create Pin Link
+[2017.06.23-01.45.05:542][325]BlueprintLog: New page: Compile HideWalls
+[2017.06.23-01.45.37:747][960]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.23-01.45.37:794][960]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.23-01.45.37:794][960]PIE: New page: PIE session: NewMap (Jun 22, 2017, 11:45:37 AM)
+[2017.06.23-01.45.37:794][960]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.23-01.45.37:797][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002862s)
+[2017.06.23-01.45.37:799][960]LogAIModule: Creating AISystem for world NewMap
+[2017.06.23-01.45.37:799][960]LogPlayLevel: PIE: World Init took: (0.001862s)
+[2017.06.23-01.45.37:800][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.005304s)
+[2017.06.23-01.45.37:874][960]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.23-01.45.37:878][960]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-18.45.37
+[2017.06.23-01.45.37:878][960]LogWorld: Bringing up level for play took: 0.001510
+[2017.06.23-01.45.37:881][960]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.349
+[2017.06.23-01.45.42:163][289]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set PlayerEntered in graph: EventGraph in object: TestHouse_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP
+[2017.06.23-01.45.42:164][289]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set WallRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP
+[2017.06.23-01.45.42:164][289]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set WallRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None attempting to assign variable on an object
+[2017.06.23-01.45.42:164][289]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set RoofRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP
+[2017.06.23-01.45.42:165][289]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set RoofRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None attempting to assign variable on an object
+[2017.06.23-01.45.42:165][289]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property WallRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property WallRef
+[2017.06.23-01.45.42:166][289]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property RoofRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property RoofRef
+[2017.06.23-01.45.48:381][770]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property WallRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property WallRef
+[2017.06.23-01.45.48:381][770]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property RoofRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property RoofRef
+[2017.06.23-01.45.58:827][354]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.23-01.45.58:827][354]PIE: New page: SIE session: NewMap (Jun 22, 2017, 11:45:58 AM)
+[2017.06.23-01.45.58:827][354]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.23-01.45.58:830][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002746s)
+[2017.06.23-01.45.58:830][354]LogAIModule: Creating AISystem for world NewMap
+[2017.06.23-01.45.58:831][354]LogPlayLevel: PIE: World Init took: (0.001001s)
+[2017.06.23-01.45.58:831][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.004235s)
+[2017.06.23-01.45.58:916][354]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.23-01.45.58:920][354]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-18.45.58
+[2017.06.23-01.45.58:921][354]LogWorld: Bringing up level for play took: 0.002137
+[2017.06.23-01.45.58:924][354]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.695
+[2017.06.23-01.45.59:670][388]LogEditorViewport: Clicking on Actor (LMB): TestHouse_BP_C (TestHouse_BP)
+[2017.06.23-01.46.00:661][429]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.23-01.46.03:632][573]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.23-01.46.03:632][573]PIE: New page: PIE session: NewMap (Jun 22, 2017, 11:46:03 AM)
+[2017.06.23-01.46.03:632][573]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.23-01.46.03:636][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003592s)
+[2017.06.23-01.46.03:637][573]LogAIModule: Creating AISystem for world NewMap
+[2017.06.23-01.46.03:637][573]LogPlayLevel: PIE: World Init took: (0.001013s)
+[2017.06.23-01.46.03:637][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.005026s)
+[2017.06.23-01.46.03:718][573]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.23-01.46.03:722][573]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-18.46.03
+[2017.06.23-01.46.03:723][573]LogWorld: Bringing up level for play took: 0.001673
+[2017.06.23-01.46.03:728][573]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.501
+[2017.06.23-01.46.08:254][864]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set PlayerEntered in graph: EventGraph in object: TestHouse_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP
+[2017.06.23-01.46.08:255][864]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set WallRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP
+[2017.06.23-01.46.08:255][864]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set WallRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None attempting to assign variable on an object
+[2017.06.23-01.46.08:255][864]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set RoofRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP
+[2017.06.23-01.46.08:256][864]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set RoofRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None attempting to assign variable on an object
+[2017.06.23-01.46.08:256][864]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property WallRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property WallRef
+[2017.06.23-01.46.08:256][864]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property RoofRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property RoofRef
+[2017.06.23-01.46.17:652][414]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.23-01.46.17:700][414]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.23-01.46.17:701][414]PIE: New page: PIE session: NewMap (Jun 22, 2017, 11:46:17 AM)
+[2017.06.23-01.46.17:701][414]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.23-01.46.17:703][414]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002722s)
+[2017.06.23-01.46.17:704][414]LogAIModule: Creating AISystem for world NewMap
+[2017.06.23-01.46.17:704][414]LogPlayLevel: PIE: World Init took: (0.000892s)
+[2017.06.23-01.46.17:705][414]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003940s)
+[2017.06.23-01.46.17:799][414]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.23-01.46.17:806][414]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-18.46.17
+[2017.06.23-01.46.17:806][414]LogWorld: Bringing up level for play took: 0.001473
+[2017.06.23-01.46.17:808][414]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.421
+[2017.06.23-01.46.21:942][667]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set PlayerEntered in graph: EventGraph in object: TestHouse_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP
+[2017.06.23-01.46.21:942][667]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set WallRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP
+[2017.06.23-01.46.21:943][667]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set WallRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None attempting to assign variable on an object
+[2017.06.23-01.46.21:943][667]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set RoofRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP
+[2017.06.23-01.46.21:943][667]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set RoofRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None attempting to assign variable on an object
+[2017.06.23-01.46.21:943][667]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property WallRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property WallRef
+[2017.06.23-01.46.21:943][667]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property RoofRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property RoofRef
+[2017.06.23-01.46.27:453][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HideWalls" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/HideWalls.uasset" SILENT=true
+[2017.06.23-01.46.27:535][951]LogSavePackage: Save=63.24ms
+[2017.06.23-01.46.27:535][951]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/HideWalls41200A4044363023BCDCD291E29C67F2.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/HideWalls.uasset'
+[2017.06.23-01.46.27:538][951]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/HideWalls.uasset
+[2017.06.23-01.46.30:596][127]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.23-01.46.31:396][169]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.23-01.46.31:443][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.23-01.46.31:443][169]PIE: New page: PIE session: NewMap (Jun 22, 2017, 11:46:31 AM)
+[2017.06.23-01.46.31:443][169]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.23-01.46.31:448][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004761s)
+[2017.06.23-01.46.31:450][169]LogAIModule: Creating AISystem for world NewMap
+[2017.06.23-01.46.31:450][169]LogPlayLevel: PIE: World Init took: (0.001990s)
+[2017.06.23-01.46.31:450][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.007053s)
+[2017.06.23-01.46.31:536][169]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.23-01.46.31:540][169]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-18.46.31
+[2017.06.23-01.46.31:540][169]LogWorld: Bringing up level for play took: 0.001496
+[2017.06.23-01.46.31:543][169]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.687
+[2017.06.23-01.46.35:930][442]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set PlayerEntered in graph: EventGraph in object: TestHouse_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP
+[2017.06.23-01.46.35:930][442]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set WallRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP
+[2017.06.23-01.46.35:931][442]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set WallRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None attempting to assign variable on an object
+[2017.06.23-01.46.35:931][442]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set RoofRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP
+[2017.06.23-01.46.35:931][442]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set RoofRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None attempting to assign variable on an object
+[2017.06.23-01.46.35:931][442]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property WallRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property WallRef
+[2017.06.23-01.46.35:931][442]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property RoofRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property RoofRef
+[2017.06.23-01.46.39:440][673]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property WallRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property WallRef
+[2017.06.23-01.46.39:441][673]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property RoofRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property RoofRef
+[2017.06.23-01.47.00:485][925]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.23-01.47.00:530][925]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.23-01.47.00:531][925]PIE: New page: PIE session: NewMap (Jun 22, 2017, 11:47:00 AM)
+[2017.06.23-01.47.00:531][925]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.23-01.47.00:533][925]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002658s)
+[2017.06.23-01.47.00:534][925]LogAIModule: Creating AISystem for world NewMap
+[2017.06.23-01.47.00:534][925]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2017.06.23-01.47.00:534][925]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003777s)
+[2017.06.23-01.47.00:618][925]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.23-01.47.00:622][925]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-18.47.00
+[2017.06.23-01.47.00:622][925]LogWorld: Bringing up level for play took: 0.001523
+[2017.06.23-01.47.00:625][925]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.395
+[2017.06.23-01.47.05:162][244]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set PlayerEntered in graph: EventGraph in object: TestHouse_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP
+[2017.06.23-01.47.05:162][244]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set WallRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP
+[2017.06.23-01.47.05:162][244]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set WallRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None attempting to assign variable on an object
+[2017.06.23-01.47.05:162][244]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set RoofRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None trying to read property K2Node_DynamicCast_AsMy_Character_BP
+[2017.06.23-01.47.05:162][244]PIE:Error: Error Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_TestHouse_BP' from node: Set RoofRef in graph: EventGraph in object: TestHouse_BP with description: Accessed None attempting to assign variable on an object
+[2017.06.23-01.47.05:162][244]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property WallRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property WallRef
+[2017.06.23-01.47.05:162][244]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property RoofRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property RoofRef
+[2017.06.23-01.47.05:760][286]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property WallRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property WallRef
+[2017.06.23-01.47.05:760][286]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property RoofRef from function: 'HideWalls' from node: Set Owner No See in graph: HideWalls in object: HideWalls with description: Accessed None trying to read property RoofRef
+[2017.06.23-01.47.57:794][962]BlueprintLog: New page: Compile TestHouse_BP
+[2017.06.23-01.47.58:523][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TestHouse_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset" SILENT=true
+[2017.06.23-01.47.58:659][981]LogSavePackage: Save=106.35ms
+[2017.06.23-01.47.58:659][981]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/TestHouse_BP272CDCD44ADE774BB2C08EB71259100A.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset'
+[2017.06.23-01.47.58:662][981]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset
+[2017.06.23-01.48.01:195][ 96]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.23-01.48.01:238][ 96]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.23-01.48.01:238][ 96]PIE: New page: PIE session: NewMap (Jun 22, 2017, 11:48:01 AM)
+[2017.06.23-01.48.01:238][ 96]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.23-01.48.01:244][ 96]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005923s)
+[2017.06.23-01.48.01:245][ 96]LogAIModule: Creating AISystem for world NewMap
+[2017.06.23-01.48.01:245][ 96]LogPlayLevel: PIE: World Init took: (0.001002s)
+[2017.06.23-01.48.01:245][ 96]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.007236s)
+[2017.06.23-01.48.01:326][ 96]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.23-01.48.01:330][ 96]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-18.48.01
+[2017.06.23-01.48.01:330][ 96]LogWorld: Bringing up level for play took: 0.001408
+[2017.06.23-01.48.01:333][ 96]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.897
+[2017.06.23-01.49.06:046][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/NewMap" FILE="../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Maps/NewMap_Auto7.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.06.23-01.49.06:135][273]LogSavePackage: Save=65.76ms
+[2017.06.23-01.49.06:135][273]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/NewMap_Auto714A62C0347EC6172CE32639D0FA6CA41.tmp' to '../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Maps/NewMap_Auto7.umap'
+[2017.06.23-01.49.06:137][273]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Maps/NewMap_Auto7.umap
+[2017.06.23-01.49.06:139][273]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.133
+[2017.06.23-01.49.06:139][273]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.133
+[2017.06.23-01.49.06:141][273]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/TestHouse_BP] ([1] browsable assets)...
+[2017.06.23-01.49.06:141][273]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/TestHouse_BP]
+[2017.06.23-01.49.06:141][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TestHouse_BP" FILE="../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/TestHouse_BP_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2017.06.23-01.49.06:251][273]LogSavePackage: Save=92.58ms
+[2017.06.23-01.49.06:251][273]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/TestHouse_BP_Auto74E87FCB242D9EF51C1092989A1F98915.tmp' to '../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/TestHouse_BP_Auto7.uasset'
+[2017.06.23-01.49.06:253][273]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/TestHouse_BP_Auto7.uasset
+[2017.06.23-01.49.06:253][273]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/HideWalls] ([1] browsable assets)...
+[2017.06.23-01.49.06:253][273]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/HideWalls]
+[2017.06.23-01.49.06:253][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HideWalls" FILE="../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/HideWalls_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2017.06.23-01.49.06:310][273]LogSavePackage: Save=33.86ms
+[2017.06.23-01.49.06:310][273]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/HideWalls_Auto7E7FF29364277BB58C5D184A37C549907.tmp' to '../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/HideWalls_Auto7.uasset'
+[2017.06.23-01.49.06:313][273]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/HideWalls_Auto7.uasset
+[2017.06.23-01.49.06:313][273]LogFileHelpers: Auto-saving content packages took 0.173
+[2017.06.23-01.49.10:316][446]LogEditorViewport: Clicking on Actor (LMB): TestHouse_BP_C (TestHouse_BP)
+[2017.06.23-01.49.10:886][473]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.23-01.49.10:936][473]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.23-01.49.10:936][473]PIE: New page: PIE session: NewMap (Jun 22, 2017, 11:49:10 AM)
+[2017.06.23-01.49.10:937][473]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.23-01.49.10:940][473]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003032s)
+[2017.06.23-01.49.10:941][473]LogAIModule: Creating AISystem for world NewMap
+[2017.06.23-01.49.10:941][473]LogPlayLevel: PIE: World Init took: (0.000967s)
+[2017.06.23-01.49.10:941][473]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.004304s)
+[2017.06.23-01.49.11:029][473]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.23-01.49.11:036][473]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-18.49.11
+[2017.06.23-01.49.11:036][473]LogWorld: Bringing up level for play took: 0.001763
+[2017.06.23-01.49.11:039][473]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.809
+[2017.06.23-01.49.19:023][916]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.23-01.49.21:980][107]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2017.06.23-01.49.24:094][107]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HideWalls" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/HideWalls.uasset" SILENT=true
+[2017.06.23-01.49.24:165][107]LogSavePackage: Save=46.73ms
+[2017.06.23-01.49.24:165][107]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/HideWallsB0E7238F4C27E48A6D3F648BF27C7DB2.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/HideWalls.uasset'
+[2017.06.23-01.49.24:172][107]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/HideWalls.uasset
+[2017.06.23-01.49.24:175][107]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TestHouse_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset" SILENT=true
+[2017.06.23-01.49.24:284][107]LogSavePackage: Save=91.06ms
+[2017.06.23-01.49.24:284][107]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/TestHouse_BP749EAF774ECA6D3151D8A4B9A760BA39.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset'
+[2017.06.23-01.49.24:291][107]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse_BP.uasset
+[2017.06.23-01.49.27:351][107]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.06.23-01.49.27:485][107]SourceControl:Error: Error Aborting commit due to empty commit message.
+[2017.06.23-01.49.27:494][107]SourceControl: Info Submitted revision.
