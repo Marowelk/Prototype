@@ -2470,3 +2470,42 @@ LogInit: Object subsystem initialized
 [2017.06.23-04.06.45:087][239]LogSourceControl: FGitCheckInWorker: commit successful
 [2017.06.23-04.06.45:198][239]SourceControl:Error: Error Aborting commit due to empty commit message.
 [2017.06.23-04.06.45:206][239]SourceControl: Info Submitted revision.
+[2017.06.23-04.13.12:633][ 75]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.23-04.13.13:556][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.23-04.13.13:793][ 97]LogSavePackage: Save=188.02ms
+[2017.06.23-04.13.13:793][ 97]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BPEDC956ED44064C2F9F5631A9C81F0046.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.23-04.13.13:796][ 97]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.23-04.13.30:511][423]BlueprintLog: New page: Compile HideWalls_BP
+[2017.06.23-04.13.31:134][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HideWalls_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/HideWalls_BP.uasset" SILENT=true
+[2017.06.23-04.13.31:192][454]LogSavePackage: Save=29.70ms
+[2017.06.23-04.13.31:192][454]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/HideWalls_BPBFA88CE84472159619526D869E9F60D3.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/HideWalls_BP.uasset'
+[2017.06.23-04.13.31:195][454]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/HideWalls_BP.uasset
+[2017.06.23-04.15.20:589][992]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.23-04.15.21:701][992]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.06.23-04.15.21:701][992]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnComponentBeginOverlap_Event_0' or package '/Engine/Transient'.
+[2017.06.23-04.15.21:701][992]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_HouseFade' or package '/Engine/Transient'.
+[2017.06.23-04.15.21:701][992]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BlueprintComponentNodeSpawner_151' or package '/Engine/Transient'.
+[2017.06.23-04.15.21:701][992]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'OnComponentBeginOverlap_Event_0' or package '/Game/Blueprints/HouseFade'.
+[2017.06.23-04.15.21:701][992]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_HouseFade_C_1' or package '/Engine/Transient'.
+[2017.06.23-04.15.21:701][992]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_HouseFade_C_556' or package '/Engine/Transient'.
+[2017.06.23-04.15.21:701][992]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_HouseFade_C_0' or package '/Engine/Transient'.
+[2017.06.23-04.15.21:701][992]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_HouseFade_C_555' or package '/Engine/Transient'.
+[2017.06.23-04.15.22:405][992]SourceControl: Info rm 'Prototype/Content/Blueprints/HouseFade.uasset'
+[2017.06.23-04.15.23:667][118]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.23-04.15.23:699][118]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.23-04.15.23:699][118]PIE: New page: PIE session: NewMap (Jun 22, 2017, 2:15:23 PM)
+[2017.06.23-04.15.23:699][118]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.23-04.15.23:703][118]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003895s)
+[2017.06.23-04.15.23:704][118]LogAIModule: Creating AISystem for world NewMap
+[2017.06.23-04.15.23:704][118]LogPlayLevel: PIE: World Init took: (0.000996s)
+[2017.06.23-04.15.23:705][118]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.005185s)
+[2017.06.23-04.15.23:760][118]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.23-04.15.23:770][118]LogInit: FAudioDevice initialized.
+[2017.06.23-04.15.23:808][118]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.23-04.15.23:811][118]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.22-21.15.23
+[2017.06.23-04.15.23:812][118]LogWorld: Bringing up level for play took: 0.001495
+[2017.06.23-04.15.23:814][118]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.415
+[2017.06.23-04.18.35:026][555]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2017.06.23-04.18.40:361][555]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.06.23-04.18.40:470][555]SourceControl:Error: Error Aborting commit due to empty commit message.
+[2017.06.23-04.18.40:478][555]SourceControl: Info Submitted revision.
