@@ -5531,3 +5531,364 @@ LogInit: Object subsystem initialized
 [2017.06.23-10.40.32:492][174]LogSourceControl: FGitCheckInWorker: commit successful
 [2017.06.23-10.40.32:713][174]SourceControl:Error: Error Aborting commit due to empty commit message.
 [2017.06.23-10.40.32:719][174]SourceControl: Info Submitted revision.
+[2017.06.23-10.42.40:952][556]BlueprintLog: New page: Compile PauseMenu_BP
+[2017.06.23-10.42.41:213][556]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.23-10.42.41:213][556]LogBlueprintUserMessages: [MyCharacter_BP_C_0] HP: 417286004
+[2017.06.23-10.42.41:213][556]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Run: 22420776936199140342234330693632.0
+[2017.06.23-10.42.41:213][556]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Walk: 4484155508132410029909783609344.0
+[2017.06.23-10.42.41:215][556]LogBlueprintUserMessages: [MyCharacter_BP_C_17] EXP Needed: 200
+[2017.06.23-10.42.41:215][556]LogBlueprintUserMessages: [MyCharacter_BP_C_17] HP: 1381929140
+[2017.06.23-10.42.41:215][556]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Run: 573971911690040491708912762880.0
+[2017.06.23-10.42.41:215][556]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Walk: 114794382338008098341782552576.0
+[2017.06.23-10.42.41:221][556]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.23-10.42.41:221][556]LogBlueprintUserMessages: [MyCharacter_BP_C_0] HP: 2086430020
+[2017.06.23-10.42.41:221][556]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Run: 56051942340497850855585826734080.0
+[2017.06.23-10.42.41:221][556]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Walk: 11210388468099570171117165346816.0
+[2017.06.23-10.42.41:223][556]LogBlueprintUserMessages: [MyCharacter_BP_C_17] EXP Needed: 200
+[2017.06.23-10.42.41:223][556]LogBlueprintUserMessages: [MyCharacter_BP_C_17] HP: -1680288892
+[2017.06.23-10.42.41:223][556]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Run: 1434929817004033092229443616768.0
+[2017.06.23-10.42.41:223][556]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Walk: 286985955845020245854456381440.0
+[2017.06.23-10.42.41:286][556]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.06.23-10.44.06:932][885]BlueprintLog: New page: Compile PauseMenu_BP
+[2017.06.23-10.44.07:226][885]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.23-10.44.07:226][885]LogBlueprintUserMessages: [MyCharacter_BP_C_0] HP: 1842215508
+[2017.06.23-10.44.07:226][885]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Run: 140129860686947905597481265659904.0
+[2017.06.23-10.44.07:226][885]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Walk: 28025971170248925427792913367040.0
+[2017.06.23-10.44.07:228][885]LogBlueprintUserMessages: [MyCharacter_BP_C_17] EXP Needed: 200
+[2017.06.23-10.44.07:228][885]LogBlueprintUserMessages: [MyCharacter_BP_C_17] HP: 188490132
+[2017.06.23-10.44.07:228][885]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Run: 3587324466952219004659285622784.0
+[2017.06.23-10.44.07:228][885]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Walk: 717464908502016546114721808384.0
+[2017.06.23-10.44.07:238][885]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.23-10.44.07:238][885]LogBlueprintUserMessages: [MyCharacter_BP_C_0] HP: 621142948
+[2017.06.23-10.44.07:238][885]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Run: 350324651717369763993703164149760.0
+[2017.06.23-10.44.07:238][885]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Walk: 70064930343473952798740632829952.0
+[2017.06.23-10.44.07:239][885]LogBlueprintUserMessages: [MyCharacter_BP_C_17] EXP Needed: 200
+[2017.06.23-10.44.07:239][885]LogBlueprintUserMessages: [MyCharacter_BP_C_17] HP: 942450660
+[2017.06.23-10.44.07:239][885]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Run: 8968311016264820059819567218688.0
+[2017.06.23-10.44.07:239][885]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Walk: 1793662233476109502329642811392.0
+[2017.06.23-10.44.07:307][885]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.06.23-10.44.53:774][225]BlueprintLog: New page: Compile PauseMenu_BP
+[2017.06.23-10.44.54:088][225]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.23-10.44.54:088][225]LogBlueprintUserMessages: [MyCharacter_BP_C_0] HP: -1189252556
+[2017.06.23-10.44.54:088][225]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Run: 875811629293424409984257910374400.0
+[2017.06.23-10.44.54:088][225]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Walk: 175162325858684881996851582074880.0
+[2017.06.23-10.44.54:090][225]LogBlueprintUserMessages: [MyCharacter_BP_C_17] EXP Needed: 200
+[2017.06.23-10.44.54:090][225]LogBlueprintUserMessages: [MyCharacter_BP_C_17] HP: 417286004
+[2017.06.23-10.44.54:090][225]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Run: 22420776936199140342234330693632.0
+[2017.06.23-10.44.54:090][225]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Walk: 4484155508132410029909783609344.0
+[2017.06.23-10.44.54:099][225]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.23-10.44.54:099][225]LogBlueprintUserMessages: [MyCharacter_BP_C_0] HP: -1651295484
+[2017.06.23-10.44.54:099][225]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Run: 2189529073233561024960644775936000.0
+[2017.06.23-10.44.54:099][225]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Walk: 437905814646712204992128955187200.0
+[2017.06.23-10.44.54:101][225]LogBlueprintUserMessages: [MyCharacter_BP_C_17] EXP Needed: 200
+[2017.06.23-10.44.54:101][225]LogBlueprintUserMessages: [MyCharacter_BP_C_17] HP: 2086430020
+[2017.06.23-10.44.54:101][225]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Run: 56051942340497850855585826734080.0
+[2017.06.23-10.44.54:101][225]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Walk: 11210388468099570171117165346816.0
+[2017.06.23-10.44.54:165][225]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.06.23-10.44.54:584][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/PauseMenu_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PauseMenu_BP.uasset" SILENT=true
+[2017.06.23-10.44.54:746][240]LogSavePackage: Save=129.72ms
+[2017.06.23-10.44.54:746][240]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/PauseMenu_BP268DD3F24FC7DAC38434AEB4AF8D1834.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PauseMenu_BP.uasset'
+[2017.06.23-10.44.54:749][240]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PauseMenu_BP.uasset
+[2017.06.23-10.44.56:177][301]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.23-10.44.56:229][301]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.23-10.44.56:229][301]PIE: New page: PIE session: NewMap (Jun 22, 2017, 8:44:56 PM)
+[2017.06.23-10.44.56:230][301]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.23-10.44.56:233][301]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002948s)
+[2017.06.23-10.44.56:233][301]LogAIModule: Creating AISystem for world NewMap
+[2017.06.23-10.44.56:233][301]LogPlayLevel: PIE: World Init took: (0.000937s)
+[2017.06.23-10.44.56:234][301]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.004142s)
+[2017.06.23-10.44.56:277][301]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.23-10.44.56:288][301]LogInit: FAudioDevice initialized.
+[2017.06.23-10.44.56:322][301]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.23-10.44.56:326][301]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.23-03.44.56
+[2017.06.23-10.44.56:326][301]LogWorld: Bringing up level for play took: 0.002043
+[2017.06.23-10.44.56:328][301]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.23-10.44.56:328][301]LogBlueprintUserMessages: [MyCharacter_BP_C_0] HP: 500
+[2017.06.23-10.44.56:328][301]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Run: 500.0
+[2017.06.23-10.44.56:328][301]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Walk: 100.0
+[2017.06.23-10.44.56:329][301]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.1
+[2017.06.23-10.45.11:841][100]BlueprintLog: New page: Compile PauseMenu_BP
+[2017.06.23-10.45.12:056][100]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.23-10.45.12:056][100]LogBlueprintUserMessages: [MyCharacter_BP_C_0] HP: 333457172
+[2017.06.23-10.45.12:056][100]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Run: 5473822992568912383746680664621056.0
+[2017.06.23-10.45.12:056][100]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Walk: 1094764536616780512480322387968000.0
+[2017.06.23-10.45.12:058][100]LogBlueprintUserMessages: [MyCharacter_BP_C_17] EXP Needed: 200
+[2017.06.23-10.45.12:058][100]LogBlueprintUserMessages: [MyCharacter_BP_C_17] HP: 1842215508
+[2017.06.23-10.45.12:058][100]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Run: 140129860686947905597481265659904.0
+[2017.06.23-10.45.12:058][100]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Walk: 28025971170248925427792913367040.0
+[2017.06.23-10.45.12:154][100]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.06.23-10.45.12:667][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/PauseMenu_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PauseMenu_BP.uasset" SILENT=true
+[2017.06.23-10.45.12:830][115]LogSavePackage: Save=120.16ms
+[2017.06.23-10.45.12:830][115]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/PauseMenu_BPD914949A4AFABE96EE36BCAD096086D4.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PauseMenu_BP.uasset'
+[2017.06.23-10.45.12:832][115]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PauseMenu_BP.uasset
+[2017.06.23-10.45.14:114][154]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.23-10.45.14:167][154]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.23-10.45.14:168][154]PIE: New page: PIE session: NewMap (Jun 22, 2017, 8:45:14 PM)
+[2017.06.23-10.45.14:168][154]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.23-10.45.14:171][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003000s)
+[2017.06.23-10.45.14:171][154]LogAIModule: Creating AISystem for world NewMap
+[2017.06.23-10.45.14:172][154]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2017.06.23-10.45.14:172][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.004136s)
+[2017.06.23-10.45.14:214][154]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.23-10.45.14:226][154]LogInit: FAudioDevice initialized.
+[2017.06.23-10.45.14:264][154]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.23-10.45.14:268][154]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.23-03.45.14
+[2017.06.23-10.45.14:269][154]LogWorld: Bringing up level for play took: 0.002047
+[2017.06.23-10.45.14:271][154]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.23-10.45.14:271][154]LogBlueprintUserMessages: [MyCharacter_BP_C_0] HP: 500
+[2017.06.23-10.45.14:271][154]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Run: 500.0
+[2017.06.23-10.45.14:271][154]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Walk: 100.0
+[2017.06.23-10.45.14:272][154]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.042
+[2017.06.23-10.47.02:780][800]BlueprintLog: New page: Compile PauseMenu_BP
+[2017.06.23-10.47.03:000][800]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.23-10.47.03:000][800]LogBlueprintUserMessages: [MyCharacter_BP_C_0] HP: 1667285860
+[2017.06.23-10.47.03:000][800]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Run: 13684558100392300602056839111114752.0
+[2017.06.23-10.47.03:000][800]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Walk: 2736911496284456191873340332310528.0
+[2017.06.23-10.47.03:002][800]LogBlueprintUserMessages: [MyCharacter_BP_C_17] EXP Needed: 200
+[2017.06.23-10.47.03:002][800]LogBlueprintUserMessages: [MyCharacter_BP_C_17] HP: 621142948
+[2017.06.23-10.47.03:002][800]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Run: 350324651717369763993703164149760.0
+[2017.06.23-10.47.03:002][800]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Walk: 70064930343473952798740632829952.0
+[2017.06.23-10.47.03:098][800]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.06.23-10.47.03:453][811]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.23-10.47.03:501][811]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.23-10.47.03:501][811]PIE: New page: PIE session: NewMap (Jun 22, 2017, 8:47:03 PM)
+[2017.06.23-10.47.03:501][811]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.23-10.47.03:507][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006024s)
+[2017.06.23-10.47.03:508][811]LogAIModule: Creating AISystem for world NewMap
+[2017.06.23-10.47.03:508][811]LogPlayLevel: PIE: World Init took: (0.000922s)
+[2017.06.23-10.47.03:508][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.007180s)
+[2017.06.23-10.47.03:553][811]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.23-10.47.03:570][811]LogInit: FAudioDevice initialized.
+[2017.06.23-10.47.03:608][811]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.23-10.47.03:612][811]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.23-03.47.03
+[2017.06.23-10.47.03:612][811]LogWorld: Bringing up level for play took: 0.001895
+[2017.06.23-10.47.03:614][811]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.23-10.47.03:614][811]LogBlueprintUserMessages: [MyCharacter_BP_C_0] HP: 500
+[2017.06.23-10.47.03:614][811]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Run: 500.0
+[2017.06.23-10.47.03:614][811]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Walk: 100.0
+[2017.06.23-10.47.03:615][811]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.614
+[2017.06.23-10.47.08:328][972]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.23-10.47.08:367][972]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.23-10.47.08:368][972]PIE: New page: PIE session: NewMap (Jun 22, 2017, 8:47:08 PM)
+[2017.06.23-10.47.08:368][972]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.23-10.47.08:371][972]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002988s)
+[2017.06.23-10.47.08:372][972]LogAIModule: Creating AISystem for world NewMap
+[2017.06.23-10.47.08:372][972]LogPlayLevel: PIE: World Init took: (0.001464s)
+[2017.06.23-10.47.08:372][972]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.004705s)
+[2017.06.23-10.47.08:426][972]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.23-10.47.08:435][972]LogInit: FAudioDevice initialized.
+[2017.06.23-10.47.08:471][972]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.23-10.47.08:476][972]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.23-03.47.08
+[2017.06.23-10.47.08:476][972]LogWorld: Bringing up level for play took: 0.001996
+[2017.06.23-10.47.08:478][972]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.23-10.47.08:478][972]LogBlueprintUserMessages: [MyCharacter_BP_C_0] HP: 500
+[2017.06.23-10.47.08:478][972]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Run: 500.0
+[2017.06.23-10.47.08:478][972]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Walk: 100.0
+[2017.06.23-10.47.08:479][972]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.249
+[2017.06.23-10.47.26:682][701]BlueprintLog: New page: Compile PauseMenu_BP
+[2017.06.23-10.47.26:928][701]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.23-10.47.26:928][701]LogBlueprintUserMessages: [MyCharacter_BP_C_0] HP: -253505292
+[2017.06.23-10.47.26:928][701]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Run: 34211394013040712219761822878662656.0
+[2017.06.23-10.47.26:928][701]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Walk: 6842279050196150301028419555557376.0
+[2017.06.23-10.47.26:930][701]LogBlueprintUserMessages: [MyCharacter_BP_C_17] EXP Needed: 200
+[2017.06.23-10.47.26:930][701]LogBlueprintUserMessages: [MyCharacter_BP_C_17] HP: -1189252556
+[2017.06.23-10.47.26:930][701]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Run: 875811629293424409984257910374400.0
+[2017.06.23-10.47.26:930][701]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Walk: 175162325858684881996851582074880.0
+[2017.06.23-10.47.26:994][701]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.06.23-10.47.27:379][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/PauseMenu_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PauseMenu_BP.uasset" SILENT=true
+[2017.06.23-10.47.27:604][710]LogSavePackage: Save=176.64ms
+[2017.06.23-10.47.27:605][710]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/PauseMenu_BP0B60136D429896727F5FFA945BAF2BDD.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PauseMenu_BP.uasset'
+[2017.06.23-10.47.27:608][710]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PauseMenu_BP.uasset
+[2017.06.23-10.48.27:841][287]BlueprintLog: New page: Compile PauseMenu_BP
+[2017.06.23-10.48.28:041][287]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.23-10.48.28:041][287]LogBlueprintUserMessages: [MyCharacter_BP_C_0] HP: -1267526460
+[2017.06.23-10.48.28:041][287]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Run: 85528485032601780549404557196656640.0
+[2017.06.23-10.48.28:041][287]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Walk: 17105697006520356109880911439331328.0
+[2017.06.23-10.48.28:043][287]LogBlueprintUserMessages: [MyCharacter_BP_C_17] EXP Needed: 200
+[2017.06.23-10.48.28:043][287]LogBlueprintUserMessages: [MyCharacter_BP_C_17] HP: -1651295484
+[2017.06.23-10.48.28:043][287]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Run: 2189529073233561024960644775936000.0
+[2017.06.23-10.48.28:043][287]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Walk: 437905814646712204992128955187200.0
+[2017.06.23-10.48.28:098][287]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.06.23-10.49.15:876][156]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/PauseMenu_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PauseMenu_BP.uasset" SILENT=true
+[2017.06.23-10.49.16:035][156]LogSavePackage: Save=123.82ms
+[2017.06.23-10.49.16:035][156]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/PauseMenu_BP1701D69E4954645611814BBA65582A1F.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PauseMenu_BP.uasset'
+[2017.06.23-10.49.16:038][156]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PauseMenu_BP.uasset
+[2017.06.23-10.49.44:560][473]BlueprintLog: New page: Compile PauseMenu_BP
+[2017.06.23-10.49.44:806][473]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.23-10.49.44:806][473]LogBlueprintUserMessages: [MyCharacter_BP_C_0] HP: -2042665004
+[2017.06.23-10.49.44:806][473]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Run: 213821202677984137090469193798647808.0
+[2017.06.23-10.49.44:806][473]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Walk: 42764242516300890274702278598328320.0
+[2017.06.23-10.49.44:809][473]LogBlueprintUserMessages: [MyCharacter_BP_C_17] EXP Needed: 200
+[2017.06.23-10.49.44:809][473]LogBlueprintUserMessages: [MyCharacter_BP_C_17] HP: 333457172
+[2017.06.23-10.49.44:809][473]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Run: 5473822992568912383746680664621056.0
+[2017.06.23-10.49.44:809][473]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Walk: 1094764536616780512480322387968000.0
+[2017.06.23-10.49.44:867][473]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.06.23-10.50.18:804][693]LogEditorTransaction: Undo Edit Text
+[2017.06.23-10.50.19:268][708]LogEditorTransaction: Undo Edit Text
+[2017.06.23-10.50.19:650][722]LogEditorTransaction: Undo Remove Widget
+[2017.06.23-10.50.44:837][838]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/NewMap' took 0.033
+[2017.06.23-10.50.44:839][838]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/PauseMenu_BP] ([1] browsable assets)...
+[2017.06.23-10.50.44:839][838]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/PauseMenu_BP]
+[2017.06.23-10.50.45:002][838]LogSavePackage: Save=127.36ms
+[2017.06.23-10.50.45:002][838]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/PauseMenu_BP_Auto7D3B1EC2649E92C1EA9FA729CEA6044F4.tmp' to '../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/UI/PauseMenu_BP_Auto7.uasset'
+[2017.06.23-10.50.45:004][838]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Saved/Autosaves/Game/Blueprints/UI/PauseMenu_BP_Auto7.uasset
+[2017.06.23-10.50.45:004][838]LogFileHelpers: Auto-saving content packages took 0.166
+[2017.06.23-10.51.25:497][ 13]BlueprintLog: New page: Compile PauseMenu_BP
+[2017.06.23-10.51.25:768][ 13]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.23-10.51.25:769][ 13]LogBlueprintUserMessages: [MyCharacter_BP_C_0] HP: -1623390428
+[2017.06.23-10.51.25:769][ 13]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Run: 534553006694960342726172984496619520.0
+[2017.06.23-10.51.25:769][ 13]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Walk: 106910601338992068545234596899323904.0
+[2017.06.23-10.51.25:773][ 13]LogBlueprintUserMessages: [MyCharacter_BP_C_17] EXP Needed: 200
+[2017.06.23-10.51.25:773][ 13]LogBlueprintUserMessages: [MyCharacter_BP_C_17] HP: 1667285860
+[2017.06.23-10.51.25:773][ 13]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Run: 13684558100392300602056839111114752.0
+[2017.06.23-10.51.25:773][ 13]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Walk: 2736911496284456191873340332310528.0
+[2017.06.23-10.51.25:785][ 13]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.23-10.51.25:785][ 13]LogBlueprintUserMessages: [MyCharacter_BP_C_0] HP: 472982452
+[2017.06.23-10.51.25:785][ 13]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Run: 1336382457316278971117179266083586048.0
+[2017.06.23-10.51.25:785][ 13]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Walk: 267276503347480171363086492248309760.0
+[2017.06.23-10.51.25:790][ 13]LogBlueprintUserMessages: [MyCharacter_BP_C_17] EXP Needed: 200
+[2017.06.23-10.51.25:790][ 13]LogBlueprintUserMessages: [MyCharacter_BP_C_17] HP: -253505292
+[2017.06.23-10.51.25:790][ 13]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Run: 34211394013040712219761822878662656.0
+[2017.06.23-10.51.25:790][ 13]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Walk: 6842279050196150301028419555557376.0
+[2017.06.23-10.51.25:867][ 13]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.06.23-10.51.26:123][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/PauseMenu_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PauseMenu_BP.uasset" SILENT=true
+[2017.06.23-10.51.26:286][ 19]LogSavePackage: Save=132.92ms
+[2017.06.23-10.51.26:286][ 19]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/PauseMenu_BP7E0ACCDC411C9712B35666A03C137A25.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PauseMenu_BP.uasset'
+[2017.06.23-10.51.26:289][ 19]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PauseMenu_BP.uasset
+[2017.06.23-10.51.27:647][ 77]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.23-10.51.27:687][ 77]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.23-10.51.27:687][ 77]PIE: New page: PIE session: NewMap (Jun 22, 2017, 8:51:27 PM)
+[2017.06.23-10.51.27:687][ 77]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.23-10.51.27:690][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002972s)
+[2017.06.23-10.51.27:691][ 77]LogAIModule: Creating AISystem for world NewMap
+[2017.06.23-10.51.27:691][ 77]LogPlayLevel: PIE: World Init took: (0.000895s)
+[2017.06.23-10.51.27:691][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.004095s)
+[2017.06.23-10.51.27:734][ 77]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.23-10.51.27:744][ 77]LogInit: FAudioDevice initialized.
+[2017.06.23-10.51.27:782][ 77]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.23-10.51.27:786][ 77]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.23-03.51.27
+[2017.06.23-10.51.27:786][ 77]LogWorld: Bringing up level for play took: 0.001830
+[2017.06.23-10.51.27:788][ 77]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.23-10.51.27:788][ 77]LogBlueprintUserMessages: [MyCharacter_BP_C_0] HP: 500
+[2017.06.23-10.51.27:788][ 77]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Run: 500.0
+[2017.06.23-10.51.27:788][ 77]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Walk: 100.0
+[2017.06.23-10.51.27:789][ 77]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.441
+[2017.06.23-10.53.09:219][ 82]BlueprintLog: New page: Compile PauseMenu_BP
+[2017.06.23-10.53.09:439][ 82]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.23-10.53.09:439][ 82]LogBlueprintUserMessages: [MyCharacter_BP_C_0] HP: -1930055036
+[2017.06.23-10.53.09:439][ 82]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Run: 3340956222518859942057285758752915456.0
+[2017.06.23-10.53.09:439][ 82]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Walk: 668191228658139485558589633041793024.0
+[2017.06.23-10.53.09:441][ 82]LogBlueprintUserMessages: [MyCharacter_BP_C_17] EXP Needed: 200
+[2017.06.23-10.53.09:442][ 82]LogBlueprintUserMessages: [MyCharacter_BP_C_17] HP: -1267526460
+[2017.06.23-10.53.09:442][ 82]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Run: 85528485032601780549404557196656640.0
+[2017.06.23-10.53.09:442][ 82]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Walk: 17105697006520356109880911439331328.0
+[2017.06.23-10.53.09:530][ 82]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.06.23-10.53.09:866][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/PauseMenu_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PauseMenu_BP.uasset" SILENT=true
+[2017.06.23-10.53.10:057][ 89]LogSavePackage: Save=157.14ms
+[2017.06.23-10.53.10:057][ 89]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/PauseMenu_BP5EFE8F30486E4D1B5B27DEA907CFF8A0.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PauseMenu_BP.uasset'
+[2017.06.23-10.53.10:060][ 89]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PauseMenu_BP.uasset
+[2017.06.23-10.53.11:370][124]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.23-10.53.11:425][124]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.23-10.53.11:426][124]PIE: New page: PIE session: NewMap (Jun 22, 2017, 8:53:11 PM)
+[2017.06.23-10.53.11:426][124]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.23-10.53.11:429][124]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002970s)
+[2017.06.23-10.53.11:430][124]LogAIModule: Creating AISystem for world NewMap
+[2017.06.23-10.53.11:430][124]LogPlayLevel: PIE: World Init took: (0.000906s)
+[2017.06.23-10.53.11:430][124]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.004110s)
+[2017.06.23-10.53.11:481][124]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.23-10.53.11:495][124]LogInit: FAudioDevice initialized.
+[2017.06.23-10.53.11:531][124]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.23-10.53.11:535][124]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.23-03.53.11
+[2017.06.23-10.53.11:535][124]LogWorld: Bringing up level for play took: 0.002049
+[2017.06.23-10.53.11:537][124]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.23-10.53.11:537][124]LogBlueprintUserMessages: [MyCharacter_BP_C_0] HP: 500
+[2017.06.23-10.53.11:537][124]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Run: 500.0
+[2017.06.23-10.53.11:537][124]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Walk: 100.0
+[2017.06.23-10.53.11:538][124]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.691
+[2017.06.23-10.53.15:989][306]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.23-10.53.16:037][306]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.23-10.53.16:038][306]PIE: New page: PIE session: NewMap (Jun 22, 2017, 8:53:16 PM)
+[2017.06.23-10.53.16:038][306]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.23-10.53.16:041][306]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003085s)
+[2017.06.23-10.53.16:042][306]LogAIModule: Creating AISystem for world NewMap
+[2017.06.23-10.53.16:042][306]LogPlayLevel: PIE: World Init took: (0.000926s)
+[2017.06.23-10.53.16:042][306]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.004250s)
+[2017.06.23-10.53.16:090][306]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.23-10.53.16:103][306]LogInit: FAudioDevice initialized.
+[2017.06.23-10.53.16:139][306]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.23-10.53.16:143][306]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.23-03.53.16
+[2017.06.23-10.53.16:143][306]LogWorld: Bringing up level for play took: 0.002042
+[2017.06.23-10.53.16:145][306]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.23-10.53.16:146][306]LogBlueprintUserMessages: [MyCharacter_BP_C_0] HP: 500
+[2017.06.23-10.53.16:146][306]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Run: 500.0
+[2017.06.23-10.53.16:146][306]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Walk: 100.0
+[2017.06.23-10.53.16:147][306]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.083
+[2017.06.23-10.53.34:107][958]BlueprintLog: New page: Compile PauseMenu_BP
+[2017.06.23-10.53.34:325][958]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.23-10.53.34:325][958]LogBlueprintUserMessages: [MyCharacter_BP_C_0] HP: -1060340588
+[2017.06.23-10.53.34:325][958]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Run: 8352390714753474883671889583970189312.0
+[2017.06.23-10.53.34:326][958]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Walk: 1670478111259429971028642879376457728.0
+[2017.06.23-10.53.34:330][958]LogBlueprintUserMessages: [MyCharacter_BP_C_17] EXP Needed: 200
+[2017.06.23-10.53.34:330][958]LogBlueprintUserMessages: [MyCharacter_BP_C_17] HP: -2042665004
+[2017.06.23-10.53.34:330][958]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Run: 213821202677984137090469193798647808.0
+[2017.06.23-10.53.34:330][958]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Walk: 42764242516300890274702278598328320.0
+[2017.06.23-10.53.34:422][958]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.06.23-10.53.34:710][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/PauseMenu_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PauseMenu_BP.uasset" SILENT=true
+[2017.06.23-10.53.34:890][963]LogSavePackage: Save=151.96ms
+[2017.06.23-10.53.34:890][963]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/PauseMenu_BP393E415F422DA9869398ED90CAC93ED9.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PauseMenu_BP.uasset'
+[2017.06.23-10.53.34:893][963]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PauseMenu_BP.uasset
+[2017.06.23-10.54.28:376][955]BlueprintLog: New page: Compile PauseMenu_BP
+[2017.06.23-10.54.28:584][955]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.23-10.54.28:584][955]LogBlueprintUserMessages: [MyCharacter_BP_C_0] HP: -1006735644
+[2017.06.23-10.54.28:584][955]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Run: 20880976469971037152122373585749671936.0
+[2017.06.23-10.54.28:584][955]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Walk: 4176195357376737441835944791985094656.0
+[2017.06.23-10.54.28:586][955]LogBlueprintUserMessages: [MyCharacter_BP_C_17] EXP Needed: 200
+[2017.06.23-10.54.28:586][955]LogBlueprintUserMessages: [MyCharacter_BP_C_17] HP: -1623390428
+[2017.06.23-10.54.28:586][955]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Run: 534553006694960342726172984496619520.0
+[2017.06.23-10.54.28:586][955]LogBlueprintUserMessages: [MyCharacter_BP_C_17] Walk: 106910601338992068545234596899323904.0
+[2017.06.23-10.54.28:639][955]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.06.23-10.54.29:452][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/PauseMenu_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PauseMenu_BP.uasset" SILENT=true
+[2017.06.23-10.54.29:609][992]LogSavePackage: Save=127.51ms
+[2017.06.23-10.54.29:609][992]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/PauseMenu_BP3BD9C70A4EC664FAFF1481A1B574E1AA.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PauseMenu_BP.uasset'
+[2017.06.23-10.54.29:612][992]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PauseMenu_BP.uasset
+[2017.06.23-10.54.31:608][ 67]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.23-10.54.32:202][114]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.23-10.54.32:240][114]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.23-10.54.32:240][114]PIE: New page: PIE session: NewMap (Jun 22, 2017, 8:54:32 PM)
+[2017.06.23-10.54.32:240][114]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.23-10.54.32:243][114]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002998s)
+[2017.06.23-10.54.32:244][114]LogAIModule: Creating AISystem for world NewMap
+[2017.06.23-10.54.32:244][114]LogPlayLevel: PIE: World Init took: (0.000956s)
+[2017.06.23-10.54.32:244][114]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.004191s)
+[2017.06.23-10.54.32:290][114]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.23-10.54.32:301][114]LogInit: FAudioDevice initialized.
+[2017.06.23-10.54.32:336][114]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.23-10.54.32:340][114]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.23-03.54.32
+[2017.06.23-10.54.32:340][114]LogWorld: Bringing up level for play took: 0.001848
+[2017.06.23-10.54.32:342][114]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.23-10.54.32:342][114]LogBlueprintUserMessages: [MyCharacter_BP_C_0] HP: 500
+[2017.06.23-10.54.32:342][114]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Run: 500.0
+[2017.06.23-10.54.32:342][114]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Walk: 100.0
+[2017.06.23-10.54.32:343][114]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.114
+[2017.06.23-10.54.44:712][492]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.23-10.54.44:748][492]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.23-10.54.44:748][492]PIE: New page: PIE session: NewMap (Jun 22, 2017, 8:54:44 PM)
+[2017.06.23-10.54.44:748][492]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2017.06.23-10.54.44:751][492]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002968s)
+[2017.06.23-10.54.44:752][492]LogAIModule: Creating AISystem for world NewMap
+[2017.06.23-10.54.44:752][492]LogPlayLevel: PIE: World Init took: (0.000899s)
+[2017.06.23-10.54.44:752][492]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.004103s)
+[2017.06.23-10.54.44:794][492]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.23-10.54.44:806][492]LogInit: FAudioDevice initialized.
+[2017.06.23-10.54.44:844][492]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.23-10.54.44:849][492]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.23-03.54.44
+[2017.06.23-10.54.44:849][492]LogWorld: Bringing up level for play took: 0.002151
+[2017.06.23-10.54.44:851][492]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.23-10.54.44:851][492]LogBlueprintUserMessages: [MyCharacter_BP_C_0] HP: 500
+[2017.06.23-10.54.44:851][492]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Run: 500.0
+[2017.06.23-10.54.44:851][492]LogBlueprintUserMessages: [MyCharacter_BP_C_0] Walk: 100.0
+[2017.06.23-10.54.44:852][492]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.622
+[2017.06.23-10.54.52:640][273]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2017.06.23-10.54.55:677][273]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.06.23-10.54.55:843][273]SourceControl:Error: Error Aborting commit due to empty commit message.
+[2017.06.23-10.54.55:852][273]SourceControl: Info Submitted revision.
