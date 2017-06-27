@@ -1073,9 +1073,6 @@ Engine\Content\EditorMeshes\ColorCalibrator\T_ColorGrid.uexp
 Engine\Content\EditorResources\Bad.uasset
 Engine\Content\EditorResources\Bad.ubulk
 Engine\Content\EditorResources\Bad.uexp
-Engine\Content\EditorResources\BadBlueprintSprite.uasset
-Engine\Content\EditorResources\BadBlueprintSprite.ubulk
-Engine\Content\EditorResources\BadBlueprintSprite.uexp
 Engine\Content\EditorResources\BSPVertex.uasset
 Engine\Content\EditorResources\BSPVertex.uexp
 Engine\Content\EditorResources\EmptyActor.uasset
@@ -1752,8 +1749,6 @@ Prototype\Content\Blueprints\TestHouse3_BP.uasset
 Prototype\Content\Blueprints\TestHouse3_BP.uexp
 Prototype\Content\Blueprints\TestHouse_BP.uasset
 Prototype\Content\Blueprints\TestHouse_BP.uexp
-Prototype\Content\Blueprints\UI\CreationHUD_BP.uasset
-Prototype\Content\Blueprints\UI\CreationHUD_BP.uexp
 Prototype\Content\Blueprints\UI\MasterHUD_BP.uasset
 Prototype\Content\Blueprints\UI\MasterHUD_BP.uexp
 Prototype\Content\Blueprints\UI\NewCharacter_BP.uasset
@@ -1762,8 +1757,10 @@ Prototype\Content\Blueprints\UI\NewTitle_BP.uasset
 Prototype\Content\Blueprints\UI\NewTitle_BP.uexp
 Prototype\Content\Blueprints\UI\PauseMenu_BP.uasset
 Prototype\Content\Blueprints\UI\PauseMenu_BP.uexp
-Prototype\Content\Blueprints\UI\TitleScreen_BP.uasset
-Prototype\Content\Blueprints\UI\TitleScreen_BP.uexp
+Prototype\Content\Blueprints\UI\PlayerHP_BP.uasset
+Prototype\Content\Blueprints\UI\PlayerHP_BP.uexp
+Prototype\Content\Blueprints\UI\PlayerMenu_BP.uasset
+Prototype\Content\Blueprints\UI\PlayerMenu_BP.uexp
 Prototype\Content\ExampleContent\Mannequin\Animations\ThirdPersonIdle.uasset
 Prototype\Content\ExampleContent\Mannequin\Animations\ThirdPersonIdle.uexp
 Prototype\Content\ExampleContent\Mannequin\Animations\ThirdPersonJump_Loop.uasset

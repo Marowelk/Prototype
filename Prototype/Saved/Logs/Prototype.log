@@ -1,9 +1,9 @@
-﻿Log file open, 06/25/17 19:42:31
+﻿Log file open, 06/26/17 20:21:25
 LogInit:Display: Running engine for game: Prototype
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-827700551) SRandInit(-827700530).
+LogInit:Display: RandInit(-1868733907) SRandInit(-1868733893).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.146338
+LogStats: Stats thread started at 0.113397
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -50,181 +50,549 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.06.26-02.42.32:846][  0]LogInit: Selected Device Profile: [Windows]
-[2017.06.26-02.42.32:846][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.06.26-02.42.32:878][  0]LogInit: Computer: DESKTOP-71K0SKI
-[2017.06.26-02.42.32:878][  0]LogInit: User: nemca
-[2017.06.26-02.42.32:878][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.06.26-02.42.32:878][  0]LogInit: High frequency timer resolution =14.318180 MHz
-[2017.06.26-02.42.32:878][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2017.06.26-02.42.32:878][  0]LogMemory: Platform Memory Stats for Windows
-[2017.06.26-02.42.32:878][  0]LogMemory: Process Physical Memory: 273.62 MB used, 273.62 MB peak
-[2017.06.26-02.42.32:878][  0]LogMemory: Process Virtual Memory: 261.14 MB used, 261.14 MB peak
-[2017.06.26-02.42.32:878][  0]LogMemory: Physical Memory: 4594.89 MB used,  3576.66 MB free, 8171.55 MB total
-[2017.06.26-02.42.32:878][  0]LogMemory: Virtual Memory: 638.32 MB used,  3576.66 MB free, 134217728.00 MB total
-[2017.06.26-02.42.33:068][  0]LogInit: Using OS detected language (en-US).
-[2017.06.26-02.42.33:068][  0]LogInit: Using OS detected locale (en-US).
-[2017.06.26-02.42.33:072][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.06.26-02.42.34:451][  0]LogD3D11RHI: D3D11 adapters:
-[2017.06.26-02.42.34:470][  0]LogD3D11RHI:    0. 'AMD Radeon HD 7900 Series' (Feature Level 11_0)
-[2017.06.26-02.42.34:470][  0]LogD3D11RHI:       3053/0/4085 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2017.06.26-02.42.34:472][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.06.26-02.42.34:472][  0]LogD3D11RHI:       0/0/4085 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.06.26-02.42.34:472][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.06.26-02.42.34:478][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.06.26-02.42.34:478][  0]LogD3D11RHI:     GPU DeviceId: 0x679a (for the marketing name, search the web for "GPU Device Id")
-[2017.06.26-02.42.34:478][  0]LogWindows: EnumDisplayDevices:
-[2017.06.26-02.42.34:478][  0]LogWindows:    0. 'AMD Radeon HD 7900 Series' (P:1 D:1)
-[2017.06.26-02.42.34:478][  0]LogWindows:    1. 'AMD Radeon HD 7900 Series' (P:0 D:0)
-[2017.06.26-02.42.34:479][  0]LogWindows:    2. 'AMD Radeon HD 7900 Series' (P:0 D:0)
-[2017.06.26-02.42.34:479][  0]LogWindows:    3. 'AMD Radeon HD 7900 Series' (P:0 D:0)
-[2017.06.26-02.42.34:479][  0]LogWindows:    4. 'AMD Radeon HD 7900 Series' (P:0 D:0)
-[2017.06.26-02.42.34:480][  0]LogWindows:    5. 'AMD Radeon HD 7900 Series' (P:0 D:0)
-[2017.06.26-02.42.34:480][  0]LogWindows: DebugString: FoundDriverCount:6 
-[2017.06.26-02.42.34:480][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 7900 Series
-[2017.06.26-02.42.34:480][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.5.1 (internal:22.19.165.1, unified:22.19.165.1)
-[2017.06.26-02.42.34:480][  0]LogD3D11RHI:      Driver Date: 5-2-2017
-[2017.06.26-02.42.34:480][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.06.26-02.42.34:546][  0]LogD3D11RHI: Async texture creation enabled
-[2017.06.26-02.42.34:563][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2017.06.26-02.42.34:565][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (../../../../../../Github/Prototype/Prototype/Intermediate/Shaders/WorkingDirectory/2116/).
-[2017.06.26-02.42.34:565][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nemca/AppData/Local/Temp/UnrealShaderWorkingDir/CB34456948B4E6030510248318DBE06C/'.
-[2017.06.26-02.42.34:565][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.06.26-02.42.36:646][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.06.26-02.42.36:748][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.06.26-02.42.36:849][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.06.26-02.42.36:953][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.06.26-02.42.37:047][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.06.26-02.42.37:142][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.06.26-02.42.37:236][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.06.26-02.42.37:330][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.06.26-02.42.37:418][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.06.26-02.42.37:511][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.06.26-02.42.37:607][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.06.26-02.42.37:705][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.06.26-02.42.37:803][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.06.26-02.42.37:909][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.06.26-02.42.38:018][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.06.26-02.42.38:225][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.06.26-02.42.38:225][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.06.26-02.42.38:309][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.06.26-02.42.38:490][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.06.26-02.42.38:553][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.06.26-02.42.38:673][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.06.26-02.42.38:803][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.06.26-02.42.38:907][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.06.26-02.42.39:041][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.06.26-02.42.39:041][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.06.26-02.42.40:151][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.06.26-02.42.40:340][  0]LogDerivedDataCache: Loaded boot cache 0.19s 90MB C:/Users/nemca/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.06.26-02.42.40:340][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/nemca/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2017.06.26-02.42.40:341][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Github/Prototype/Prototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.06.26-02.42.40:341][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.06.26-02.42.40:341][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Github/Prototype/Prototype/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.06.26-02.42.40:341][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.06.26-02.42.40:379][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.06.26-02.42.40:392][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nemca/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.06.26-02.42.40:409][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.06.26-02.42.40:410][  0]LogSlate: Using Freetype 2.6.0
-[2017.06.26-02.42.40:410][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.06.26-02.42.40:410][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.06.26-02.42.41:056][  0]LogInit: Selected Device Profile: [Windows]
-[2017.06.26-02.42.41:247][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.06.26-02.42.41:568][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.06.26-02.42.41:660][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.06.26-02.42.41:774][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.06.26-02.42.41:774][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.06.26-02.42.41:774][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.06.26-02.42.42:837][  0]LogNetVersion: Prototype , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1224494967)
-[2017.06.26-02.42.42:945][  0]LogAssetRegistry: FAssetRegistry took 0.0325 seconds to start up
-[2017.06.26-02.42.43:099][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.088494 seconds
-[2017.06.26-02.42.43:106][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2017.06.26-02.42.43:106][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
-[2017.06.26-02.42.43:106][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.06.26-02.42.43:269][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.06.26-02.42.47:532][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.06.26-02.42.47:602][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.06.26-02.42.48:620][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.06.26-02.42.49:479][  0]SourceControl: Info Source control is disabled
-[2017.06.26-02.42.52:030][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.06.26-02.42.53:212][  0]LogEngine: Initializing Engine...
-[2017.06.26-02.42.53:213][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.06.26-02.42.53:608][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.06.26-02.42.53:608][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.06.26-02.42.53:913][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.06.26-02.42.53:940][  0]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.06.26-02.42.53:956][  0]LogInit: FAudioDevice initialized.
-[2017.06.26-02.42.54:045][  0]LogDerivedDataCache: Saved boot cache 0.09s 90MB C:/Users/nemca/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.06.26-02.42.54:078][  0]LogInit: Texture streaming: Enabled
-[2017.06.26-02.42.54:277][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.06.26-02.42.54:722][  0]LogInit: Transaction tracking system initialized
-[2017.06.26-02.42.55:474][  0]BlueprintLog: New page: Editor Load
-[2017.06.26-02.42.57:557][  0]LocalizationService: Info Localization service is disabled
-[2017.06.26-02.42.59:156][  0]LogConsoleResponse:Display: 
-[2017.06.26-02.42.59:451][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.06.26-02.42.59:451][  0]LogCook:Display: Mobile HDR setting 1
-[2017.06.26-02.43.00:030][  0]LogFileCache: Scanning file cache for directory 'C:/Github/Prototype/Prototype/Content/' took 0.03s
-[2017.06.26-02.43.02:105][  0]Cmd: MAP LOAD FILE="../../../../../../Github/Prototype/Prototype/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.06.26-02.43.02:105][  0]LogEditorServer:Warning: Can't find file '../../../../../../Github/Prototype/Prototype/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2017.06.26-02.43.02:105][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.06.26-02.43.02:177][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 71.323ms to complete.
-[2017.06.26-02.43.02:177][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.072
-[2017.06.26-02.43.02:639][  0]LogCollectionManager: Loaded 0 collections in 0.002549 seconds
-[2017.06.26-02.43.02:760][  0]LogFileCache: Scanning file cache for directory 'C:/Github/Prototype/Prototype/Saved/Collections/' took 0.01s
-[2017.06.26-02.43.02:760][  0]LogFileCache: Scanning file cache for directory 'C:/Github/Prototype/Prototype/Content/Developers/nemca/Collections/' took 0.01s
-[2017.06.26-02.43.02:760][  0]LogFileCache: Scanning file cache for directory 'C:/Github/Prototype/Prototype/Content/Collections/' took 0.01s
-[2017.06.26-02.43.02:760][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2017.06.26-02.43.02:779][  0]LogContentBrowser: Native class hierarchy populated in 0.0194 seconds. Added 2329 classes and 491 folders.
-[2017.06.26-02.43.02:902][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2017.06.26-02.43.11:504][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2017.06.26-02.43.11:613][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2017.06.26-02.43.11:771][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.06.26-02.43.11:777][  0]LogSlate: Took 0.000336 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.06.26-02.43.11:779][  0]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.06.26-02.43.11:810][  0]LogSlate: Took 0.024974 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.06.26-02.43.12:259][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
-[2017.06.26-02.43.12:425][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.06.26-02.43.12:550][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
-[2017.06.26-02.43.12:551][  0]LogLoad: (Engine Initialization) Total time: 43.26 seconds
-[2017.06.26-02.43.12:551][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
-[2017.06.26-02.43.12:551][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.06.26-02.43.12:890][  0]LogOcInput: OculusInput pre-init called
-[2017.06.26-02.43.12:890][  0]LogHMD: Starting GearVRController plugin
-[2017.06.26-02.43.12:912][  0]SourceControl: Info On branch master
-[2017.06.26-02.43.12:912][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
-[2017.06.26-02.43.12:912][  0]SourceControl: Info Changes to be committed:
-[2017.06.26-02.43.12:912][  0]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
-[2017.06.26-02.43.12:912][  0]SourceControl: Info 	new file:   Prototype/Content/Blueprints/UI/PlayerMenu_BP.uasset
-[2017.06.26-02.43.12:912][  0]SourceControl: Info 	deleted:    Prototype/Content/Blueprints/UI/TitleScreen_BP.uasset
-[2017.06.26-02.43.12:912][  0]SourceControl: Info Changes not staged for commit:
-[2017.06.26-02.43.12:912][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
-[2017.06.26-02.43.12:912][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.06.26-02.43.12:912][  0]SourceControl: Info 	modified:   Prototype/Content/Blueprints/MyCharacter_BP.uasset
-[2017.06.26-02.43.12:912][  0]SourceControl: Info 	modified:   Prototype/Content/Blueprints/UI/MasterHUD_BP.uasset
-[2017.06.26-02.43.12:912][  0]SourceControl: Info 	modified:   Prototype/Content/Blueprints/UI/PlayerMenu_BP.uasset
-[2017.06.26-02.43.12:913][  0]SourceControl: Info 	modified:   Prototype/Intermediate/CachedAssetRegistry.bin
-[2017.06.26-02.43.12:913][  0]SourceControl: Info 	modified:   Prototype/Saved/AutoScreenshot.png
-[2017.06.26-02.43.12:913][  0]SourceControl: Info 	modified:   Prototype/Saved/Autosaves/PackageRestoreData.json
-[2017.06.26-02.43.12:913][  0]SourceControl: Info 	modified:   Prototype/Saved/Config/Windows/Editor.ini
-[2017.06.26-02.43.12:913][  0]SourceControl: Info 	modified:   Prototype/Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2017.06.26-02.43.12:913][  0]SourceControl: Info 	modified:   Prototype/Saved/Config/Windows/Input.ini
-[2017.06.26-02.43.12:913][  0]SourceControl: Info 	deleted:    Prototype/Saved/Logs/Prototype-backup-2017.06.22-21.48.29.log
-[2017.06.26-02.43.12:913][  0]SourceControl: Info 	modified:   Prototype/Saved/Logs/Prototype.log
-[2017.06.26-02.43.12:913][  0]SourceControl: Info Untracked files:
-[2017.06.26-02.43.12:913][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
-[2017.06.26-02.43.12:913][  0]SourceControl: Info 	Prototype/Saved/Autosaves/Game/Blueprints/UI/PlayerMenu_BP_Auto1.uasset
-[2017.06.26-02.43.12:913][  0]SourceControl: Info 	Prototype/Saved/Backup/MasterHUD_BP_2017-06-25-19-33-22.uasset
-[2017.06.26-02.43.12:913][  0]SourceControl: Info 	Prototype/Saved/Backup/MyCharacter_BP_2017-06-25-19-35-50.uasset
-[2017.06.26-02.43.12:913][  0]SourceControl: Info 	Prototype/Saved/Backup/PlayerMenu_BP_2017-06-25-19-28-52.uasset
-[2017.06.26-02.43.12:913][  0]SourceControl: Info 	Prototype/Saved/Backup/PlayerMenu_BP_2017-06-25-19-37-04.uasset
-[2017.06.26-02.43.12:913][  0]SourceControl: Info 	Prototype/Saved/Config/CrashReportClient/UE4CC-Windows-123F5D664C1EFC8C694D1E88C5739830/
-[2017.06.26-02.43.12:913][  0]SourceControl: Info 	Prototype/Saved/Logs/Prototype-backup-2017.06.25-19.42.31.log
-[2017.06.26-02.43.12:913][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.06.26-02.43.13:564][  2]LogAssetRegistry: Asset discovery search completed in 30.6404 seconds
-[2017.06.26-02.43.13:566][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.06.26-02.43.13:566][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
-[2017.06.26-02.43.17:007][174]LogSlate: Took 0.020020 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.06.26-02.43.18:449][337]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
-[2017.06.26-02.43.29:761][337]LogSourceControl: FGitCheckInWorker: commit successful
-[2017.06.26-02.43.29:818][337]SourceControl:Error: Error Aborting commit due to empty commit message.
-[2017.06.26-02.43.29:824][337]SourceControl: Info Submitted revision.
+[2017.06.27-03.21.26:343][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.27-03.21.26:343][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.27-03.21.26:376][  0]LogInit: Computer: DESKTOP-71K0SKI
+[2017.06.27-03.21.26:376][  0]LogInit: User: nemca
+[2017.06.27-03.21.26:376][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.06.27-03.21.26:376][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2017.06.27-03.21.26:376][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.06.27-03.21.26:376][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.27-03.21.26:376][  0]LogMemory: Process Physical Memory: 272.23 MB used, 272.23 MB peak
+[2017.06.27-03.21.26:376][  0]LogMemory: Process Virtual Memory: 261.06 MB used, 261.06 MB peak
+[2017.06.27-03.21.26:376][  0]LogMemory: Physical Memory: 5136.25 MB used,  3035.30 MB free, 8171.55 MB total
+[2017.06.27-03.21.26:376][  0]LogMemory: Virtual Memory: 638.32 MB used,  3035.30 MB free, 134217728.00 MB total
+[2017.06.27-03.21.26:493][  0]LogInit: Using OS detected language (en-US).
+[2017.06.27-03.21.26:493][  0]LogInit: Using OS detected locale (en-US).
+[2017.06.27-03.21.26:497][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.27-03.21.27:684][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.27-03.21.27:703][  0]LogD3D11RHI:    0. 'AMD Radeon HD 7900 Series' (Feature Level 11_0)
+[2017.06.27-03.21.27:703][  0]LogD3D11RHI:       3053/0/4085 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.06.27-03.21.27:705][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.27-03.21.27:705][  0]LogD3D11RHI:       0/0/4085 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.27-03.21.27:705][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.27-03.21.27:711][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.27-03.21.27:711][  0]LogD3D11RHI:     GPU DeviceId: 0x679a (for the marketing name, search the web for "GPU Device Id")
+[2017.06.27-03.21.27:711][  0]LogWindows: EnumDisplayDevices:
+[2017.06.27-03.21.27:711][  0]LogWindows:    0. 'AMD Radeon HD 7900 Series' (P:1 D:1)
+[2017.06.27-03.21.27:711][  0]LogWindows:    1. 'AMD Radeon HD 7900 Series' (P:0 D:0)
+[2017.06.27-03.21.27:712][  0]LogWindows:    2. 'AMD Radeon HD 7900 Series' (P:0 D:0)
+[2017.06.27-03.21.27:712][  0]LogWindows:    3. 'AMD Radeon HD 7900 Series' (P:0 D:0)
+[2017.06.27-03.21.27:713][  0]LogWindows:    4. 'AMD Radeon HD 7900 Series' (P:0 D:0)
+[2017.06.27-03.21.27:713][  0]LogWindows:    5. 'AMD Radeon HD 7900 Series' (P:0 D:0)
+[2017.06.27-03.21.27:713][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.06.27-03.21.27:713][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 7900 Series
+[2017.06.27-03.21.27:713][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.5.1 (internal:22.19.165.1, unified:22.19.165.1)
+[2017.06.27-03.21.27:713][  0]LogD3D11RHI:      Driver Date: 5-2-2017
+[2017.06.27-03.21.27:713][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.27-03.21.27:860][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.27-03.21.27:875][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.06.27-03.21.27:876][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (../../../../../../Github/Prototype/Prototype/Intermediate/Shaders/WorkingDirectory/6652/).
+[2017.06.27-03.21.27:877][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nemca/AppData/Local/Temp/UnrealShaderWorkingDir/25C05B3C48070FBE11F7AE969D5151B3/'.
+[2017.06.27-03.21.27:877][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.27-03.21.29:613][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.27-03.21.29:730][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.27-03.21.30:352][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.27-03.21.30:454][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.27-03.21.30:567][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.27-03.21.30:678][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.27-03.21.30:766][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.27-03.21.30:854][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.27-03.21.30:932][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.27-03.21.31:018][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.27-03.21.31:104][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.27-03.21.31:190][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.27-03.21.31:276][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.27-03.21.31:363][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.27-03.21.31:448][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.27-03.21.31:620][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.27-03.21.31:620][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.27-03.21.31:692][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.27-03.21.31:840][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.27-03.21.31:893][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.27-03.21.31:978][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.27-03.21.32:064][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.27-03.21.32:150][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.27-03.21.32:237][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.27-03.21.32:237][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.27-03.21.33:135][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.27-03.21.33:305][  0]LogDerivedDataCache: Loaded boot cache 0.17s 90MB C:/Users/nemca/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.27-03.21.33:305][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/nemca/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.27-03.21.33:305][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Github/Prototype/Prototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.27-03.21.33:305][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.27-03.21.33:305][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Github/Prototype/Prototype/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.27-03.21.33:305][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.27-03.21.33:329][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.27-03.21.33:342][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nemca/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.27-03.21.33:358][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.27-03.21.33:358][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.27-03.21.33:359][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.27-03.21.33:359][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.27-03.21.33:826][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.27-03.21.33:996][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.27-03.21.34:245][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.27-03.21.34:324][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.27-03.21.34:410][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.27-03.21.34:410][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.27-03.21.34:410][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.27-03.21.35:304][  0]LogNetVersion: Prototype , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1224494967)
+[2017.06.27-03.21.35:393][  0]LogAssetRegistry: FAssetRegistry took 0.0281 seconds to start up
+[2017.06.27-03.21.35:607][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.165100 seconds
+[2017.06.27-03.21.35:614][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.27-03.21.35:614][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.06.27-03.21.35:614][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.27-03.21.35:744][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.27-03.21.39:584][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.27-03.21.39:652][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.27-03.21.40:553][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.27-03.21.41:241][  0]SourceControl: Info Source control is disabled
+[2017.06.27-03.21.43:389][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.27-03.21.44:476][  0]LogEngine: Initializing Engine...
+[2017.06.27-03.21.44:477][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.27-03.21.44:794][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.27-03.21.44:794][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.27-03.21.45:018][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.27-03.21.45:037][  0]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-03.21.45:272][  0]LogInit: FAudioDevice initialized.
+[2017.06.27-03.21.45:355][  0]LogDerivedDataCache: Saved boot cache 0.08s 90MB C:/Users/nemca/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.27-03.21.45:377][  0]LogInit: Texture streaming: Enabled
+[2017.06.27-03.21.45:556][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.27-03.21.45:951][  0]LogInit: Transaction tracking system initialized
+[2017.06.27-03.21.46:526][  0]BlueprintLog: New page: Editor Load
+[2017.06.27-03.21.48:255][  0]LocalizationService: Info Localization service is disabled
+[2017.06.27-03.21.49:489][  0]LogConsoleResponse:Display: 
+[2017.06.27-03.21.49:805][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.27-03.21.49:806][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.27-03.21.50:754][  0]LogFileCache: Scanning file cache for directory 'C:/Github/Prototype/Prototype/Content/' took 0.02s
+[2017.06.27-03.21.51:848][  0]Cmd: MAP LOAD FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/TitleScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.27-03.21.51:895][  0]LightingResults: New page: Lighting Build
+[2017.06.27-03.21.51:968][  0]MapCheck: New page: Map Check
+[2017.06.27-03.21.51:968][  0]LightingResults: New page: Lighting Build
+[2017.06.27-03.21.52:385][  0]LogAIModule: Creating AISystem for world TitleScreen
+[2017.06.27-03.21.52:387][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.27-03.21.52:442][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.27-03.21.52:511][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.012ms to complete.
+[2017.06.27-03.21.52:512][  0]LogFileHelpers: Loading map 'TitleScreen' took 0.664
+[2017.06.27-03.21.52:577][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.27-03.21.53:682][  0]LogCollectionManager: Loaded 0 collections in 0.002380 seconds
+[2017.06.27-03.21.53:932][  0]LogFileCache: Scanning file cache for directory 'C:/Github/Prototype/Prototype/Saved/Collections/' took 0.01s
+[2017.06.27-03.21.53:932][  0]LogFileCache: Scanning file cache for directory 'C:/Github/Prototype/Prototype/Content/Developers/nemca/Collections/' took 0.01s
+[2017.06.27-03.21.53:932][  0]LogFileCache: Scanning file cache for directory 'C:/Github/Prototype/Prototype/Content/Collections/' took 0.01s
+[2017.06.27-03.21.53:932][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.06.27-03.21.53:994][  0]LogContentBrowser: Native class hierarchy populated in 0.0602 seconds. Added 2329 classes and 491 folders.
+[2017.06.27-03.21.54:138][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.06.27-03.21.56:313][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.06.27-03.21.56:973][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.06.27-03.22.01:420][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.27-03.22.01:699][  0]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.27-03.22.01:743][  0]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.27-03.22.01:947][  0]LogSlate: Took 0.161937 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.27-03.22.06:587][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.06.27-03.22.07:250][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.27-03.22.07:350][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.06.27-03.22.07:351][  0]LogLoad: (Engine Initialization) Total time: 44.76 seconds
+[2017.06.27-03.22.07:351][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.31 seconds
+[2017.06.27-03.22.07:351][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.06.27-03.22.07:375][  0]LogOcInput: OculusInput pre-init called
+[2017.06.27-03.22.07:375][  0]LogHMD: Starting GearVRController plugin
+[2017.06.27-03.22.07:440][  0]SourceControl: Info On branch master
+[2017.06.27-03.22.07:440][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.06.27-03.22.07:440][  0]SourceControl: Info Changes not staged for commit:
+[2017.06.27-03.22.07:440][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.06.27-03.22.07:440][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.06.27-03.22.07:440][  0]SourceControl: Info 	modified:   Prototype/Build/AllDesktop/FileOpenOrder/CookerOpenOrder.log
+[2017.06.27-03.22.07:440][  0]SourceControl: Info 	modified:   Prototype/Build/Android/FileOpenOrder/CookerOpenOrder.log
+[2017.06.27-03.22.07:440][  0]SourceControl: Info 	modified:   Prototype/Build/Android_ASTC/FileOpenOrder/CookerOpenOrder.log
+[2017.06.27-03.22.07:440][  0]SourceControl: Info 	modified:   Prototype/Build/Android_ATC/FileOpenOrder/CookerOpenOrder.log
+[2017.06.27-03.22.07:440][  0]SourceControl: Info 	modified:   Prototype/Build/Android_DXT/FileOpenOrder/CookerOpenOrder.log
+[2017.06.27-03.22.07:440][  0]SourceControl: Info 	modified:   Prototype/Build/Android_ETC1/FileOpenOrder/CookerOpenOrder.log
+[2017.06.27-03.22.07:440][  0]SourceControl: Info 	modified:   Prototype/Build/Android_ETC2/FileOpenOrder/CookerOpenOrder.log
+[2017.06.27-03.22.07:440][  0]SourceControl: Info 	modified:   Prototype/Build/Android_Multi/FileOpenOrder/CookerOpenOrder.log
+[2017.06.27-03.22.07:440][  0]SourceControl: Info 	modified:   Prototype/Build/Android_PVRTC/FileOpenOrder/CookerOpenOrder.log
+[2017.06.27-03.22.07:440][  0]SourceControl: Info 	modified:   Prototype/Build/HTML5/FileOpenOrder/CookerOpenOrder.log
+[2017.06.27-03.22.07:440][  0]SourceControl: Info 	modified:   Prototype/Build/IOS/FileOpenOrder/CookerOpenOrder.log
+[2017.06.27-03.22.07:440][  0]SourceControl: Info 	modified:   Prototype/Build/Linux/FileOpenOrder/CookerOpenOrder.log
+[2017.06.27-03.22.07:440][  0]SourceControl: Info 	modified:   Prototype/Build/LinuxClient/FileOpenOrder/CookerOpenOrder.log
+[2017.06.27-03.22.07:440][  0]SourceControl: Info 	modified:   Prototype/Build/LinuxNoEditor/FileOpenOrder/CookerOpenOrder.log
+[2017.06.27-03.22.07:440][  0]SourceControl: Info 	modified:   Prototype/Build/LinuxServer/FileOpenOrder/CookerOpenOrder.log
+[2017.06.27-03.22.07:440][  0]SourceControl: Info 	modified:   Prototype/Build/Mac/FileOpenOrder/CookerOpenOrder.log
+[2017.06.27-03.22.07:440][  0]SourceControl: Info 	modified:   Prototype/Build/MacClient/FileOpenOrder/CookerOpenOrder.log
+[2017.06.27-03.22.07:440][  0]SourceControl: Info 	modified:   Prototype/Build/MacNoEditor/FileOpenOrder/CookerOpenOrder.log
+[2017.06.27-03.22.07:440][  0]SourceControl: Info 	modified:   Prototype/Build/MacServer/FileOpenOrder/CookerOpenOrder.log
+[2017.06.27-03.22.07:440][  0]SourceControl: Info 	modified:   Prototype/Build/TVOS/FileOpenOrder/CookerOpenOrder.log
+[2017.06.27-03.22.07:440][  0]SourceControl: Info 	modified:   Prototype/Build/Windows/FileOpenOrder/CookerOpenOrder.log
+[2017.06.27-03.22.07:440][  0]SourceControl: Info 	modified:   Prototype/Build/WindowsClient/FileOpenOrder/CookerOpenOrder.log
+[2017.06.27-03.22.07:440][  0]SourceControl: Info 	modified:   Prototype/Build/WindowsNoEditor/FileOpenOrder/CookerOpenOrder.log
+[2017.06.27-03.22.07:440][  0]SourceControl: Info 	modified:   Prototype/Build/WindowsServer/FileOpenOrder/CookerOpenOrder.log
+[2017.06.27-03.22.07:440][  0]SourceControl: Info 	modified:   Prototype/Config/DefaultEngine.ini
+[2017.06.27-03.22.07:440][  0]SourceControl: Info 	modified:   Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Content/Maps/NewMap.umap
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Content/Maps/NewMap_BuiltData.uasset
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Intermediate/AssetRegistryCache/311563bb.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Intermediate/CachedAssetRegistry.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/AutoScreenshot.png
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	deleted:    Prototype/Saved/Config/CrashReportClient/UE4CC-Windows-9A5F40144528F347DF3AB090F1AB9355/CrashReportClient.ini
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	deleted:    Prototype/Saved/Config/CrashReportClient/UE4CC-Windows-A075D69B474A029C281A8BBB6A55AEC8/CrashReportClient.ini
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	deleted:    Prototype/Saved/Config/CrashReportClient/UE4CC-Windows-C1F6E1BA4D02B6612925CF9B1CC42C4A/CrashReportClient.ini
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/AllDesktop/Prototype/AssetRegistry.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/AllDesktop/Prototype/CookedIniVersion.txt
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/AllDesktop/Prototype/DevelopmentAssetRegistry.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Android/Prototype/AssetRegistry.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Android/Prototype/CookedIniVersion.txt
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Android/Prototype/DevelopmentAssetRegistry.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Android_ASTC/Prototype/AssetRegistry.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Android_ASTC/Prototype/CookedIniVersion.txt
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Android_ASTC/Prototype/DevelopmentAssetRegistry.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Android_ATC/Prototype/AssetRegistry.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Android_ATC/Prototype/CookedIniVersion.txt
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Android_ATC/Prototype/DevelopmentAssetRegistry.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Android_DXT/Prototype/AssetRegistry.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Android_DXT/Prototype/CookedIniVersion.txt
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Android_DXT/Prototype/DevelopmentAssetRegistry.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Android_ETC1/Prototype/AssetRegistry.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Android_ETC1/Prototype/CookedIniVersion.txt
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Android_ETC1/Prototype/DevelopmentAssetRegistry.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Android_ETC2/Prototype/AssetRegistry.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Android_ETC2/Prototype/CookedIniVersion.txt
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Android_ETC2/Prototype/DevelopmentAssetRegistry.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Android_Multi/Prototype/AssetRegistry.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Android_Multi/Prototype/CookedIniVersion.txt
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Android_Multi/Prototype/DevelopmentAssetRegistry.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Android_PVRTC/Prototype/AssetRegistry.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Android_PVRTC/Prototype/CookedIniVersion.txt
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Android_PVRTC/Prototype/DevelopmentAssetRegistry.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/HTML5/Prototype/AssetRegistry.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/HTML5/Prototype/CookedIniVersion.txt
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/HTML5/Prototype/DevelopmentAssetRegistry.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/IOS/Prototype/AssetRegistry.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/IOS/Prototype/CookedIniVersion.txt
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/IOS/Prototype/DevelopmentAssetRegistry.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Linux/Prototype/AssetRegistry.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Linux/Prototype/CookedIniVersion.txt
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Linux/Prototype/DevelopmentAssetRegistry.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/LinuxClient/Prototype/AssetRegistry.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/LinuxClient/Prototype/CookedIniVersion.txt
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/LinuxClient/Prototype/DevelopmentAssetRegistry.bin
+[2017.06.27-03.22.07:441][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/LinuxNoEditor/Prototype/AssetRegistry.bin
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/LinuxNoEditor/Prototype/CookedIniVersion.txt
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/LinuxNoEditor/Prototype/DevelopmentAssetRegistry.bin
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/LinuxServer/Prototype/AssetRegistry.bin
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/LinuxServer/Prototype/CookedIniVersion.txt
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/LinuxServer/Prototype/DevelopmentAssetRegistry.bin
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Mac/Prototype/AssetRegistry.bin
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Mac/Prototype/CookedIniVersion.txt
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Mac/Prototype/DevelopmentAssetRegistry.bin
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/MacClient/Prototype/AssetRegistry.bin
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/MacClient/Prototype/CookedIniVersion.txt
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/MacClient/Prototype/DevelopmentAssetRegistry.bin
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/MacNoEditor/Prototype/AssetRegistry.bin
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/MacNoEditor/Prototype/CookedIniVersion.txt
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/MacNoEditor/Prototype/DevelopmentAssetRegistry.bin
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/MacServer/Prototype/AssetRegistry.bin
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/MacServer/Prototype/CookedIniVersion.txt
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/MacServer/Prototype/DevelopmentAssetRegistry.bin
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/TVOS/Prototype/AssetRegistry.bin
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/TVOS/Prototype/CookedIniVersion.txt
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/TVOS/Prototype/DevelopmentAssetRegistry.bin
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Windows/Prototype/AssetRegistry.bin
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Windows/Prototype/CookedIniVersion.txt
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/Windows/Prototype/DevelopmentAssetRegistry.bin
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsClient/Prototype/AssetRegistry.bin
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsClient/Prototype/CookedIniVersion.txt
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsClient/Prototype/DevelopmentAssetRegistry.bin
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	deleted:    Prototype/Saved/EditorCooked/WindowsNoEditor/Engine/Content/EditorResources/BadBlueprintSprite.uasset
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	deleted:    Prototype/Saved/EditorCooked/WindowsNoEditor/Engine/Content/EditorResources/BadBlueprintSprite.ubulk
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	deleted:    Prototype/Saved/EditorCooked/WindowsNoEditor/Engine/Content/EditorResources/BadBlueprintSprite.uexp
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsNoEditor/Engine/Content/EditorResources/TilePatine_D.ubulk
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsNoEditor/Engine/Content/EditorResources/TilePatine_D.uexp
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsNoEditor/Engine/Content/EngineMaterials/Grid.ubulk
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsNoEditor/Engine/Content/EngineMaterials/Grid.uexp
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsNoEditor/Engine/Content/Maps/Entry.uexp
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DummySprite.uexp
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsNoEditor/Prototype/AssetRegistry.bin
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsNoEditor/Prototype/Content/Blueprints/GamePlay_BP.uasset
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsNoEditor/Prototype/Content/Blueprints/GamePlay_BP.uexp
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsNoEditor/Prototype/Content/Blueprints/HideWallsBox_BP.uasset
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsNoEditor/Prototype/Content/Blueprints/HideWallsBox_BP.uexp
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsNoEditor/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsNoEditor/Prototype/Content/Blueprints/MyCharacter_BP.uexp
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	deleted:    Prototype/Saved/EditorCooked/WindowsNoEditor/Prototype/Content/Blueprints/UI/CreationHUD_BP.uasset
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	deleted:    Prototype/Saved/EditorCooked/WindowsNoEditor/Prototype/Content/Blueprints/UI/CreationHUD_BP.uexp
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsNoEditor/Prototype/Content/Blueprints/UI/MasterHUD_BP.uasset
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsNoEditor/Prototype/Content/Blueprints/UI/MasterHUD_BP.uexp
+[2017.06.27-03.22.07:442][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsNoEditor/Prototype/Content/Blueprints/UI/NewCharacter_BP.uasset
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsNoEditor/Prototype/Content/Blueprints/UI/NewTitle_BP.uasset
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsNoEditor/Prototype/Content/Blueprints/UI/NewTitle_BP.uexp
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsNoEditor/Prototype/Content/Blueprints/UI/PauseMenu_BP.uasset
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	deleted:    Prototype/Saved/EditorCooked/WindowsNoEditor/Prototype/Content/Blueprints/UI/TitleScreen_BP.uasset
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	deleted:    Prototype/Saved/EditorCooked/WindowsNoEditor/Prototype/Content/Blueprints/UI/TitleScreen_BP.uexp
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsNoEditor/Prototype/Content/Maps/TitleScreen.uexp
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsNoEditor/Prototype/Content/Maps/TitleScreen.umap
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsNoEditor/Prototype/CookedAssetRegistry.json
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsNoEditor/Prototype/CookedIniVersion.txt
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsNoEditor/Prototype/DevelopmentAssetRegistry.bin
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsServer/Prototype/AssetRegistry.bin
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsServer/Prototype/CookedIniVersion.txt
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/EditorCooked/WindowsServer/Prototype/DevelopmentAssetRegistry.bin
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	deleted:    Prototype/Saved/Logs/Prototype-backup-2017.06.23-01.02.46.log
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	deleted:    Prototype/Saved/Logs/Prototype-backup-2017.06.23-16.29.23.log
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	deleted:    Prototype/Saved/Logs/Prototype-backup-2017.06.24-00.10.14.log
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/Logs/Prototype.log
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/StagedBuilds/WindowsNoEditor/Engine/Content/EditorResources/TilePatine_D.ubulk
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/StagedBuilds/WindowsNoEditor/Engine/Content/EditorResources/TilePatine_D.uexp
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/StagedBuilds/WindowsNoEditor/Engine/Content/EngineMaterials/Grid.ubulk
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/StagedBuilds/WindowsNoEditor/Engine/Content/EngineMaterials/Grid.uexp
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/StagedBuilds/WindowsNoEditor/Engine/Content/Maps/Entry.uexp
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/StagedBuilds/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DummySprite.uexp
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/StagedBuilds/WindowsNoEditor/Manifest_DeltaUFSFiles.txt
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/StagedBuilds/WindowsNoEditor/Manifest_NonUFSFiles_Win64.txt
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/StagedBuilds/WindowsNoEditor/Manifest_UFSFiles_Win64.txt
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/StagedBuilds/WindowsNoEditor/Prototype/AssetRegistry.bin
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/StagedBuilds/WindowsNoEditor/Prototype/Config/DefaultEngine.ini
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/StagedBuilds/WindowsNoEditor/Prototype/Content/Blueprints/GamePlay_BP.uasset
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/StagedBuilds/WindowsNoEditor/Prototype/Content/Blueprints/GamePlay_BP.uexp
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/StagedBuilds/WindowsNoEditor/Prototype/Content/Blueprints/HideWallsBox_BP.uasset
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/StagedBuilds/WindowsNoEditor/Prototype/Content/Blueprints/HideWallsBox_BP.uexp
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/StagedBuilds/WindowsNoEditor/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/StagedBuilds/WindowsNoEditor/Prototype/Content/Blueprints/MyCharacter_BP.uexp
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/StagedBuilds/WindowsNoEditor/Prototype/Content/Blueprints/UI/MasterHUD_BP.uasset
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/StagedBuilds/WindowsNoEditor/Prototype/Content/Blueprints/UI/MasterHUD_BP.uexp
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/StagedBuilds/WindowsNoEditor/Prototype/Content/Blueprints/UI/NewCharacter_BP.uasset
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/StagedBuilds/WindowsNoEditor/Prototype/Content/Blueprints/UI/NewTitle_BP.uasset
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/StagedBuilds/WindowsNoEditor/Prototype/Content/Blueprints/UI/NewTitle_BP.uexp
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/StagedBuilds/WindowsNoEditor/Prototype/Content/Blueprints/UI/PauseMenu_BP.uasset
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/StagedBuilds/WindowsNoEditor/Prototype/Content/Maps/TitleScreen.uexp
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/StagedBuilds/WindowsNoEditor/Prototype/Content/Maps/TitleScreen.umap
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/StagedBuilds/WindowsNoEditor/Prototype/CookedIniVersion.txt
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	modified:   Prototype/Saved/StagedBuilds/WindowsNoEditor/Prototype/DevelopmentAssetRegistry.bin
+[2017.06.27-03.22.07:443][  0]SourceControl: Info Untracked files:
+[2017.06.27-03.22.07:443][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.06.27-03.22.07:443][  0]SourceControl: Info 	Prototype/Saved/Backup/MyCharacter_BP_2017-06-26-00-27-11.uasset
+[2017.06.27-03.22.07:444][  0]SourceControl: Info 	Prototype/Saved/Backup/NewMap_2017-06-26-00-19-47.umap
+[2017.06.27-03.22.07:444][  0]SourceControl: Info 	Prototype/Saved/Backup/NewMap_2017-06-26-00-34-02.umap
+[2017.06.27-03.22.07:444][  0]SourceControl: Info 	Prototype/Saved/Backup/NewMap_BuiltData_2017-06-26-00-19-47.uasset
+[2017.06.27-03.22.07:444][  0]SourceControl: Info 	Prototype/Saved/Backup/NewMap_BuiltData_2017-06-26-00-34-02.uasset
+[2017.06.27-03.22.07:444][  0]SourceControl: Info 	Prototype/Saved/Config/CrashReportClient/UE4CC-Windows-692FB62D4F1872CD5224E4B8E5983A40/
+[2017.06.27-03.22.07:444][  0]SourceControl: Info 	Prototype/Saved/Config/CrashReportClient/UE4CC-Windows-F7CD5DE24721C21ED407AEB1E48944D1/
+[2017.06.27-03.22.07:444][  0]SourceControl: Info 	Prototype/Saved/Config/CrashReportClient/UE4CC-Windows-FF9734E240D0FCE53C8BCB923CB33524/
+[2017.06.27-03.22.07:444][  0]SourceControl: Info 	Prototype/Saved/EditorCooked/WindowsNoEditor/Prototype/Content/Blueprints/UI/PlayerHP_BP.uasset
+[2017.06.27-03.22.07:444][  0]SourceControl: Info 	Prototype/Saved/EditorCooked/WindowsNoEditor/Prototype/Content/Blueprints/UI/PlayerHP_BP.uexp
+[2017.06.27-03.22.07:444][  0]SourceControl: Info 	Prototype/Saved/EditorCooked/WindowsNoEditor/Prototype/Content/Blueprints/UI/PlayerMenu_BP.uasset
+[2017.06.27-03.22.07:444][  0]SourceControl: Info 	Prototype/Saved/EditorCooked/WindowsNoEditor/Prototype/Content/Blueprints/UI/PlayerMenu_BP.uexp
+[2017.06.27-03.22.07:444][  0]SourceControl: Info 	Prototype/Saved/Logs/Prototype-backup-2017.06.25-20.21.43.log
+[2017.06.27-03.22.07:444][  0]SourceControl: Info 	Prototype/Saved/Logs/Prototype-backup-2017.06.26-00.17.50.log
+[2017.06.27-03.22.07:444][  0]SourceControl: Info 	Prototype/Saved/Logs/Prototype-backup-2017.06.26-20.21.25.log
+[2017.06.27-03.22.07:444][  0]SourceControl: Info 	Prototype/Saved/StagedBuilds/WindowsNoEditor/Prototype/Content/Blueprints/UI/PlayerHP_BP.uasset
+[2017.06.27-03.22.07:444][  0]SourceControl: Info 	Prototype/Saved/StagedBuilds/WindowsNoEditor/Prototype/Content/Blueprints/UI/PlayerHP_BP.uexp
+[2017.06.27-03.22.07:444][  0]SourceControl: Info 	Prototype/Saved/StagedBuilds/WindowsNoEditor/Prototype/Content/Blueprints/UI/PlayerMenu_BP.uasset
+[2017.06.27-03.22.07:444][  0]SourceControl: Info 	Prototype/Saved/StagedBuilds/WindowsNoEditor/Prototype/Content/Blueprints/UI/PlayerMenu_BP.uexp
+[2017.06.27-03.22.07:444][  0]SourceControl: Info 	Prototype/Saved/StagedBuilds/WindowsNoEditor/Prototype/Saved/Config/CrashReportClient/UE4CC-Windows-5665536C42DE424763A6FAB33AE79974/
+[2017.06.27-03.22.07:444][  0]SourceControl: Info 	Prototype/Saved/StagedBuilds/WindowsNoEditor/Prototype/Saved/Crashes/UE4CC-Windows-5665536C42DE424763A6FAB33AE79974_0000/
+[2017.06.27-03.22.07:444][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.06.27-03.22.07:444][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.27-03.22.07:605][  0]LogSlate: Took 0.016163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.27-03.22.07:667][  2]LogAssetRegistry: Asset discovery search completed in 32.2965 seconds
+[2017.06.27-03.22.07:671][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.06.27-03.22.07:671][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000046 seconds (updated 0 objects)
+[2017.06.27-03.30.18:873][698]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.27-03.30.19:217][698]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen' with GeneratedClass '/Game/Maps/TitleScreen.TitleScreen_C' with ClassGeneratedBy '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen'
+[2017.06.27-03.30.19:217][698]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-03.30.19:243][698]PIE: New page: PIE session: TitleScreen (Jun 26, 2017, 1:30:19 PM)
+[2017.06.27-03.30.19:266][698]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TitleScreen
+[2017.06.27-03.30.19:304][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038242s)
+[2017.06.27-03.30.19:305][698]LogAIModule: Creating AISystem for world TitleScreen
+[2017.06.27-03.30.19:305][698]LogPlayLevel: PIE: World Init took: (0.000972s)
+[2017.06.27-03.30.19:306][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TitleScreen.TitleScreen to /Game/Maps/UEDPIE_0_TitleScreen.TitleScreen (0.062907s)
+[2017.06.27-03.30.19:365][698]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-03.30.19:387][698]LogInit: FAudioDevice initialized.
+[2017.06.27-03.30.21:537][698]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.27-03.30.21:586][698]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TitleScreen.TitleScreen up for play (max tick rate 0) at 2017.06.26-20.30.21
+[2017.06.27-03.30.21:586][698]LogWorld: Bringing up level for play took: 0.001064
+[2017.06.27-03.30.21:830][698]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0019 seconds. Added 11 classes and 0 folders.
+[2017.06.27-03.30.21:895][698]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.27-03.30.21:984][698]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TitleScreen 3.752
+[2017.06.27-03.30.21:984][698]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen' with GeneratedClass '/Game/Maps/TitleScreen.TitleScreen_C' with ClassGeneratedBy '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen'
+[2017.06.27-03.30.22:067][699]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.27-03.30.26:271][148]LogNet: Browse: /Game/Maps/NewMap
+[2017.06.27-03.30.26:271][148]LogLoad: LoadMap: /Game/Maps/NewMap
+[2017.06.27-03.30.26:303][148]Cmd: MEM
+[2017.06.27-03.30.26:401][148]LogMemory: Platform Memory Stats for Windows
+[2017.06.27-03.30.26:401][148]LogMemory: Process Physical Memory: 1057.10 MB used, 1063.14 MB peak
+[2017.06.27-03.30.26:401][148]LogMemory: Process Virtual Memory: 1554.29 MB used, 1561.02 MB peak
+[2017.06.27-03.30.26:401][148]LogMemory: Physical Memory: 5213.66 MB used,  2957.90 MB free, 8171.55 MB total
+[2017.06.27-03.30.26:401][148]LogMemory: Virtual Memory: 2311.17 MB used,  2957.90 MB free, 134217728.00 MB total
+[2017.06.27-03.30.26:401][148]LogMemory: 
+[2017.06.27-03.30.26:401][148]Allocator Stats for TBB: (not implemented)
+[2017.06.27-03.30.28:215][148]LogAIModule: Creating AISystem for world NewMap
+[2017.06.27-03.30.28:215][148]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.27-03.30.28:224][148]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.26-20.30.28
+[2017.06.27-03.30.28:362][148]LogWorld: Bringing up level for play took: 0.143774
+[2017.06.27-03.30.28:385][148]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.27-03.30.28:406][148]LogLoad: Took 2.134728 seconds to LoadMap(/Game/Maps/NewMap)
+[2017.06.27-03.30.56:732][311]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen' with GeneratedClass '/Game/Maps/TitleScreen.TitleScreen_C' with ClassGeneratedBy '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen'
+[2017.06.27-03.30.56:769][311]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen' with GeneratedClass '/Game/Maps/TitleScreen.TitleScreen_C' with ClassGeneratedBy '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen'
+[2017.06.27-03.31.24:209][659]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.27-03.31.24:967][659]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.27-03.31.25:687][659]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 112 classes and 0 folders.
+[2017.06.27-03.31.27:792][659]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.27-03.31.27:834][659]LogSlate: Took 0.033986 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.27-03.31.29:217][660]LogSlate: Took 0.056218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.27-03.31.58:798][568]LogEditorTransaction: Undo Move Nodes
+[2017.06.27-03.31.58:825][568]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.27-03.31.58:827][568]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.27-03.31.58:875][568]LogSlate: Took 0.000304 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.27-03.32.14:383][242]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.27-03.32.14:386][242]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.27-03.32.29:689][ 67]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.27-03.32.30:102][ 67]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.27-03.32.30:103][ 67]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.27-03.32.30:303][ 67]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.27-03.32.30:305][ 67]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.27-03.32.30:362][ 67]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.27-03.32.30:364][ 67]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.27-03.32.31:349][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.27-03.32.32:139][ 93]LogSavePackage: Save=511.37ms
+[2017.06.27-03.32.32:139][ 93]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BP03958D3C4AA8FA88E96FC89AC2B8DC64.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.27-03.32.32:143][ 93]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.27-03.32.33:900][185]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.27-03.32.33:944][185]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen' with GeneratedClass '/Game/Maps/TitleScreen.TitleScreen_C' with ClassGeneratedBy '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen'
+[2017.06.27-03.32.33:944][185]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-03.32.33:945][185]PIE: New page: PIE session: TitleScreen (Jun 26, 2017, 1:32:33 PM)
+[2017.06.27-03.32.33:945][185]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TitleScreen
+[2017.06.27-03.32.33:946][185]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000998s)
+[2017.06.27-03.32.33:946][185]LogAIModule: Creating AISystem for world TitleScreen
+[2017.06.27-03.32.33:947][185]LogPlayLevel: PIE: World Init took: (0.000856s)
+[2017.06.27-03.32.33:947][185]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TitleScreen.TitleScreen to /Game/Maps/UEDPIE_0_TitleScreen.TitleScreen (0.002139s)
+[2017.06.27-03.32.33:998][185]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-03.32.34:009][185]LogInit: FAudioDevice initialized.
+[2017.06.27-03.32.34:042][185]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.27-03.32.34:045][185]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TitleScreen.TitleScreen up for play (max tick rate 0) at 2017.06.26-20.32.34
+[2017.06.27-03.32.34:045][185]LogWorld: Bringing up level for play took: 0.000828
+[2017.06.27-03.32.34:047][185]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.27-03.32.34:049][185]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TitleScreen -0.183
+[2017.06.27-03.32.34:049][185]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen' with GeneratedClass '/Game/Maps/TitleScreen.TitleScreen_C' with ClassGeneratedBy '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen'
+[2017.06.27-03.32.34:794][238]LogNet: Browse: /Game/Maps/NewMap
+[2017.06.27-03.32.34:796][238]LogLoad: LoadMap: /Game/Maps/NewMap
+[2017.06.27-03.32.34:830][238]Cmd: MEM
+[2017.06.27-03.32.34:860][238]LogMemory: Platform Memory Stats for Windows
+[2017.06.27-03.32.34:860][238]LogMemory: Process Physical Memory: 1440.55 MB used, 1442.16 MB peak
+[2017.06.27-03.32.34:860][238]LogMemory: Process Virtual Memory: 2103.21 MB used, 2103.21 MB peak
+[2017.06.27-03.32.34:860][238]LogMemory: Physical Memory: 5720.79 MB used,  2450.77 MB free, 8171.55 MB total
+[2017.06.27-03.32.34:860][238]LogMemory: Virtual Memory: 2844.17 MB used,  2450.77 MB free, 134217728.00 MB total
+[2017.06.27-03.32.34:860][238]LogMemory: 
+[2017.06.27-03.32.34:860][238]Allocator Stats for TBB: (not implemented)
+[2017.06.27-03.32.34:974][238]LogAIModule: Creating AISystem for world NewMap
+[2017.06.27-03.32.34:974][238]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.27-03.32.34:982][238]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.26-20.32.34
+[2017.06.27-03.32.34:982][238]LogWorld: Bringing up level for play took: 0.005302
+[2017.06.27-03.32.34:984][238]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.27-03.32.34:985][238]LogLoad: Took 0.189320 seconds to LoadMap(/Game/Maps/NewMap)
+[2017.06.27-03.32.42:634][786]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen' with GeneratedClass '/Game/Maps/TitleScreen.TitleScreen_C' with ClassGeneratedBy '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen'
+[2017.06.27-03.32.42:670][786]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen' with GeneratedClass '/Game/Maps/TitleScreen.TitleScreen_C' with ClassGeneratedBy '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen'
+[2017.06.27-03.33.41:969][ 44]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.27-03.33.42:412][ 44]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.27-03.33.42:413][ 44]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.27-03.33.42:575][ 44]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.27-03.33.42:577][ 44]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.27-03.33.42:627][ 44]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.27-03.33.42:628][ 44]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.27-03.33.42:756][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.27-03.33.43:337][ 44]LogSavePackage: Save=527.91ms
+[2017.06.27-03.33.43:337][ 44]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BP4FBD3E8C41A290F3F175F994AB4917B0.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.27-03.33.43:341][ 44]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.27-03.33.44:983][108]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.27-03.33.45:018][108]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen' with GeneratedClass '/Game/Maps/TitleScreen.TitleScreen_C' with ClassGeneratedBy '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen'
+[2017.06.27-03.33.45:019][108]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-03.33.45:019][108]PIE: New page: PIE session: TitleScreen (Jun 26, 2017, 1:33:45 PM)
+[2017.06.27-03.33.45:019][108]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TitleScreen
+[2017.06.27-03.33.45:023][108]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003651s)
+[2017.06.27-03.33.45:023][108]LogAIModule: Creating AISystem for world TitleScreen
+[2017.06.27-03.33.45:024][108]LogPlayLevel: PIE: World Init took: (0.000903s)
+[2017.06.27-03.33.45:024][108]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TitleScreen.TitleScreen to /Game/Maps/UEDPIE_0_TitleScreen.TitleScreen (0.004900s)
+[2017.06.27-03.33.45:072][108]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-03.33.45:082][108]LogInit: FAudioDevice initialized.
+[2017.06.27-03.33.45:117][108]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.27-03.33.45:123][108]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TitleScreen.TitleScreen up for play (max tick rate 0) at 2017.06.26-20.33.45
+[2017.06.27-03.33.45:124][108]LogWorld: Bringing up level for play took: 0.001003
+[2017.06.27-03.33.45:126][108]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.27-03.33.45:128][108]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TitleScreen 0.897
+[2017.06.27-03.33.45:128][108]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen' with GeneratedClass '/Game/Maps/TitleScreen.TitleScreen_C' with ClassGeneratedBy '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen'
+[2017.06.27-03.33.46:062][169]LogNet: Browse: /Game/Maps/NewMap
+[2017.06.27-03.33.46:065][169]LogLoad: LoadMap: /Game/Maps/NewMap
+[2017.06.27-03.33.46:102][169]Cmd: MEM
+[2017.06.27-03.33.46:136][169]LogMemory: Platform Memory Stats for Windows
+[2017.06.27-03.33.46:136][169]LogMemory: Process Physical Memory: 1449.28 MB used, 1456.28 MB peak
+[2017.06.27-03.33.46:136][169]LogMemory: Process Virtual Memory: 2117.95 MB used, 2189.35 MB peak
+[2017.06.27-03.33.46:136][169]LogMemory: Physical Memory: 5742.16 MB used,  2429.39 MB free, 8171.55 MB total
+[2017.06.27-03.33.46:136][169]LogMemory: Virtual Memory: 2884.29 MB used,  2429.39 MB free, 134217728.00 MB total
+[2017.06.27-03.33.46:136][169]LogMemory: 
+[2017.06.27-03.33.46:136][169]Allocator Stats for TBB: (not implemented)
+[2017.06.27-03.33.46:252][169]LogAIModule: Creating AISystem for world NewMap
+[2017.06.27-03.33.46:252][169]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.27-03.33.46:260][169]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.26-20.33.46
+[2017.06.27-03.33.46:261][169]LogWorld: Bringing up level for play took: 0.006029
+[2017.06.27-03.33.46:263][169]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.27-03.33.46:263][169]LogLoad: Took 0.198041 seconds to LoadMap(/Game/Maps/NewMap)
+[2017.06.27-03.34.15:361][136]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen' with GeneratedClass '/Game/Maps/TitleScreen.TitleScreen_C' with ClassGeneratedBy '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen'
+[2017.06.27-03.34.15:396][136]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen' with GeneratedClass '/Game/Maps/TitleScreen.TitleScreen_C' with ClassGeneratedBy '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen'
+[2017.06.27-03.35.08:419][ 41]BlueprintLog: New page: Compile PlayerMenu_BP
+[2017.06.27-03.35.08:547][ 41]LogBlueprint:Error: [Compiler PlayerMenu_BP] Error This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2017.06.27-03.35.08:891][ 41]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2017.06.27-03.35.08:891][ 41]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.06.27-03.35.08:891][ 41]LogBlueprint:Warning: [Compiler PlayerMenu_BP] Warning [0826.30] Compile of PlayerMenu_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 471 ms] (/Game/Blueprints/UI/PlayerMenu_BP.PlayerMenu_BP)
+[2017.06.27-03.35.47:836][667]BlueprintLog: New page: Compile PlayerMenu_BP
+[2017.06.27-03.35.48:050][667]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.06.27-03.36.03:610][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/PlayerMenu_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PlayerMenu_BP.uasset" SILENT=true
+[2017.06.27-03.36.03:770][803]LogSavePackage: Save=96.30ms
+[2017.06.27-03.36.03:770][803]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/PlayerMenu_BPA9178DED40D6C9839C2720B8535D2C2F.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PlayerMenu_BP.uasset'
+[2017.06.27-03.36.03:773][803]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PlayerMenu_BP.uasset
+[2017.06.27-03.36.07:616][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/PlayerMenu_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PlayerMenu_BP.uasset" SILENT=true
+[2017.06.27-03.36.07:781][ 94]LogSavePackage: Save=102.71ms
+[2017.06.27-03.36.07:781][ 94]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/PlayerMenu_BP15CCACE34C944FBDD4EA1EB083E7855F.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PlayerMenu_BP.uasset'
+[2017.06.27-03.36.07:784][ 94]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PlayerMenu_BP.uasset
+[2017.06.27-03.36.08:910][180]BlueprintLog: New page: Compile PlayerMenu_BP
+[2017.06.27-03.36.09:161][180]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.06.27-03.36.09:605][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/PlayerMenu_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PlayerMenu_BP.uasset" SILENT=true
+[2017.06.27-03.36.09:764][206]LogSavePackage: Save=97.65ms
+[2017.06.27-03.36.09:764][206]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/PlayerMenu_BPF5D575D2403C5B5F98E1BB9F4270D33D.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PlayerMenu_BP.uasset'
+[2017.06.27-03.36.09:765][206]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/PlayerMenu_BP.uasset
+[2017.06.27-03.36.15:520][625]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.27-03.36.15:566][625]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen' with GeneratedClass '/Game/Maps/TitleScreen.TitleScreen_C' with ClassGeneratedBy '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen'
+[2017.06.27-03.36.15:566][625]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.27-03.36.15:566][625]PIE: New page: PIE session: TitleScreen (Jun 26, 2017, 1:36:15 PM)
+[2017.06.27-03.36.15:566][625]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TitleScreen
+[2017.06.27-03.36.15:567][625]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001056s)
+[2017.06.27-03.36.15:568][625]LogAIModule: Creating AISystem for world TitleScreen
+[2017.06.27-03.36.15:568][625]LogPlayLevel: PIE: World Init took: (0.000900s)
+[2017.06.27-03.36.15:568][625]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TitleScreen.TitleScreen to /Game/Maps/UEDPIE_0_TitleScreen.TitleScreen (0.002280s)
+[2017.06.27-03.36.15:618][625]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.27-03.36.15:631][625]LogInit: FAudioDevice initialized.
+[2017.06.27-03.36.15:666][625]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.27-03.36.15:669][625]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TitleScreen.TitleScreen up for play (max tick rate 0) at 2017.06.26-20.36.15
+[2017.06.27-03.36.15:669][625]LogWorld: Bringing up level for play took: 0.000946
+[2017.06.27-03.36.15:671][625]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.27-03.36.15:673][625]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TitleScreen -0.558
+[2017.06.27-03.36.15:674][625]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen' with GeneratedClass '/Game/Maps/TitleScreen.TitleScreen_C' with ClassGeneratedBy '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen'
+[2017.06.27-03.36.16:883][762]LogNet: Browse: /Game/Maps/NewMap
+[2017.06.27-03.36.16:884][762]LogLoad: LoadMap: /Game/Maps/NewMap
+[2017.06.27-03.36.16:925][762]Cmd: MEM
+[2017.06.27-03.36.16:959][762]LogMemory: Platform Memory Stats for Windows
+[2017.06.27-03.36.16:959][762]LogMemory: Process Physical Memory: 1544.57 MB used, 1551.50 MB peak
+[2017.06.27-03.36.16:959][762]LogMemory: Process Virtual Memory: 2331.34 MB used, 2331.34 MB peak
+[2017.06.27-03.36.16:959][762]LogMemory: Physical Memory: 5836.83 MB used,  2334.72 MB free, 8171.55 MB total
+[2017.06.27-03.36.16:959][762]LogMemory: Virtual Memory: 3077.04 MB used,  2334.72 MB free, 134217728.00 MB total
+[2017.06.27-03.36.16:959][762]LogMemory: 
+[2017.06.27-03.36.16:959][762]Allocator Stats for TBB: (not implemented)
+[2017.06.27-03.36.17:056][762]LogAIModule: Creating AISystem for world NewMap
+[2017.06.27-03.36.17:057][762]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.27-03.36.17:067][762]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.06.26-20.36.17
+[2017.06.27-03.36.17:068][762]LogWorld: Bringing up level for play took: 0.008500
+[2017.06.27-03.36.17:070][762]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.27-03.36.17:070][762]LogLoad: Took 0.186613 seconds to LoadMap(/Game/Maps/NewMap)
+[2017.06.27-03.37.44:047][481]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2017.06.27-03.37.55:550][481]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.06.27-03.37.55:659][481]SourceControl:Error: Error Aborting commit due to empty commit message.
+[2017.06.27-03.37.55:665][481]SourceControl: Info Submitted revision.
