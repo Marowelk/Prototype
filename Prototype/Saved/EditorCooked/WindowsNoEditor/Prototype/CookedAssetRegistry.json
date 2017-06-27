@@ -4699,6 +4699,175 @@
 			"AssetData": []
 		},
 		{
+			"SourcePackageName": "/Engine/EngineSky/BP_Sky_Sphere",
+			"CookedPackageName": "/Engine/EngineSky/BP_Sky_Sphere",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "b82c3ac0eb6d085d6e77a82b2798ff61",
+			"FullPackageHash": "f7f7670c4e23c120572ec9458cf8883e",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset",
+				"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset",
+				"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset",
+				"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset",
+				"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset",
+				"../../../Engine/Content/EngineSky/SM_SkySphere.uasset",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EngineSky/C_Sky_Cloud_Color",
+			"CookedPackageName": "/Engine/EngineSky/C_Sky_Cloud_Color",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "a845f33cf5e1f3726fe7cabebbcfd3dc",
+			"FullPackageHash": "6413e115412b373c0aedd2a0458f01b6",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EngineSky/C_Sky_Horizon_Color",
+			"CookedPackageName": "/Engine/EngineSky/C_Sky_Horizon_Color",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "6660a6470c159f0b9a57a1f4e9e0eb06",
+			"FullPackageHash": "5441cb4c58d02c7f9336ead15b29e82d",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EngineSky/C_Sky_Zenith_Color",
+			"CookedPackageName": "/Engine/EngineSky/C_Sky_Zenith_Color",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "25e0e200c192f4921834181d55b85dff",
+			"FullPackageHash": "b5e24e4ba071d298d47994e396c609ab",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EngineSky/M_Sky_Panning_Clouds2",
+			"CookedPackageName": "/Engine/EngineSky/M_Sky_Panning_Clouds2",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "d459d6e5be103a42875c4ecf48db83e8",
+			"FullPackageHash": "de735f911534998d8139b45d1a9cb989",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset",
+				"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset",
+				"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EngineSky/SM_SkySphere",
+			"CookedPackageName": "/Engine/EngineSky/SM_SkySphere",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EngineSky/SM_SkySphere.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "7ade8692e0a6785542f4dca6f04c0173",
+			"FullPackageHash": "7ffc57b9a53bafc466e73c57da98906d",
+			"DependencyData": [
+				"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EngineSky/T_Sky_Blue",
+			"CookedPackageName": "/Engine/EngineSky/T_Sky_Blue",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EngineSky/T_Sky_Blue.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "3df98cd83baa2e1b5426eaffde746741",
+			"FullPackageHash": "48566c4d39916eed4356c4bcb940cca4",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EngineSky/T_Sky_Clouds_M",
+			"CookedPackageName": "/Engine/EngineSky/T_Sky_Clouds_M",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "cb92f0dfcf2fd52c80c1c33886114f56",
+			"FullPackageHash": "64bd7dedf55fd6d1abd0e681b2e148b4",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/EngineSky/T_Sky_Stars",
+			"CookedPackageName": "/Engine/EngineSky/T_Sky_Stars",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/EngineSky/T_Sky_Stars.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "134c1f5320a7480e364bfebbce9ce7b7",
+			"FullPackageHash": "02d12f423d97a9699dc49dd229ebbd5b",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
 			"SourcePackageName": "/Engine/EngineSounds/Master",
 			"CookedPackageName": "/Engine/EngineSounds/Master",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -4743,6 +4912,24 @@
 			"SucceededSave": "true",
 			"DependentPackageHash": "9310538ad7aa6f27e890ea33214961ef",
 			"FullPackageHash": "b8d3aa5771a19193fb68e3ebd75cd15a",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/Functions/Engine_MaterialFunctions01/Opacity/AlphaOffset",
+			"CookedPackageName": "/Engine/Functions/Engine_MaterialFunctions01/Opacity/AlphaOffset",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/AlphaOffset.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "3f149810da42c5f17d6ab54613ac4778",
+			"FullPackageHash": "43b80cf0e66e3035f7bd696510012c47",
 			"DependencyData": [
 				"/Script/CoreUObject",
 				"/Script/Engine",
@@ -7892,22 +8079,15 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Game/Blueprints/AICharacter_BP",
-			"CookedPackageName": "/Game/Blueprints/AICharacter_BP",
+			"SourcePackageName": "/Game/Blueprints/AIPawn_BP",
+			"CookedPackageName": "/Game/Blueprints/AIPawn_BP",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/Blueprints/AICharacter_BP.uasset",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/Blueprints/AIPawn_BP.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "2d9bae39c24cfc81bd63c240e2da58f2",
-			"FullPackageHash": "8d2b6aa4282e6cd1611e89cc883b2d32",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
+			"DependentPackageHash": "",
+			"FullPackageHash": "",
 			"FileSize": "-1",
 			"AssetData": []
 		},
@@ -8039,6 +8219,19 @@
 			"AssetData": []
 		},
 		{
+			"SourcePackageName": "/Game/Blueprints/TestHouse3_BP_2",
+			"CookedPackageName": "/Game/Blueprints/TestHouse3_BP_2",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/Blueprints/TestHouse3_BP_2.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "",
+			"FullPackageHash": "",
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
 			"SourcePackageName": "/Game/Blueprints/TestHouse_BP",
 			"CookedPackageName": "/Game/Blueprints/TestHouse_BP",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -8055,6 +8248,41 @@
 				"/Script/Engine",
 				"/Script/UnrealEd"
 			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/Blueprints/ThirdPersonCharacter",
+			"CookedPackageName": "/Game/Blueprints/ThirdPersonCharacter",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/Blueprints/ThirdPersonCharacter.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "384aba1238fb0b7027e0583c4cdcf6a8",
+			"FullPackageHash": "d0685510b6d94d15d7aa41eff092f7ae",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"/Script/BlueprintGraph",
+				"/Script/ClothingSystemRuntime",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/InputCore",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/Blueprints/UI/Dialogue_BP",
+			"CookedPackageName": "/Game/Blueprints/UI/Dialogue_BP",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/Blueprints/UI/Dialogue_BP.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "",
+			"FullPackageHash": "",
 			"FileSize": "-1",
 			"AssetData": []
 		},
@@ -8712,6 +8940,424 @@
 			"AssetData": []
 		},
 		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Audio/Collapse01",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Audio/Collapse01",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Audio/Collapse01.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "7a093f0e39c1e928e2e460f14e94d733",
+			"FullPackageHash": "11e6356cad50152d732140d1ba61c5a6",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Audio/Collapse02",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Audio/Collapse02",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Audio/Collapse02.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "83c0c09ff58ed9046b2732d91715b1f9",
+			"FullPackageHash": "8055b79d2d7c9368ad7f2ad5ab6b7e97",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Audio/Collapse_Cue",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Audio/Collapse_Cue",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Audio/Collapse_Cue.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "009bb127e80d3dcb70631762a09e0cb6",
+			"FullPackageHash": "d29904e335266c5ee282bdddbd2cd72a",
+			"DependencyData": [
+				"/Script/AudioEditor",
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Audio/Explosion01",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Audio/Explosion01",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Audio/Explosion01.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "be3997d52610a695460ad82c6b44b2da",
+			"FullPackageHash": "769c30f018d99d0ef9c0fde76f7fa174",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Audio/Explosion02",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Audio/Explosion02",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Audio/Explosion02.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "9f02a012f42ffe5ff882519b8a64ca55",
+			"FullPackageHash": "0c844b9f94a82f10bea0e91e69df1962",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Audio/Explosion_Cue",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Audio/Explosion_Cue",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Audio/Explosion_Cue.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "9ce64d284e3d6527055f08c84661fbc9",
+			"FullPackageHash": "0cd0cf01183fde4a580742498fe37547",
+			"DependencyData": [
+				"/Script/AudioEditor",
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Audio/Fire01",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Audio/Fire01",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Audio/Fire01.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "84478d2c88f6183800f8597371ba973b",
+			"FullPackageHash": "e15d03b60f6d70179fff81c5fa801e2e",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Audio/Fire01_Cue",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Audio/Fire01_Cue",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Audio/Fire01_Cue.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "b5b7cbfa3795daac46e503d51b186f6f",
+			"FullPackageHash": "e35eead4f9ff72450e53774467974e22",
+			"DependencyData": [
+				"/Script/AudioEditor",
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Audio/Fire_Sparks01",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Audio/Fire_Sparks01",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Audio/Fire_Sparks01.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "c5de1d97aee404b5fb84d4b1408712b4",
+			"FullPackageHash": "aa52f0af8f168c7dd050cb689e000b6f",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Audio/Fire_Sparks01_Cue",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Audio/Fire_Sparks01_Cue",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Audio/Fire_Sparks01_Cue.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "fae57372d92a95f1840adb1f4f6c4578",
+			"FullPackageHash": "1b989a69b7881e4503515f400df1ffaa",
+			"DependencyData": [
+				"/Script/AudioEditor",
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Audio/Light01",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Audio/Light01",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Audio/Light01.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "8b13be80dcfe2b3b946bc65aae1d9da8",
+			"FullPackageHash": "49ba5a05b9fd08e089f0b0f87baec2cf",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Audio/Light01_Cue",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Audio/Light01_Cue",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Audio/Light01_Cue.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "769c5f82ea622663613f74389864f604",
+			"FullPackageHash": "d491c4df42cfce0728ab2221122c0d7f",
+			"DependencyData": [
+				"/Script/AudioEditor",
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Audio/Light02",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Audio/Light02",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Audio/Light02.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "ae3cb55de2de60785431cfe1f0b7ad9f",
+			"FullPackageHash": "ff3fec31c4a2a44633fb716124206d8b",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Audio/Light02_Cue",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Audio/Light02_Cue",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Audio/Light02_Cue.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "4e0d49c6cc78e5922bcbeb89b29c5e80",
+			"FullPackageHash": "69d0df02361dd9b31de1874cf3e8a1bb",
+			"DependencyData": [
+				"/Script/AudioEditor",
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Audio/Smoke01",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Audio/Smoke01",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Audio/Smoke01.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "813bb2662085d76f5c598c13f0c8efed",
+			"FullPackageHash": "3ba9b9472aea412050d649271a984b31",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Audio/Smoke01_Cue",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Audio/Smoke01_Cue",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Audio/Smoke01_Cue.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "39d5ff1dfa75676d6d406784d36a1310",
+			"FullPackageHash": "5d3c9a13cfc13d0d77162b47d501b4be",
+			"DependencyData": [
+				"/Script/AudioEditor",
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Audio/Starter_Background_Cue",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Audio/Starter_Background_Cue",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Audio/Starter_Background_Cue.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "0ffb80582044527ab68e4de524aeaef8",
+			"FullPackageHash": "079a91b8b8912f44f432598689095132",
+			"DependencyData": [
+				"/Script/AudioEditor",
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Audio/Starter_Birds01",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Audio/Starter_Birds01",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Audio/Starter_Birds01.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "050dddc3f1ea22887cdbe47853bd748c",
+			"FullPackageHash": "e2aded54ba15c58b210927416c43dc46",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Audio/Starter_Music01",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Audio/Starter_Music01",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Audio/Starter_Music01.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "24a4098995d37c9ffd54197ca1e3be20",
+			"FullPackageHash": "555e64de2ebae58312216f7dd536d8e6",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Audio/Starter_Music_Cue",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Audio/Starter_Music_Cue",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Audio/Starter_Music_Cue.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "ba9f8ad503e97ce4d1cf02e896300975",
+			"FullPackageHash": "aebed38c39b1e86bb7f0214441e02b81",
+			"DependencyData": [
+				"/Script/AudioEditor",
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Audio/Starter_Wind05",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Audio/Starter_Wind05",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Audio/Starter_Wind05.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "2303db5d20844fd563f0bf2fc1a89875",
+			"FullPackageHash": "eccd3ad545929e7b134b5f290d1d657a",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Audio/Starter_Wind06",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Audio/Starter_Wind06",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Audio/Starter_Wind06.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "fe61e3277b4f05ddbc901a0fda0f4ee1",
+			"FullPackageHash": "c77fef9570c30b0e5f5ffe64dfd8dfe4",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Audio/Steam01",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Audio/Steam01",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Audio/Steam01.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "fcdbebe6ba35a6845ac7bc7c7631e515",
+			"FullPackageHash": "438df41523c1533016d1bfe68389dbc4",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Audio/Steam01_Cue",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Audio/Steam01_Cue",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Audio/Steam01_Cue.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "b12ad2d31caed8b7e0c35488ce88747e",
+			"FullPackageHash": "abf0a3530a7674006c8bbe53b13bc091",
+			"DependencyData": [
+				"/Script/AudioEditor",
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
 			"SourcePackageName": "/Game/ExampleContent/StarterContent/Materials/M_Basic_Floor",
 			"CookedPackageName": "/Game/ExampleContent/StarterContent/Materials/M_Basic_Floor",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -8765,6 +9411,1047 @@
 				"/Script/Engine",
 				"/Script/UnrealEd"
 			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Materials/M_Brick_Clay_Beveled",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Materials/M_Brick_Clay_Beveled",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Materials/M_Brick_Clay_Beveled.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "c2b647e13ae467677147e4011400eca5",
+			"FullPackageHash": "b9fa0ac2f0fe6b8637c1576576930b14",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Materials/M_Brick_Clay_New",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Materials/M_Brick_Clay_New",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Materials/M_Brick_Clay_New.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "108ded2fa5ccd4e375482a9633486b05",
+			"FullPackageHash": "9342a43519d1255c6afc56f63c5ff082",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Materials/M_Brick_Clay_Old",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Materials/M_Brick_Clay_Old",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Materials/M_Brick_Clay_Old.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "aa5cc774ecb3947cff310a0a2192f569",
+			"FullPackageHash": "def46eb0285a4c03bd5928396260c3f6",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Materials/M_Brick_Hewn_Stone",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Materials/M_Brick_Hewn_Stone",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Materials/M_Brick_Hewn_Stone.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "d0670cd1798953da9fdce9bb09b9b24f",
+			"FullPackageHash": "9cb18f26462050118e85ba6eb4a992ef",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Materials/M_CobbleStone_Pebble",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Materials/M_CobbleStone_Pebble",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Materials/M_CobbleStone_Pebble.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "9fa39f58f376942eaf55b0a45f433624",
+			"FullPackageHash": "30473d8a1cc38eeaa0f20d706511adcd",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Materials/M_CobbleStone_Rough",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Materials/M_CobbleStone_Rough",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Materials/M_CobbleStone_Rough.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "386eddc5381f3a2613fd3f24666e5244",
+			"FullPackageHash": "c10d4bd1e63967143cc7aec9371b0661",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Materials/M_CobbleStone_Smooth",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Materials/M_CobbleStone_Smooth",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Materials/M_CobbleStone_Smooth.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "67fe17ff4d57472aac0d3bdd2e097115",
+			"FullPackageHash": "fa03534200a9e6e5e209089d5ffd2208",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Materials/M_Concrete_Grime",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Materials/M_Concrete_Grime",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Materials/M_Concrete_Grime.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "84f8ecb305f112706acafededd35f87f",
+			"FullPackageHash": "73d7654e452d9397d34efb571f3e7447",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Materials/M_Ground_Grass",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Materials/M_Ground_Grass",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Materials/M_Ground_Grass.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "fde4b11d0706fbb8c3d66cba8f1b3538",
+			"FullPackageHash": "5d057aabfae3b4700a9f9bd227cc219f",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Materials/M_Ground_Gravel",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Materials/M_Ground_Gravel",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Materials/M_Ground_Gravel.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "11f3cfd4c6785c61b03724f3f0a84678",
+			"FullPackageHash": "86c27b3978d65a3179f5ebc1d6d792c0",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Materials/M_Ground_Moss",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Materials/M_Ground_Moss",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Materials/M_Ground_Moss.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "bac3544a8ab5f471920c1af867468f3c",
+			"FullPackageHash": "c7d3b428c55df51599b1692706067705",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Materials/M_Rock_Marble_Polished",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Materials/M_Rock_Marble_Polished",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Materials/M_Rock_Marble_Polished.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "593fde187ebe2e3dc3a91c97874065a3",
+			"FullPackageHash": "95730c304cc2a11cd7fcd63b88f8c06c",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Materials/M_Wood_Floor_Walnut_Polished",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Materials/M_Wood_Floor_Walnut_Polished",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "424e5c60fec22e9a0790673956e2d7ce",
+			"FullPackageHash": "a04c054bed6c9c943856564f59401b35",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Materials/M_Wood_Floor_Walnut_Worn",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Materials/M_Wood_Floor_Walnut_Worn",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "f7c07c2afbef2564ea248ae9c0560ce1",
+			"FullPackageHash": "a0c0ec70302e93a2075647bd0d75e7a8",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/AlphaOffset.uasset",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Materials/M_Wood_Floor_Walnut_Worn_2",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Materials/M_Wood_Floor_Walnut_Worn_2",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Materials/M_Wood_Floor_Walnut_Worn_2.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "",
+			"FullPackageHash": "",
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Materials/M_Wood_Oak",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Materials/M_Wood_Oak",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Materials/M_Wood_Oak.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "0606ab01d95360c4877f7ece9e87c37b",
+			"FullPackageHash": "66391d6ee27af66192e7a9b4b69b0c6f",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Materials/M_Wood_Walnut",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Materials/M_Wood_Walnut",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Materials/M_Wood_Walnut.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "d4e3a250e4e8ed1bbd9a586d90e8babe",
+			"FullPackageHash": "80b660758a890218b213e89c47454d98",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Brick_Clay_Beveled_D",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Brick_Clay_Beveled_D",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "79ef48e8ba4cd4d228b8426834ad611a",
+			"FullPackageHash": "b5303e2ff9f886aa802a44b9743c6158",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Brick_Clay_Beveled_M",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Brick_Clay_Beveled_M",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "b63b8424fa89ff022fb80f70c7ceb059",
+			"FullPackageHash": "4d366cb5ff3d84427a170ec3f60808d0",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Brick_Clay_Beveled_N",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Brick_Clay_Beveled_N",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "37d7a77de51aa2ad4f63a9c0515a437e",
+			"FullPackageHash": "c8c1fae0b846926bbfaa8b6dd459eb92",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Brick_Clay_New_D",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Brick_Clay_New_D",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Brick_Clay_New_D.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "92cc38f79d805bdddec18936008c2429",
+			"FullPackageHash": "588f49a777e4afaca42bc4a482efb577",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Brick_Clay_New_M",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Brick_Clay_New_M",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Brick_Clay_New_M.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "d8c8619bc722875060918cdca7a541ef",
+			"FullPackageHash": "efa5b3826f66289259a808029a6a98c1",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Brick_Clay_New_N",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Brick_Clay_New_N",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Brick_Clay_New_N.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "03da42b00b8a10069881ca1b04dd7605",
+			"FullPackageHash": "eee80f0f65a76241fc3fcae0a71e747a",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Brick_Clay_Old_D",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Brick_Clay_Old_D",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Brick_Clay_Old_D.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "f752b4476ee300d098f8aab4ea72a6fd",
+			"FullPackageHash": "bf0d24b2a573e728393840d508577a7f",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Brick_Clay_Old_N",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Brick_Clay_Old_N",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Brick_Clay_Old_N.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "172322a78c734dba342038641b51d359",
+			"FullPackageHash": "2589ea660a7de9b1881ee05ec902f172",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Brick_Hewn_Stone_D",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Brick_Hewn_Stone_D",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "c2b9300651be0f1004fce8fe2c6f9c94",
+			"FullPackageHash": "af5e0e5399c56df8e8788e0f54b7f190",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Brick_Hewn_Stone_M",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Brick_Hewn_Stone_M",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "4a1c4f59b9c564a7d3c7db08557a9888",
+			"FullPackageHash": "915adc2d6ba2f0b77f7312eaf57cc464",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Brick_Hewn_Stone_N",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Brick_Hewn_Stone_N",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "a3a302f8e50ff191b517c2ee35116ae1",
+			"FullPackageHash": "726f9ae1290b86fe0195ac51dc5e81cc",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_CobbleStone_Pebble_D",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_CobbleStone_Pebble_D",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "a027f1db30c4adad790fa5ec6ab5a77e",
+			"FullPackageHash": "258e1f6f900cd4cf2863bfbd2466241c",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_CobbleStone_Pebble_M",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_CobbleStone_Pebble_M",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "712a8ae79212ad6e30c0950238be3320",
+			"FullPackageHash": "231ac50fd7c99227ad68771b92110c35",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_CobbleStone_Pebble_N",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_CobbleStone_Pebble_N",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "d7dfe4e974f5087ece37c2b651ee7e1a",
+			"FullPackageHash": "b6885b7ad0fb24db96464e47adce6e01",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_CobbleStone_Rough_D",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_CobbleStone_Rough_D",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_CobbleStone_Rough_D.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "830353124b7f9139c05b227086436168",
+			"FullPackageHash": "fd6536a7d4ccabb8a5b2e3d9fbf050a5",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_CobbleStone_Rough_N",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_CobbleStone_Rough_N",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_CobbleStone_Rough_N.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "807a4915c0e051e64f14d69ecf3ea22c",
+			"FullPackageHash": "e81e8b920e23f81ca9624119b30f8a01",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_CobbleStone_Smooth_D",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_CobbleStone_Smooth_D",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "a246984982ca01545db78b69dd614933",
+			"FullPackageHash": "da082c51a4abc5dfab28e680ccece363",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_CobbleStone_Smooth_M",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_CobbleStone_Smooth_M",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "bb933145c5835e20a87ad0cbc02b83b4",
+			"FullPackageHash": "b0bc621bf9b6a3a9927560180e2325c9",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_CobbleStone_Smooth_N",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_CobbleStone_Smooth_N",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "edb3be247e13b6011720f26f1f97a9b3",
+			"FullPackageHash": "529e08c4a2d83b29d6870cabf35f407e",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Concrete_Grime_D",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Concrete_Grime_D",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Concrete_Grime_D.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "5e68085ca3884f4c8b08e78c701d8970",
+			"FullPackageHash": "43413c43905556d2d3863167a42c7015",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Detail_Rocky_N",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Detail_Rocky_N",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Detail_Rocky_N.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "a6e0bbe56720a783a575c0eb4d36743d",
+			"FullPackageHash": "6c74769dec41f0ef088bdd87697ec8e6",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Gradinet_01",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Gradinet_01",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Gradinet_01.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "01d824a5d303c2cddaafa84ee7693947",
+			"FullPackageHash": "2db6bb4cb4d1deaea56454490bd35653",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Ground_Grass_D",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Ground_Grass_D",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Ground_Grass_D.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "81151a643868b45a3242887e1a24c5c7",
+			"FullPackageHash": "8c9e79a6315d1b6be8a5fdb8267fc915",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Ground_Grass_N",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Ground_Grass_N",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Ground_Grass_N.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "aa9bdfc10002e44bc62df1d39e27701f",
+			"FullPackageHash": "be18499c12815ce0cfc901e339d49d14",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Ground_Gravel_D",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Ground_Gravel_D",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Ground_Gravel_D.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "b8d7ed336b28a4ce872ffe9e21024b34",
+			"FullPackageHash": "8fd26e50cfff4ad1dfbb9f9e40f6a336",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Ground_Gravel_N",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Ground_Gravel_N",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Ground_Gravel_N.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "4fe92a859bbebdb205c149687515a0aa",
+			"FullPackageHash": "376ae087b8f7a4c197d6b8811872acf3",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_ground_Moss_D",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_ground_Moss_D",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_ground_Moss_D.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "ad16bc2b4acb369ea2eb2bb767dcfbc8",
+			"FullPackageHash": "60497438f958a524c90e6366be5cec4b",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Ground_Moss_N",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Ground_Moss_N",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Ground_Moss_N.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "f8ac3a1921f4e01b6e76c736238211f5",
+			"FullPackageHash": "1cdb7b3a1aa0522f944e49d5e73d5984",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_MacroVariation",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_MacroVariation",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_MacroVariation.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "27b3d631c2b507a68fb5ffa46b69923e",
+			"FullPackageHash": "73d0e10648fc01ad2ce463e0b7f2cd2b",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Metal_Gold_N",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Metal_Gold_N",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Metal_Gold_N.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "82efd47859b42fef55a7f6d42ceffc28",
+			"FullPackageHash": "3f094569504d0c07ac4359286ba3aad4",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Metal_Rust_N",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Metal_Rust_N",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Metal_Rust_N.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "3eee0d837636e648f205a0777b3a0fc6",
+			"FullPackageHash": "a828ce053becf28271b98a0cf081da7d",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Perlin_Noise_M",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Perlin_Noise_M",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Perlin_Noise_M.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "5569c6b02b2b6c7beb0ae28891a3ed55",
+			"FullPackageHash": "ab9beab3faf77393344b656a7d679112",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Rock_Marble_Polished_D",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Rock_Marble_Polished_D",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "685abaa2b59ece92e2c81a1bfbe57748",
+			"FullPackageHash": "285616bb9dedfa6a0b9e3c56cce40adb",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Rock_Smooth_Granite_D",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Rock_Smooth_Granite_D",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "ed8b2f74f1abfdb153ca03bad0366532",
+			"FullPackageHash": "18bbfc7c7dd4ad2b652e83b2d8ff5293",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Wood_Floor_Walnut_D",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Wood_Floor_Walnut_D",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "7c8f503bbaea27b5af02596d03c7919d",
+			"FullPackageHash": "7711f4766110dc8a8ed928fce387a416",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Wood_Floor_Walnut_M",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Wood_Floor_Walnut_M",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "a14e89c69fd3967f6db03b0932b6b290",
+			"FullPackageHash": "476a28f2baf42f1204be86741b6a9d21",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Wood_Floor_Walnut_N",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Wood_Floor_Walnut_N",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "07f78a92e5d1d0af0b1ebb385a0a0974",
+			"FullPackageHash": "b045323ec5c6fa67ae6edc63c87a4725",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Wood_Oak_D",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Wood_Oak_D",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Wood_Oak_D.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "9854935da365451366ad8ed2b8df458e",
+			"FullPackageHash": "46a1c648e6c960b1f33d5765e7ebeb1e",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Wood_Oak_N",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Wood_Oak_N",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Wood_Oak_N.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "04aa056af2a8d397100e286c6cb2bd3c",
+			"FullPackageHash": "d34518355e9a88fd99554e6472e10968",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Wood_Walnut_D",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Wood_Walnut_D",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Wood_Walnut_D.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "26ee77d63932e0e3bcb19065d8de6059",
+			"FullPackageHash": "835996094a3f53d6e0e40ee34c850761",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/ExampleContent/StarterContent/Textures/T_Wood_Walnut_N",
+			"CookedPackageName": "/Game/ExampleContent/StarterContent/Textures/T_Wood_Walnut_N",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/ExampleContent/StarterContent/Textures/T_Wood_Walnut_N.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "42d979c3770c031046c95367ecc2e470",
+			"FullPackageHash": "45cb21afdcf912111377fcdd754f25e4",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/Maps/House1Interior",
+			"CookedPackageName": "/Game/Maps/House1Interior",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/Maps/House1Interior.umap",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "",
+			"FullPackageHash": "",
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/Maps/House1Interior_BuiltData_2",
+			"CookedPackageName": "/Game/Maps/House1Interior_BuiltData_2",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/Maps/House1Interior_BuiltData_2.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "",
+			"FullPackageHash": "",
 			"FileSize": "-1",
 			"AssetData": []
 		},
@@ -8827,6 +10514,103 @@
 				"/Script/Engine",
 				"/Script/UMG",
 				"/Script/UMGEditor",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/Maps/Town/House1Interior",
+			"CookedPackageName": "/Game/Maps/Town/House1Interior",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/Maps/Town/House1Interior.umap",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "",
+			"FullPackageHash": "",
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/Maps/Town/House1Interior_BuiltData",
+			"CookedPackageName": "/Game/Maps/Town/House1Interior_BuiltData",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/Maps/Town/House1Interior_BuiltData.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "",
+			"FullPackageHash": "",
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/Maps/Town/TownExterior",
+			"CookedPackageName": "/Game/Maps/Town/TownExterior",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/Maps/Town/TownExterior.umap",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "",
+			"FullPackageHash": "",
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/Maps/Town/TownExterior_BuiltData",
+			"CookedPackageName": "/Game/Maps/Town/TownExterior_BuiltData",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/Maps/Town/TownExterior_BuiltData.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "",
+			"FullPackageHash": "",
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/Maps/TownExterior",
+			"CookedPackageName": "/Game/Maps/TownExterior",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/Maps/TownExterior.umap",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "",
+			"FullPackageHash": "",
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/Maps/TownExterior_BuiltData_2",
+			"CookedPackageName": "/Game/Maps/TownExterior_BuiltData_2",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/Maps/TownExterior_BuiltData_2.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "",
+			"FullPackageHash": "",
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/Materials/Fade_M",
+			"CookedPackageName": "/Game/Materials/Fade_M",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/Materials/Fade_M.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "true",
+			"DependentPackageHash": "c981f707a0386a585faa284744137ff6",
+			"FullPackageHash": "2d8cefcf9f1a15104a404bbe543941fc",
+			"DependencyData": [
+				"*** SHADERSOURCE ***",
+				"/Script/CoreUObject",
+				"/Script/Engine",
 				"/Script/UnrealEd"
 			],
 			"FileSize": "-1",
@@ -9025,6 +10809,26 @@
 				"/Script/CoreUObject",
 				"/Script/Engine",
 				"/Script/VREditor"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Game/Blueprints/AICharacter_BP",
+			"CookedPackageName": "/Game/Blueprints/AICharacter_BP",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "C:/Github/Prototype/Prototype/Content/Blueprints/AICharacter_BP.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "2d9bae39c24cfc81bd63c240e2da58f2",
+			"FullPackageHash": "8d2b6aa4282e6cd1611e89cc883b2d32",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/UnrealEd"
 			],
 			"FileSize": "-1",
 			"AssetData": []
