@@ -1735,6 +1735,8 @@ Engine\Plugins\Runtime\GearVR\Content\Textures\GearVRController_Normal.uexp
 Prototype\AssetRegistry.bin
 Prototype\CookedIniVersion.txt
 Prototype\DevelopmentAssetRegistry.bin
+Prototype\Content\Blueprints\AICharacter_BP.uasset
+Prototype\Content\Blueprints\AICharacter_BP.uexp
 Prototype\Content\Blueprints\GamePlay_BP.uasset
 Prototype\Content\Blueprints\GamePlay_BP.uexp
 Prototype\Content\Blueprints\HideWallsBox_BP.uasset
@@ -1833,6 +1835,8 @@ Prototype\Content\ExampleContent\StarterContent\Materials\M_Basic_Wall.uasset
 Prototype\Content\ExampleContent\StarterContent\Materials\M_Basic_Wall.uexp
 Prototype\Content\ExampleContent\StarterContent\Materials\M_Basic_Wall_Translucent.uasset
 Prototype\Content\ExampleContent\StarterContent\Materials\M_Basic_Wall_Translucent.uexp
+Prototype\Content\Maps\NewMap.uexp
+Prototype\Content\Maps\NewMap.umap
 Prototype\Content\Maps\NewMap_BuiltData.uasset
 Prototype\Content\Maps\NewMap_BuiltData.ubulk
 Prototype\Content\Maps\NewMap_BuiltData.uexp
