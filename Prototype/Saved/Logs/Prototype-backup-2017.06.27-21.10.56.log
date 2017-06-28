@@ -1,0 +1,983 @@
+﻿Log file open, 06/27/17 18:39:38
+LogInit:Display: Running engine for game: Prototype
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-15413327) SRandInit(-15413313).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.137112
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.28-01.39.39:481][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.28-01.39.39:481][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.28-01.39.39:520][  0]LogInit: Computer: DESKTOP-71K0SKI
+[2017.06.28-01.39.39:520][  0]LogInit: User: nemca
+[2017.06.28-01.39.39:520][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.06.28-01.39.39:520][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2017.06.28-01.39.39:520][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.06.28-01.39.39:520][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.28-01.39.39:520][  0]LogMemory: Process Physical Memory: 273.81 MB used, 273.81 MB peak
+[2017.06.28-01.39.39:520][  0]LogMemory: Process Virtual Memory: 261.00 MB used, 261.00 MB peak
+[2017.06.28-01.39.39:520][  0]LogMemory: Physical Memory: 5271.54 MB used,  2900.02 MB free, 8171.55 MB total
+[2017.06.28-01.39.39:520][  0]LogMemory: Virtual Memory: 638.32 MB used,  2900.02 MB free, 134217728.00 MB total
+[2017.06.28-01.39.39:642][  0]LogInit: Using OS detected language (en-US).
+[2017.06.28-01.39.39:642][  0]LogInit: Using OS detected locale (en-US).
+[2017.06.28-01.39.39:646][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.28-01.39.41:011][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.28-01.39.41:030][  0]LogD3D11RHI:    0. 'AMD Radeon HD 7900 Series' (Feature Level 11_0)
+[2017.06.28-01.39.41:030][  0]LogD3D11RHI:       3053/0/4085 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.06.28-01.39.41:032][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.28-01.39.41:032][  0]LogD3D11RHI:       0/0/4085 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.28-01.39.41:032][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.28-01.39.41:038][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.28-01.39.41:038][  0]LogD3D11RHI:     GPU DeviceId: 0x679a (for the marketing name, search the web for "GPU Device Id")
+[2017.06.28-01.39.41:038][  0]LogWindows: EnumDisplayDevices:
+[2017.06.28-01.39.41:038][  0]LogWindows:    0. 'AMD Radeon HD 7900 Series' (P:1 D:1)
+[2017.06.28-01.39.41:039][  0]LogWindows:    1. 'AMD Radeon HD 7900 Series' (P:0 D:0)
+[2017.06.28-01.39.41:039][  0]LogWindows:    2. 'AMD Radeon HD 7900 Series' (P:0 D:0)
+[2017.06.28-01.39.41:040][  0]LogWindows:    3. 'AMD Radeon HD 7900 Series' (P:0 D:0)
+[2017.06.28-01.39.41:040][  0]LogWindows:    4. 'AMD Radeon HD 7900 Series' (P:0 D:0)
+[2017.06.28-01.39.41:040][  0]LogWindows:    5. 'AMD Radeon HD 7900 Series' (P:0 D:0)
+[2017.06.28-01.39.41:041][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.06.28-01.39.41:041][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 7900 Series
+[2017.06.28-01.39.41:041][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.5.1 (internal:22.19.165.1, unified:22.19.165.1)
+[2017.06.28-01.39.41:041][  0]LogD3D11RHI:      Driver Date: 5-2-2017
+[2017.06.28-01.39.41:041][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.28-01.39.41:267][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.28-01.39.41:284][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.06.28-01.39.41:285][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (../../../../../../Github/Prototype/Prototype/Intermediate/Shaders/WorkingDirectory/5960/).
+[2017.06.28-01.39.41:286][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nemca/AppData/Local/Temp/UnrealShaderWorkingDir/030E12F445D8E432667F20B37CF6CA96/'.
+[2017.06.28-01.39.41:286][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.28-01.39.43:693][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.28-01.39.43:807][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.28-01.39.43:921][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.28-01.39.44:032][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.28-01.39.44:143][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.28-01.39.44:261][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.28-01.39.44:380][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.28-01.39.44:501][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.28-01.39.44:605][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.28-01.39.44:727][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.28-01.39.44:838][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.28-01.39.44:959][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.28-01.39.45:071][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.28-01.39.45:189][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.28-01.39.45:287][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.28-01.39.45:480][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.28-01.39.45:480][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.28-01.39.45:594][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.28-01.39.45:753][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.28-01.39.45:814][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.28-01.39.45:912][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.28-01.39.46:009][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.28-01.39.46:103][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.28-01.39.46:201][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.28-01.39.46:201][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.28-01.39.47:347][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.28-01.39.47:540][  0]LogDerivedDataCache: Loaded boot cache 0.19s 90MB C:/Users/nemca/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.28-01.39.47:540][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/nemca/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.28-01.39.47:540][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Github/Prototype/Prototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.28-01.39.47:540][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.28-01.39.47:540][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Github/Prototype/Prototype/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.28-01.39.47:540][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.28-01.39.47:574][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.28-01.39.47:587][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nemca/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.28-01.39.47:603][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.28-01.39.47:604][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.28-01.39.47:605][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.28-01.39.47:605][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.28-01.39.48:240][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.28-01.39.48:437][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.28-01.39.48:749][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.28-01.39.48:846][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.28-01.39.48:949][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.28-01.39.48:949][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.28-01.39.48:949][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.28-01.39.49:859][  0]LogNetVersion: Prototype , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1224494967)
+[2017.06.28-01.39.49:951][  0]LogAssetRegistry: FAssetRegistry took 0.0282 seconds to start up
+[2017.06.28-01.39.50:229][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.096571 seconds
+[2017.06.28-01.39.50:236][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.28-01.39.50:236][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.06.28-01.39.50:236][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.28-01.39.50:365][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.28-01.39.55:136][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.28-01.39.55:205][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.28-01.39.56:141][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.28-01.39.56:853][  0]SourceControl: Info Source control is disabled
+[2017.06.28-01.39.59:090][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.28-01.40.00:177][  0]LogEngine: Initializing Engine...
+[2017.06.28-01.40.00:178][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.28-01.40.00:531][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.28-01.40.00:531][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.28-01.40.00:807][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.28-01.40.00:834][  0]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.28-01.40.01:501][  0]LogInit: FAudioDevice initialized.
+[2017.06.28-01.40.01:586][  0]LogDerivedDataCache: Saved boot cache 0.08s 90MB C:/Users/nemca/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.28-01.40.01:618][  0]LogInit: Texture streaming: Enabled
+[2017.06.28-01.40.01:821][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.28-01.40.02:283][  0]LogInit: Transaction tracking system initialized
+[2017.06.28-01.40.03:014][  0]BlueprintLog: New page: Editor Load
+[2017.06.28-01.40.05:029][  0]LocalizationService: Info Localization service is disabled
+[2017.06.28-01.40.06:690][  0]LogConsoleResponse:Display: 
+[2017.06.28-01.40.07:232][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.28-01.40.07:232][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.28-01.40.07:691][  0]LogFileCache: Scanning file cache for directory 'C:/Github/Prototype/Prototype/Content/' took 0.04s
+[2017.06.28-01.40.10:249][  0]Cmd: MAP LOAD FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/TitleScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.28-01.40.10:250][  0]LightingResults: New page: Lighting Build
+[2017.06.28-01.40.10:336][  0]MapCheck: New page: Map Check
+[2017.06.28-01.40.10:336][  0]LightingResults: New page: Lighting Build
+[2017.06.28-01.40.10:984][  0]LogAIModule: Creating AISystem for world TitleScreen
+[2017.06.28-01.40.10:985][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.28-01.40.11:049][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.28-01.40.11:150][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 101.585ms to complete.
+[2017.06.28-01.40.11:150][  0]LogFileHelpers: Loading map 'TitleScreen' took 0.901
+[2017.06.28-01.40.13:070][  0]LogCollectionManager: Loaded 0 collections in 0.002583 seconds
+[2017.06.28-01.40.13:575][  0]LogFileCache: Scanning file cache for directory 'C:/Github/Prototype/Prototype/Saved/Collections/' took 0.01s
+[2017.06.28-01.40.13:575][  0]LogFileCache: Scanning file cache for directory 'C:/Github/Prototype/Prototype/Content/Developers/nemca/Collections/' took 0.01s
+[2017.06.28-01.40.13:575][  0]LogFileCache: Scanning file cache for directory 'C:/Github/Prototype/Prototype/Content/Collections/' took 0.01s
+[2017.06.28-01.40.13:575][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
+[2017.06.28-01.40.13:645][  0]LogContentBrowser: Native class hierarchy populated in 0.0687 seconds. Added 2329 classes and 491 folders.
+[2017.06.28-01.40.13:977][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.06.28-01.40.18:370][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.06.28-01.40.18:810][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.06.28-01.40.20:693][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.28-01.40.20:912][  0]LogSlate: Took 0.000325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.28-01.40.20:915][  0]LogSlate: Took 0.000302 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.28-01.40.21:054][  0]LogSlate: Took 0.019609 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.28-01.40.22:111][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.06.28-01.40.23:162][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.28-01.40.23:325][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2017.06.28-01.40.23:326][  0]LogLoad: (Engine Initialization) Total time: 47.79 seconds
+[2017.06.28-01.40.23:326][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.47 seconds
+[2017.06.28-01.40.23:326][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.06.28-01.40.23:666][  0]LogOcInput: OculusInput pre-init called
+[2017.06.28-01.40.23:666][  0]LogHMD: Starting GearVRController plugin
+[2017.06.28-01.40.23:774][  0]SourceControl: Info On branch master
+[2017.06.28-01.40.23:774][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.06.28-01.40.23:774][  0]SourceControl: Info Changes not staged for commit:
+[2017.06.28-01.40.23:774][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.06.28-01.40.23:774][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.06.28-01.40.23:774][  0]SourceControl: Info 	modified:   Prototype/Intermediate/CachedAssetRegistry.bin
+[2017.06.28-01.40.23:774][  0]SourceControl: Info 	modified:   Prototype/Saved/AutoScreenshot.png
+[2017.06.28-01.40.23:774][  0]SourceControl: Info 	modified:   Prototype/Saved/Autosaves/PackageRestoreData.json
+[2017.06.28-01.40.23:774][  0]SourceControl: Info 	deleted:    Prototype/Saved/Config/CrashReportClient/UE4CC-Windows-4581C7364FFC302C102E02BDEDBCAE47/CrashReportClient.ini
+[2017.06.28-01.40.23:774][  0]SourceControl: Info 	deleted:    Prototype/Saved/Config/CrashReportClient/UE4CC-Windows-883EAB404BC2803B4EAFAF8C68823074/CrashReportClient.ini
+[2017.06.28-01.40.23:774][  0]SourceControl: Info 	modified:   Prototype/Saved/Config/Windows/Editor.ini
+[2017.06.28-01.40.23:774][  0]SourceControl: Info 	modified:   Prototype/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.06.28-01.40.23:774][  0]SourceControl: Info 	deleted:    Prototype/Saved/Logs/Prototype-backup-2017.06.24-01.36.50.log
+[2017.06.28-01.40.23:774][  0]SourceControl: Info 	modified:   Prototype/Saved/Logs/Prototype.log
+[2017.06.28-01.40.23:775][  0]SourceControl: Info Untracked files:
+[2017.06.28-01.40.23:775][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.06.28-01.40.23:775][  0]SourceControl: Info 	Prototype/Saved/Config/CrashReportClient/UE4CC-Windows-2357FE9A4FDC81FB180ABD8A2A6A0FBE/
+[2017.06.28-01.40.23:775][  0]SourceControl: Info 	Prototype/Saved/Logs/Prototype-backup-2017.06.27-18.39.38.log
+[2017.06.28-01.40.23:775][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.06.28-01.40.23:775][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.28-01.40.23:996][  0]LogSlate: Took 0.018747 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.28-01.40.24:371][  2]LogAssetRegistry: Asset discovery search completed in 34.4423 seconds
+[2017.06.28-01.40.24:408][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2017.06.28-01.40.24:408][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
+[2017.06.28-02.52.25:389][220]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.28-02.52.26:505][220]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.28-02.52.41:166][220]LogAIModule: Creating AISystem for world TownExterior
+[2017.06.28-02.52.42:595][220]Cmd: MAP LOAD FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/TownExterior.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.28-02.52.42:596][220]LightingResults: New page: Lighting Build
+[2017.06.28-02.52.42:597][220]LoadErrors: New page: Loading map: TownExterior.umap
+[2017.06.28-02.52.42:623][220]MapCheck: New page: Map Check
+[2017.06.28-02.52.42:623][220]LightingResults: New page: Lighting Build
+[2017.06.28-02.52.43:182][220]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.28-02.52.43:289][220]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.28-02.52.43:412][220]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 123.17ms to complete.
+[2017.06.28-02.52.43:421][220]LogFileHelpers: Loading map 'TownExterior' took 1.015
+[2017.06.28-02.54.22:141][860]LogAIModule: Creating AISystem for world TitleScreen
+[2017.06.28-02.54.22:163][860]Cmd: MAP LOAD FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/TitleScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.28-02.54.22:163][860]LightingResults: New page: Lighting Build
+[2017.06.28-02.54.22:164][860]LoadErrors: New page: Loading map: TitleScreen.umap
+[2017.06.28-02.54.22:165][860]MapCheck: New page: Map Check
+[2017.06.28-02.54.22:165][860]LightingResults: New page: Lighting Build
+[2017.06.28-02.54.22:317][860]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.28-02.54.22:385][860]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.28-02.54.22:481][860]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 95.696ms to complete.
+[2017.06.28-02.54.22:481][860]LogFileHelpers: Loading map 'TitleScreen' took 0.318
+[2017.06.28-02.54.44:156][437]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.28-02.54.44:557][437]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen' with GeneratedClass '/Game/Maps/TitleScreen.TitleScreen_C' with ClassGeneratedBy '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen'
+[2017.06.28-02.54.44:580][437]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.28-02.54.44:700][437]PIE: New page: PIE session: TitleScreen (Jun 27, 2017, 12:54:44 PM)
+[2017.06.28-02.54.44:735][437]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TitleScreen
+[2017.06.28-02.54.44:858][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.122341s)
+[2017.06.28-02.54.44:858][437]LogAIModule: Creating AISystem for world TitleScreen
+[2017.06.28-02.54.44:858][437]LogPlayLevel: PIE: World Init took: (0.000816s)
+[2017.06.28-02.54.44:877][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TitleScreen.TitleScreen to /Game/Maps/UEDPIE_0_TitleScreen.TitleScreen (0.151929s)
+[2017.06.28-02.54.44:973][437]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.28-02.54.44:983][437]LogInit: FAudioDevice initialized.
+[2017.06.28-02.54.45:083][437]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.28-02.54.45:376][437]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TitleScreen.TitleScreen up for play (max tick rate 0) at 2017.06.27-19.54.45
+[2017.06.28-02.54.45:423][437]LogWorld: Bringing up level for play took: 0.047588
+[2017.06.28-02.54.45:910][437]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.06.28-02.54.46:272][437]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.28-02.54.46:618][437]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TitleScreen 1.39
+[2017.06.28-02.54.46:619][437]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen' with GeneratedClass '/Game/Maps/TitleScreen.TitleScreen_C' with ClassGeneratedBy '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen'
+[2017.06.28-02.54.53:986][280]LogNet: Browse: /Game/Maps/TownExterior
+[2017.06.28-02.54.53:986][280]LogLoad: LoadMap: /Game/Maps/TownExterior
+[2017.06.28-02.54.54:078][280]Cmd: MEM
+[2017.06.28-02.54.54:247][280]LogMemory: Platform Memory Stats for Windows
+[2017.06.28-02.54.54:247][280]LogMemory: Process Physical Memory: 1114.63 MB used, 1121.72 MB peak
+[2017.06.28-02.54.54:247][280]LogMemory: Process Virtual Memory: 1558.63 MB used, 1565.77 MB peak
+[2017.06.28-02.54.54:247][280]LogMemory: Physical Memory: 5536.04 MB used,  2635.51 MB free, 8171.55 MB total
+[2017.06.28-02.54.54:247][280]LogMemory: Virtual Memory: 2308.34 MB used,  2635.51 MB free, 134217728.00 MB total
+[2017.06.28-02.54.54:247][280]LogMemory: 
+[2017.06.28-02.54.54:247][280]Allocator Stats for TBB: (not implemented)
+[2017.06.28-02.54.56:575][280]LogAIModule: Creating AISystem for world TownExterior
+[2017.06.28-02.54.56:576][280]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.28-02.54.56:582][280]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TownExterior.TownExterior up for play (max tick rate 0) at 2017.06.27-19.54.56
+[2017.06.28-02.54.56:642][280]LogWorld: Bringing up level for play took: 0.064244
+[2017.06.28-02.54.56:665][280]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.28-02.54.56:695][280]LogLoad: Took 2.708595 seconds to LoadMap(/Game/Maps/TownExterior)
+[2017.06.28-02.55.01:746][871]LogNet: Browse: /Game/Maps/House1Interior
+[2017.06.28-02.55.01:747][871]LogLoad: LoadMap: /Game/Maps/House1Interior
+[2017.06.28-02.55.01:766][871]Cmd: MEM
+[2017.06.28-02.55.01:783][871]LogMemory: Platform Memory Stats for Windows
+[2017.06.28-02.55.01:783][871]LogMemory: Process Physical Memory: 1304.79 MB used, 1309.88 MB peak
+[2017.06.28-02.55.01:783][871]LogMemory: Process Virtual Memory: 1895.52 MB used, 1901.03 MB peak
+[2017.06.28-02.55.01:783][871]LogMemory: Physical Memory: 5665.94 MB used,  2505.62 MB free, 8171.55 MB total
+[2017.06.28-02.55.01:783][871]LogMemory: Virtual Memory: 2657.96 MB used,  2505.62 MB free, 134217728.00 MB total
+[2017.06.28-02.55.01:783][871]LogMemory: 
+[2017.06.28-02.55.01:783][871]Allocator Stats for TBB: (not implemented)
+[2017.06.28-02.55.02:161][871]LogAIModule: Creating AISystem for world House1Interior
+[2017.06.28-02.55.02:161][871]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.28-02.55.02:167][871]LogWorld: Bringing World /Game/Maps/UEDPIE_0_House1Interior.House1Interior up for play (max tick rate 0) at 2017.06.27-19.55.02
+[2017.06.28-02.55.02:299][871]LogWorld: Bringing up level for play took: 0.135704
+[2017.06.28-02.55.02:301][871]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.28-02.55.02:302][871]LogLoad: Took 0.555740 seconds to LoadMap(/Game/Maps/House1Interior)
+[2017.06.28-02.55.07:518][472]LogNet: Browse: /Game/Maps/TownExterior
+[2017.06.28-02.55.07:518][472]LogLoad: LoadMap: /Game/Maps/TownExterior
+[2017.06.28-02.55.07:594][472]Cmd: MEM
+[2017.06.28-02.55.07:611][472]LogMemory: Platform Memory Stats for Windows
+[2017.06.28-02.55.07:611][472]LogMemory: Process Physical Memory: 1328.92 MB used, 1333.20 MB peak
+[2017.06.28-02.55.07:612][472]LogMemory: Process Virtual Memory: 2047.55 MB used, 2048.11 MB peak
+[2017.06.28-02.55.07:612][472]LogMemory: Physical Memory: 5685.44 MB used,  2486.11 MB free, 8171.55 MB total
+[2017.06.28-02.55.07:612][472]LogMemory: Virtual Memory: 2785.75 MB used,  2486.11 MB free, 134217728.00 MB total
+[2017.06.28-02.55.07:612][472]LogMemory: 
+[2017.06.28-02.55.07:612][472]Allocator Stats for TBB: (not implemented)
+[2017.06.28-02.55.07:887][472]LogAIModule: Creating AISystem for world TownExterior
+[2017.06.28-02.55.07:888][472]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.28-02.55.07:899][472]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TownExterior.TownExterior up for play (max tick rate 0) at 2017.06.27-19.55.07
+[2017.06.28-02.55.07:900][472]LogWorld: Bringing up level for play took: 0.006817
+[2017.06.28-02.55.07:903][472]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.28-02.55.07:905][472]LogLoad: Took 0.386749 seconds to LoadMap(/Game/Maps/TownExterior)
+[2017.06.28-02.55.25:022][506]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen' with GeneratedClass '/Game/Maps/TitleScreen.TitleScreen_C' with ClassGeneratedBy '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen'
+[2017.06.28-02.55.25:168][506]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen' with GeneratedClass '/Game/Maps/TitleScreen.TitleScreen_C' with ClassGeneratedBy '/Game/Maps/TitleScreen.TitleScreen:PersistentLevel.TitleScreen'
+[2017.06.28-02.56.21:772][462]LogAIModule: Creating AISystem for world TownExterior
+[2017.06.28-02.56.21:795][462]Cmd: MAP LOAD FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/TownExterior.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.28-02.56.21:795][462]LightingResults: New page: Lighting Build
+[2017.06.28-02.56.21:796][462]LoadErrors: New page: Loading map: TownExterior.umap
+[2017.06.28-02.56.21:796][462]MapCheck: New page: Map Check
+[2017.06.28-02.56.21:796][462]LightingResults: New page: Lighting Build
+[2017.06.28-02.56.21:954][462]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.28-02.56.22:023][462]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.28-02.56.22:119][462]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 95.813ms to complete.
+[2017.06.28-02.56.22:119][462]LogFileHelpers: Loading map 'TownExterior' took 0.325
+[2017.06.28-02.56.30:909][209]MapCheck: New page: Map Check
+[2017.06.28-02.56.31:119][209]Cmd: MAP REBUILD ALLVISIBLE
+[2017.06.28-02.56.31:123][209]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.06.28-02.56.31:611][209]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.06.28-02.56.31:737][209]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ground_Grass, compiling. 
+[2017.06.28-02.56.31:744][209]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2017.06.28-02.56.31:752][209]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.06.28-02.56.31:759][209]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_CobbleStone_Smooth, compiling. 
+[2017.06.28-02.56.31:770][209]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Concrete_Grime, compiling. 
+[2017.06.28-02.56.31:778][209]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Worn, compiling. 
+[2017.06.28-02.56.31:785][209]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished, compiling. 
+[2017.06.28-02.56.31:792][209]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Wall, compiling. 
+[2017.06.28-02.56.31:799][209]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Walnut, compiling. 
+[2017.06.28-02.56.36:085][209]TextureStreamingBuild:Display: Compiling optional shaders took 4.494 seconds.
+[2017.06.28-02.56.36:627][209]LogLevel:Display: Export Material TexCoord Scales took 0.543 seconds.
+[2017.06.28-02.56.36:646][209]TextureStreamingBuild:Display: Build Texture Streaming took 0.006 seconds.
+[2017.06.28-02.56.36:695][209]LightingResults: New page: Lighting Build - Jun 27, 2017, 12:56:36 PM
+[2017.06.28-02.56.37:028][209]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.06.28-02.56.37:386][209]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.06.28-02.56.37:496][209]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.06.28-02.56.40:053][209]LogSwarmInterface:Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2017.06.28-02.56.40:109][209]LogSwarmInterface:Error: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:8008
+
+Server stack trace: 
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   at NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2017.06.28-02.56.46:212][209]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.06.28-02.56.46:212][209]LogSwarmInterface: [TryOpenConnection] Local Process ID is 5960
+[2017.06.28-02.56.58:093][209]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.06.28-02.56.58:104][209]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.06.28-02.56.58:104][209]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.06.28-02.56.58:104][209]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.06.28-02.56.58:104][209]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.06.28-02.56.58:104][209]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.06.28-02.56.59:019][209]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.06.28-02.56.59:019][209]MapCheck: New page: TownExterior - Jun 27, 2017, 12:56:59 PM
+[2017.06.28-02.56.59:136][209]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.06.28-02.56.59:231][209]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 211.714ms to complete.
+[2017.06.28-02.56.59:254][209]LogEditorBuildUtils: Build time 0:28
+[2017.06.28-02.56.59:731][209]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Ground_Grass, compiling. 
+[2017.06.28-02.56.59:755][209]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Ground_Grass, compiling. 
+[2017.06.28-02.57.00:082][211]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_CobbleStone_Smooth, compiling. 
+[2017.06.28-02.57.00:119][211]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_CobbleStone_Smooth, compiling. 
+[2017.06.28-02.57.34:025][741]Job is a success!
+[2017.06.28-02.57.35:136][742]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.06.28-02.57.35:136][742]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2017.06.28-02.57.35:136][742]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.06.28-02.57.35:136][742]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2017.06.28-02.57.35:136][742]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2017.06.28-02.57.35:136][742]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2017.06.28-02.57.35:136][742]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
+[2017.06.28-02.57.35:136][742]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2017.06.28-02.57.35:136][742]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2017.06.28-02.57.35:337][742]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2017.06.28-02.57.35:695][742]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
+[2017.06.28-02.57.35:972][742]Lightmass on DESKTOP-71K0SKI: 31.7 sec total, 1.19 sec importing, 76 ms setup, 5.63 sec photons, 24.5 sec processing, 0 ms extra exporting [9/9 mappings]. Threads: 2:52 min total, 1:40 min processing.
+[2017.06.28-02.57.36:044][742]LogStaticLightingSystem: Illumination: 59.2 sec (871 ms encoding lightmaps, 552 ms encoding shadowmaps)
+[2017.06.28-02.57.36:044][742]LogStaticLightingSystem: Lightmap texture memory:  5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 6 textures
+[2017.06.28-02.57.36:044][742]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.06.28-02.57.37:103][742]DumpUnbuiltLightIteractions
+[2017.06.28-02.57.37:103][742]Lights with unbuilt interactions: 0
+[2017.06.28-02.57.37:103][742]
+[2017.06.28-02.57.37:103][742]Primitives with unbuilt interactions: 0
+[2017.06.28-02.57.37:137][743]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.06.28-02.57.37:137][743]MapCheck: New page: TownExterior - Jun 27, 2017, 12:57:37 PM
+[2017.06.28-02.57.37:353][743]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 216.075ms to complete.
+[2017.06.28-02.57.37:365][743]LogEditorViewport: Clicking Background
+[2017.06.28-02.57.39:534][937]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.28-02.57.39:561][937]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TownExterior.TownExterior:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior' with GeneratedClass '/Game/Maps/TownExterior.TownExterior_C' with ClassGeneratedBy '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior'
+[2017.06.28-02.57.39:561][937]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.28-02.57.39:561][937]PIE: New page: PIE session: TownExterior (Jun 27, 2017, 12:57:39 PM)
+[2017.06.28-02.57.39:561][937]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TownExterior
+[2017.06.28-02.57.39:580][937]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018876s)
+[2017.06.28-02.57.39:582][937]LogAIModule: Creating AISystem for world TownExterior
+[2017.06.28-02.57.39:582][937]LogPlayLevel: PIE: World Init took: (0.001397s)
+[2017.06.28-02.57.39:582][937]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TownExterior.TownExterior to /Game/Maps/UEDPIE_0_TownExterior.TownExterior (0.020569s)
+[2017.06.28-02.57.39:654][937]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.28-02.57.39:665][937]LogInit: FAudioDevice initialized.
+[2017.06.28-02.57.39:696][937]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.28-02.57.39:699][937]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TownExterior.TownExterior up for play (max tick rate 0) at 2017.06.27-19.57.39
+[2017.06.28-02.57.39:700][937]LogWorld: Bringing up level for play took: 0.001618
+[2017.06.28-02.57.39:702][937]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.28-02.57.39:703][937]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TownExterior 0.474
+[2017.06.28-02.57.39:703][937]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TownExterior.TownExterior:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior' with GeneratedClass '/Game/Maps/TownExterior.TownExterior_C' with ClassGeneratedBy '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior'
+[2017.06.28-02.58.12:804][895]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TownExterior.TownExterior:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior' with GeneratedClass '/Game/Maps/TownExterior.TownExterior_C' with ClassGeneratedBy '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior'
+[2017.06.28-02.58.12:838][895]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TownExterior.TownExterior:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior' with GeneratedClass '/Game/Maps/TownExterior.TownExterior_C' with ClassGeneratedBy '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior'
+[2017.06.28-02.58.16:215][213]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.28-02.58.21:394][438]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 112 classes and 0 folders.
+[2017.06.28-02.58.23:523][438]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.23:567][438]LogSlate: Took 0.018918 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.28-02.58.24:562][439]LogSlate: Took 0.044717 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.28-02.58.27:433][555]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.27:472][556]LogRenderer: Reallocating scene render targets to support 1208x696 NumSamples 1 (Frame:1).
+[2017.06.28-02.58.30:891][704]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.30:909][705]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.30:926][706]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.30:943][707]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.30:961][708]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.30:980][709]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.30:997][710]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.31:014][711]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.31:032][712]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.31:050][713]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.31:097][716]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.31:113][717]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.31:130][718]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.31:147][719]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.31:164][720]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.31:181][721]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.31:199][722]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.31:216][723]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.31:233][724]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.31:251][725]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.31:268][726]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.31:285][727]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.31:302][728]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.31:319][729]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.31:337][730]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.31:354][731]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.31:372][732]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.31:390][733]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.31:407][734]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.31:425][735]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.31:442][736]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.32:173][781]BlueprintLog: New page: Compile MyCharacter_BP
+[2017.06.28-02.58.32:518][781]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.28-02.58.32:521][781]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.32:929][781]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.28-02.58.32:930][781]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.32:981][781]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.28-02.58.32:982][781]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.33:113][781]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-02.58.33:906][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset" SILENT=true
+[2017.06.28-02.58.34:527][807]LogSavePackage: Save=532.57ms
+[2017.06.28-02.58.34:528][807]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/MyCharacter_BP9EAB1B454EEB378B96D9CFA0205F7EE8.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset'
+[2017.06.28-02.58.34:531][807]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/MyCharacter_BP.uasset
+[2017.06.28-02.58.36:227][897]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.28-02.58.36:265][897]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TownExterior.TownExterior:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior' with GeneratedClass '/Game/Maps/TownExterior.TownExterior_C' with ClassGeneratedBy '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior'
+[2017.06.28-02.58.36:265][897]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.28-02.58.36:265][897]PIE: New page: PIE session: TownExterior (Jun 27, 2017, 12:58:36 PM)
+[2017.06.28-02.58.36:265][897]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TownExterior
+[2017.06.28-02.58.36:269][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003662s)
+[2017.06.28-02.58.36:269][897]LogAIModule: Creating AISystem for world TownExterior
+[2017.06.28-02.58.36:270][897]LogPlayLevel: PIE: World Init took: (0.000843s)
+[2017.06.28-02.58.36:270][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TownExterior.TownExterior to /Game/Maps/UEDPIE_0_TownExterior.TownExterior (0.004730s)
+[2017.06.28-02.58.36:319][897]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.28-02.58.36:330][897]LogInit: FAudioDevice initialized.
+[2017.06.28-02.58.36:365][897]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.28-02.58.36:369][897]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TownExterior.TownExterior up for play (max tick rate 0) at 2017.06.27-19.58.36
+[2017.06.28-02.58.36:369][897]LogWorld: Bringing up level for play took: 0.001655
+[2017.06.28-02.58.36:371][897]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.28-02.58.36:372][897]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TownExterior -0.856
+[2017.06.28-02.58.36:372][897]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TownExterior.TownExterior:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior' with GeneratedClass '/Game/Maps/TownExterior.TownExterior_C' with ClassGeneratedBy '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior'
+[2017.06.28-02.59.18:861][502]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TownExterior.TownExterior:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior' with GeneratedClass '/Game/Maps/TownExterior.TownExterior_C' with ClassGeneratedBy '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior'
+[2017.06.28-02.59.18:895][502]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TownExterior.TownExterior:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior' with GeneratedClass '/Game/Maps/TownExterior.TownExterior_C' with ClassGeneratedBy '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior'
+[2017.06.28-02.59.21:930][671]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2017.06.28-02.59.27:410][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TownExterior" FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/TownExterior.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.28-02.59.27:741][976]LogSavePackage: Save=217.46ms
+[2017.06.28-02.59.27:741][976]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/TownExteriorF15E04D7425CA4F374122788A8EE0A11.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Maps/TownExterior.umap'
+[2017.06.28-02.59.27:747][976]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Maps/TownExterior.umap
+[2017.06.28-02.59.27:867][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TownExterior_BuiltData" FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/TownExterior_BuiltData.uasset" SILENT=true
+[2017.06.28-02.59.28:114][976]LogSavePackage: Save=245.04ms
+[2017.06.28-02.59.28:114][976]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/TownExterior_BuiltData88B99DD1455689F1FF7CE88EE78E8013.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Maps/TownExterior_BuiltData.uasset'
+[2017.06.28-02.59.28:119][976]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Maps/TownExterior_BuiltData.uasset
+[2017.06.28-02.59.29:151][  9]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.28-02.59.29:181][  9]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TownExterior.TownExterior:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior' with GeneratedClass '/Game/Maps/TownExterior.TownExterior_C' with ClassGeneratedBy '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior'
+[2017.06.28-02.59.29:181][  9]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.28-02.59.29:181][  9]PIE: New page: PIE session: TownExterior (Jun 27, 2017, 12:59:29 PM)
+[2017.06.28-02.59.29:181][  9]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TownExterior
+[2017.06.28-02.59.29:185][  9]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003899s)
+[2017.06.28-02.59.29:187][  9]LogAIModule: Creating AISystem for world TownExterior
+[2017.06.28-02.59.29:187][  9]LogPlayLevel: PIE: World Init took: (0.001340s)
+[2017.06.28-02.59.29:187][  9]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TownExterior.TownExterior to /Game/Maps/UEDPIE_0_TownExterior.TownExterior (0.005582s)
+[2017.06.28-02.59.29:263][  9]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.28-02.59.29:273][  9]LogInit: FAudioDevice initialized.
+[2017.06.28-02.59.29:313][  9]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.28-02.59.29:317][  9]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TownExterior.TownExterior up for play (max tick rate 0) at 2017.06.27-19.59.29
+[2017.06.28-02.59.29:317][  9]LogWorld: Bringing up level for play took: 0.001617
+[2017.06.28-02.59.29:319][  9]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.28-02.59.29:320][  9]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TownExterior 0.091
+[2017.06.28-02.59.29:320][  9]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TownExterior.TownExterior:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior' with GeneratedClass '/Game/Maps/TownExterior.TownExterior_C' with ClassGeneratedBy '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior'
+[2017.06.28-03.00.21:309][176]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TownExterior.TownExterior:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior' with GeneratedClass '/Game/Maps/TownExterior.TownExterior_C' with ClassGeneratedBy '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior'
+[2017.06.28-03.00.21:372][176]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TownExterior.TownExterior:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior' with GeneratedClass '/Game/Maps/TownExterior.TownExterior_C' with ClassGeneratedBy '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior'
+[2017.06.28-03.04.28:363][646]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.06.28-03.05.08:331][ 17]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.06.28-03.05.09:606][130]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.28-03.05.09:647][130]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TownExterior.TownExterior:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior' with GeneratedClass '/Game/Maps/TownExterior.TownExterior_C' with ClassGeneratedBy '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior'
+[2017.06.28-03.05.09:647][130]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.28-03.05.09:647][130]PIE: New page: PIE session: TownExterior (Jun 27, 2017, 1:05:09 PM)
+[2017.06.28-03.05.09:647][130]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TownExterior
+[2017.06.28-03.05.09:651][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004093s)
+[2017.06.28-03.05.09:652][130]LogAIModule: Creating AISystem for world TownExterior
+[2017.06.28-03.05.09:652][130]LogPlayLevel: PIE: World Init took: (0.001175s)
+[2017.06.28-03.05.09:653][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TownExterior.TownExterior to /Game/Maps/UEDPIE_0_TownExterior.TownExterior (0.005660s)
+[2017.06.28-03.05.09:700][130]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.28-03.05.09:711][130]LogInit: FAudioDevice initialized.
+[2017.06.28-03.05.09:745][130]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.28-03.05.09:749][130]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TownExterior.TownExterior up for play (max tick rate 0) at 2017.06.27-20.05.09
+[2017.06.28-03.05.09:749][130]LogWorld: Bringing up level for play took: 0.001670
+[2017.06.28-03.05.09:751][130]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.28-03.05.09:752][130]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TownExterior 0.523
+[2017.06.28-03.05.09:752][130]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TownExterior.TownExterior:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior' with GeneratedClass '/Game/Maps/TownExterior.TownExterior_C' with ClassGeneratedBy '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior'
+[2017.06.28-03.05.55:552][988]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TownExterior.TownExterior:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior' with GeneratedClass '/Game/Maps/TownExterior.TownExterior_C' with ClassGeneratedBy '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior'
+[2017.06.28-03.05.55:606][988]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TownExterior.TownExterior:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior' with GeneratedClass '/Game/Maps/TownExterior.TownExterior_C' with ClassGeneratedBy '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior'
+[2017.06.28-03.05.59:533][194]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.28-03.06.12:887][865]BlueprintLog: New page: Compile TestHouse3_BP_2
+[2017.06.28-03.06.14:324][931]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TestHouse3_BP_2" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse3_BP_2.uasset" SILENT=true
+[2017.06.28-03.06.14:460][931]LogSavePackage: Save=52.41ms
+[2017.06.28-03.06.14:460][931]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/TestHouse3_BP_293D41CC6446CF022FD0C3CA5FA925912.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse3_BP_2.uasset'
+[2017.06.28-03.06.14:463][931]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse3_BP_2.uasset
+[2017.06.28-03.06.20:402][214]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.28-03.06.20:434][214]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TownExterior.TownExterior:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior' with GeneratedClass '/Game/Maps/TownExterior.TownExterior_C' with ClassGeneratedBy '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior'
+[2017.06.28-03.06.20:434][214]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.28-03.06.20:434][214]PIE: New page: PIE session: TownExterior (Jun 27, 2017, 1:06:20 PM)
+[2017.06.28-03.06.20:434][214]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TownExterior
+[2017.06.28-03.06.20:438][214]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003811s)
+[2017.06.28-03.06.20:439][214]LogAIModule: Creating AISystem for world TownExterior
+[2017.06.28-03.06.20:439][214]LogPlayLevel: PIE: World Init took: (0.001457s)
+[2017.06.28-03.06.20:439][214]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TownExterior.TownExterior to /Game/Maps/UEDPIE_0_TownExterior.TownExterior (0.005527s)
+[2017.06.28-03.06.20:496][214]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.28-03.06.20:510][214]LogInit: FAudioDevice initialized.
+[2017.06.28-03.06.20:545][214]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.28-03.06.20:549][214]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TownExterior.TownExterior up for play (max tick rate 0) at 2017.06.27-20.06.20
+[2017.06.28-03.06.20:550][214]LogWorld: Bringing up level for play took: 0.001706
+[2017.06.28-03.06.20:552][214]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.28-03.06.20:553][214]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TownExterior -0.676
+[2017.06.28-03.06.20:553][214]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TownExterior.TownExterior:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior' with GeneratedClass '/Game/Maps/TownExterior.TownExterior_C' with ClassGeneratedBy '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior'
+[2017.06.28-03.06.25:948][828]LogNet: Browse: /Game/Maps/House1Interior
+[2017.06.28-03.06.25:948][828]LogLoad: LoadMap: /Game/Maps/House1Interior
+[2017.06.28-03.06.25:990][828]Cmd: MEM
+[2017.06.28-03.06.26:030][828]LogMemory: Platform Memory Stats for Windows
+[2017.06.28-03.06.26:030][828]LogMemory: Process Physical Memory: 1704.07 MB used, 1855.32 MB peak
+[2017.06.28-03.06.26:030][828]LogMemory: Process Virtual Memory: 2707.09 MB used, 2809.60 MB peak
+[2017.06.28-03.06.26:030][828]LogMemory: Physical Memory: 6373.35 MB used,  1798.20 MB free, 8171.55 MB total
+[2017.06.28-03.06.26:030][828]LogMemory: Virtual Memory: 4067.76 MB used,  1798.20 MB free, 134217728.00 MB total
+[2017.06.28-03.06.26:030][828]LogMemory: 
+[2017.06.28-03.06.26:030][828]Allocator Stats for TBB: (not implemented)
+[2017.06.28-03.06.26:181][828]LogAIModule: Creating AISystem for world House1Interior
+[2017.06.28-03.06.26:181][828]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.28-03.06.26:187][828]LogWorld: Bringing World /Game/Maps/UEDPIE_0_House1Interior.House1Interior up for play (max tick rate 0) at 2017.06.27-20.06.26
+[2017.06.28-03.06.26:188][828]LogWorld: Bringing up level for play took: 0.004133
+[2017.06.28-03.06.26:190][828]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.28-03.06.26:191][828]LogLoad: Took 0.242855 seconds to LoadMap(/Game/Maps/House1Interior)
+[2017.06.28-03.06.27:870][991]LogNet: Browse: /Game/Maps/TownExterior
+[2017.06.28-03.06.27:870][991]LogLoad: LoadMap: /Game/Maps/TownExterior
+[2017.06.28-03.06.27:911][991]Cmd: MEM
+[2017.06.28-03.06.27:950][991]LogMemory: Platform Memory Stats for Windows
+[2017.06.28-03.06.27:950][991]LogMemory: Process Physical Memory: 1796.68 MB used, 1855.32 MB peak
+[2017.06.28-03.06.27:950][991]LogMemory: Process Virtual Memory: 2905.77 MB used, 2920.36 MB peak
+[2017.06.28-03.06.27:950][991]LogMemory: Physical Memory: 6456.47 MB used,  1715.08 MB free, 8171.55 MB total
+[2017.06.28-03.06.27:950][991]LogMemory: Virtual Memory: 4233.07 MB used,  1715.08 MB free, 134217728.00 MB total
+[2017.06.28-03.06.27:950][991]LogMemory: 
+[2017.06.28-03.06.27:950][991]Allocator Stats for TBB: (not implemented)
+[2017.06.28-03.06.27:950][991]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TownExterior
+[2017.06.28-03.06.27:954][991]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003756s)
+[2017.06.28-03.06.27:955][991]LogAIModule: Creating AISystem for world TownExterior
+[2017.06.28-03.06.27:955][991]LogPlayLevel: PIE: World Init took: (0.001087s)
+[2017.06.28-03.06.27:955][991]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TownExterior.TownExterior to /Game/Maps/UEDPIE_0_TownExterior.TownExterior (0.005222s)
+[2017.06.28-03.06.27:955][991]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.28-03.06.28:035][991]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TownExterior.TownExterior up for play (max tick rate 0) at 2017.06.27-20.06.28
+[2017.06.28-03.06.28:036][991]LogWorld: Bringing up level for play took: 0.075280
+[2017.06.28-03.06.28:038][991]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.28-03.06.28:039][991]LogLoad: Took 0.168698 seconds to LoadMap(/Game/Maps/UEDPIE_0_TownExterior)
+[2017.06.28-03.06.35:904][902]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TownExterior.TownExterior:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior' with GeneratedClass '/Game/Maps/TownExterior.TownExterior_C' with ClassGeneratedBy '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior'
+[2017.06.28-03.06.35:955][902]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TownExterior.TownExterior:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior' with GeneratedClass '/Game/Maps/TownExterior.TownExterior_C' with ClassGeneratedBy '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior'
+[2017.06.28-03.06.36:813][975]LogEditorViewport: Clicking on Actor (LMB): TestHouse3_BP_2_C (TestHouse3_BP_2)
+[2017.06.28-03.06.40:305][291]Cmd: TRANSACTION UNDO
+[2017.06.28-03.06.40:305][291]LogEditorTransaction: Undo Create Actors
+[2017.06.28-03.07.00:872][460]BlueprintLog: New page: Compile TestHouse3_BP_2
+[2017.06.28-03.07.01:580][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TestHouse3_BP_2" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse3_BP_2.uasset" SILENT=true
+[2017.06.28-03.07.01:687][479]LogSavePackage: Save=45.25ms
+[2017.06.28-03.07.01:687][479]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/TestHouse3_BP_2EB831B194F083D2B991287A274DE5319.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse3_BP_2.uasset'
+[2017.06.28-03.07.01:690][479]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/TestHouse3_BP_2.uasset
+[2017.06.28-03.07.07:972][106]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.28-03.07.08:005][106]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TownExterior.TownExterior:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior' with GeneratedClass '/Game/Maps/TownExterior.TownExterior_C' with ClassGeneratedBy '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior'
+[2017.06.28-03.07.08:005][106]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.28-03.07.08:005][106]PIE: New page: PIE session: TownExterior (Jun 27, 2017, 1:07:08 PM)
+[2017.06.28-03.07.08:005][106]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TownExterior
+[2017.06.28-03.07.08:009][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003973s)
+[2017.06.28-03.07.08:010][106]LogAIModule: Creating AISystem for world TownExterior
+[2017.06.28-03.07.08:010][106]LogPlayLevel: PIE: World Init took: (0.001037s)
+[2017.06.28-03.07.08:011][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TownExterior.TownExterior to /Game/Maps/UEDPIE_0_TownExterior.TownExterior (0.005361s)
+[2017.06.28-03.07.08:058][106]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.28-03.07.08:068][106]LogInit: FAudioDevice initialized.
+[2017.06.28-03.07.08:101][106]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.28-03.07.08:105][106]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TownExterior.TownExterior up for play (max tick rate 0) at 2017.06.27-20.07.08
+[2017.06.28-03.07.08:105][106]LogWorld: Bringing up level for play took: 0.001638
+[2017.06.28-03.07.08:107][106]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.28-03.07.08:108][106]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TownExterior 0.879
+[2017.06.28-03.07.08:108][106]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TownExterior.TownExterior:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior' with GeneratedClass '/Game/Maps/TownExterior.TownExterior_C' with ClassGeneratedBy '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior'
+[2017.06.28-03.07.36:496][473]LogBlueprintUserMessages: [MyCharacter_BP_C_1] EXP Needed: 200
+[2017.06.28-03.07.41:554][ 75]LogNet: Browse: /Game/Maps/House1Interior
+[2017.06.28-03.07.41:554][ 75]LogLoad: LoadMap: /Game/Maps/House1Interior
+[2017.06.28-03.07.41:591][ 75]Cmd: MEM
+[2017.06.28-03.07.41:622][ 75]LogMemory: Platform Memory Stats for Windows
+[2017.06.28-03.07.41:622][ 75]LogMemory: Process Physical Memory: 1821.20 MB used, 1855.32 MB peak
+[2017.06.28-03.07.41:622][ 75]LogMemory: Process Virtual Memory: 2838.38 MB used, 2920.36 MB peak
+[2017.06.28-03.07.41:622][ 75]LogMemory: Physical Memory: 6431.14 MB used,  1740.41 MB free, 8171.55 MB total
+[2017.06.28-03.07.41:622][ 75]LogMemory: Virtual Memory: 4291.29 MB used,  1740.41 MB free, 134217728.00 MB total
+[2017.06.28-03.07.41:622][ 75]LogMemory: 
+[2017.06.28-03.07.41:622][ 75]Allocator Stats for TBB: (not implemented)
+[2017.06.28-03.07.41:865][ 75]LogAIModule: Creating AISystem for world House1Interior
+[2017.06.28-03.07.41:865][ 75]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.28-03.07.41:871][ 75]LogWorld: Bringing World /Game/Maps/UEDPIE_0_House1Interior.House1Interior up for play (max tick rate 0) at 2017.06.27-20.07.41
+[2017.06.28-03.07.41:872][ 75]LogWorld: Bringing up level for play took: 0.004182
+[2017.06.28-03.07.41:874][ 75]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.28-03.07.41:875][ 75]LogLoad: Took 0.320490 seconds to LoadMap(/Game/Maps/House1Interior)
+[2017.06.28-03.07.48:177][807]LogNet: Browse: /Game/Maps/TownExterior
+[2017.06.28-03.07.48:177][807]LogLoad: LoadMap: /Game/Maps/TownExterior
+[2017.06.28-03.07.48:217][807]Cmd: MEM
+[2017.06.28-03.07.48:251][807]LogMemory: Platform Memory Stats for Windows
+[2017.06.28-03.07.48:251][807]LogMemory: Process Physical Memory: 1780.47 MB used, 1855.32 MB peak
+[2017.06.28-03.07.48:251][807]LogMemory: Process Virtual Memory: 2745.33 MB used, 3015.57 MB peak
+[2017.06.28-03.07.48:251][807]LogMemory: Physical Memory: 6359.65 MB used,  1811.91 MB free, 8171.55 MB total
+[2017.06.28-03.07.48:251][807]LogMemory: Virtual Memory: 4228.16 MB used,  1811.91 MB free, 134217728.00 MB total
+[2017.06.28-03.07.48:251][807]LogMemory: 
+[2017.06.28-03.07.48:251][807]Allocator Stats for TBB: (not implemented)
+[2017.06.28-03.07.48:251][807]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TownExterior
+[2017.06.28-03.07.48:255][807]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003751s)
+[2017.06.28-03.07.48:256][807]LogAIModule: Creating AISystem for world TownExterior
+[2017.06.28-03.07.48:256][807]LogPlayLevel: PIE: World Init took: (0.000861s)
+[2017.06.28-03.07.48:256][807]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TownExterior.TownExterior to /Game/Maps/UEDPIE_0_TownExterior.TownExterior (0.004846s)
+[2017.06.28-03.07.48:256][807]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.28-03.07.48:260][807]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TownExterior.TownExterior up for play (max tick rate 0) at 2017.06.27-20.07.48
+[2017.06.28-03.07.48:260][807]LogWorld: Bringing up level for play took: 0.001581
+[2017.06.28-03.07.48:262][807]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.28-03.07.48:263][807]LogLoad: Took 0.086260 seconds to LoadMap(/Game/Maps/UEDPIE_0_TownExterior)
+[2017.06.28-03.07.57:516][886]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TownExterior.TownExterior:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior' with GeneratedClass '/Game/Maps/TownExterior.TownExterior_C' with ClassGeneratedBy '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior'
+[2017.06.28-03.07.57:558][886]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TownExterior.TownExterior:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior' with GeneratedClass '/Game/Maps/TownExterior.TownExterior_C' with ClassGeneratedBy '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior'
+[2017.06.28-03.08.04:238][572]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.06.28-03.08.18:834][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TownExterior" FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/TownExterior.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.28-03.08.19:213][848]LogSavePackage: Save=264.00ms
+[2017.06.28-03.08.19:213][848]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/TownExteriorE7CE25F74069A631BB98188B797DCA58.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Maps/TownExterior.umap'
+[2017.06.28-03.08.19:216][848]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Maps/TownExterior.umap
+[2017.06.28-03.08.19:352][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TownExterior_BuiltData" FILE="../../../../../../Github/Prototype/Prototype/Content/Maps/TownExterior_BuiltData.uasset" SILENT=true
+[2017.06.28-03.08.19:697][848]LogSavePackage: Save=264.96ms
+[2017.06.28-03.08.19:697][848]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/TownExterior_BuiltData5DADEC1B4293F9CD8F665EB5E2850CC8.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Maps/TownExterior_BuiltData.uasset'
+[2017.06.28-03.08.19:698][848]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Maps/TownExterior_BuiltData.uasset
+[2017.06.28-03.08.20:683][942]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.28-03.08.20:722][942]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TownExterior.TownExterior:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior' with GeneratedClass '/Game/Maps/TownExterior.TownExterior_C' with ClassGeneratedBy '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior'
+[2017.06.28-03.08.20:722][942]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.28-03.08.20:723][942]PIE: New page: PIE session: TownExterior (Jun 27, 2017, 1:08:20 PM)
+[2017.06.28-03.08.20:723][942]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TownExterior
+[2017.06.28-03.08.20:732][942]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008795s)
+[2017.06.28-03.08.20:733][942]LogAIModule: Creating AISystem for world TownExterior
+[2017.06.28-03.08.20:734][942]LogPlayLevel: PIE: World Init took: (0.002010s)
+[2017.06.28-03.08.20:734][942]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TownExterior.TownExterior to /Game/Maps/UEDPIE_0_TownExterior.TownExterior (0.011106s)
+[2017.06.28-03.08.20:783][942]LogInit: XAudio2 using 'Headphones (Jabra STEP Wireless v0.3.5 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.28-03.08.20:793][942]LogInit: FAudioDevice initialized.
+[2017.06.28-03.08.20:825][942]LogLoad: Game class is 'GamePlay_BP_C'
+[2017.06.28-03.08.20:829][942]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TownExterior.TownExterior up for play (max tick rate 0) at 2017.06.27-20.08.20
+[2017.06.28-03.08.20:830][942]LogWorld: Bringing up level for play took: 0.001782
+[2017.06.28-03.08.20:832][942]LogBlueprintUserMessages: [MyCharacter_BP_C_0] EXP Needed: 200
+[2017.06.28-03.08.20:833][942]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TownExterior -0.396
+[2017.06.28-03.08.20:833][942]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TownExterior.TownExterior:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior' with GeneratedClass '/Game/Maps/TownExterior.TownExterior_C' with ClassGeneratedBy '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior'
+[2017.06.28-03.08.38:854][963]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TownExterior.TownExterior:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior' with GeneratedClass '/Game/Maps/TownExterior.TownExterior_C' with ClassGeneratedBy '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior'
+[2017.06.28-03.08.38:913][963]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TownExterior.TownExterior:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior' with GeneratedClass '/Game/Maps/TownExterior.TownExterior_C' with ClassGeneratedBy '/Game/Maps/TownExterior.TownExterior:PersistentLevel.TownExterior'
+[2017.06.28-03.15.17:796][274]LogLinker: Can't find file '/Game/Blueprints/UI/LevelUp_BP'
+[2017.06.28-03.15.17:796][274]LogLinker: Can't find file '/Game/Blueprints/UI/LevelUp_BP'
+[2017.06.28-03.15.18:075][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/LevelUp_BP" FILE="../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/LevelUp_BP.uasset" SILENT=true
+[2017.06.28-03.15.18:274][274]LogSavePackage: Save=196.48ms
+[2017.06.28-03.15.18:275][274]LogSavePackage: Moving '../../../../../../Github/Prototype/Prototype/Saved/LevelUp_BPF808D3BA49D95E0E434911928B3D38BD.tmp' to '../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/LevelUp_BP.uasset'
+[2017.06.28-03.15.18:278][274]LogSavePackage:Display: Finished SavePackage ../../../../../../Github/Prototype/Prototype/Content/Blueprints/UI/LevelUp_BP.uasset
+[2017.06.28-03.18.28:457][783]Cmd: QUIT_EDITOR
+[2017.06.28-03.18.29:888][783]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.28-03.18.29:999][783]LogExit: Preparing to exit.
+[2017.06.28-03.18.31:424][783]LogDirectoryWatcher: A directory notification for 'C:/Github/Prototype/Prototype/Content/' was aborted.
+[2017.06.28-03.18.31:711][783]LogExit: Editor shut down
+[2017.06.28-03.18.31:719][783]LogExit: Transaction tracking system shut down
+[2017.06.28-03.18.36:179][783]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.28-03.18.36:180][783]LogExit: Object subsystem successfully closed.
+[2017.06.28-03.18.36:444][783]LogD3D11RHI: Shutdown
+[2017.06.28-03.18.36:444][783]LogD3D11RHI: CleanupD3DDevice
+[2017.06.28-03.18.36:780][783]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.28-03.18.37:878][783]LogModuleManager: Shutting down and abandoning module SequencerWidgets (534)
+[2017.06.28-03.18.37:878][783]LogModuleManager: Shutting down and abandoning module BlueprintGraph (532)
+[2017.06.28-03.18.37:878][783]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (530)
+[2017.06.28-03.18.37:932][783]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (528)
+[2017.06.28-03.18.37:946][783]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2017.06.28-03.18.37:946][783]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.06.28-03.18.37:967][783]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.06.28-03.18.37:967][783]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.06.28-03.18.37:967][783]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.06.28-03.18.37:987][783]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.06.28-03.18.37:999][783]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.06.28-03.18.37:999][783]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.06.28-03.18.37:999][783]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.06.28-03.18.37:999][783]LogDirectoryWatcher: A directory notification for 'C:/Github/Prototype/Prototype/Content/Collections/' was aborted.
+[2017.06.28-03.18.38:000][783]LogDirectoryWatcher: A directory notification for 'C:/Github/Prototype/Prototype/Content/Developers/nemca/Collections/' was aborted.
+[2017.06.28-03.18.38:000][783]LogDirectoryWatcher: A directory notification for 'C:/Github/Prototype/Prototype/Saved/Collections/' was aborted.
+[2017.06.28-03.18.38:000][783]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.06.28-03.18.38:007][783]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.06.28-03.18.38:007][783]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.06.28-03.18.38:031][783]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.06.28-03.18.38:031][783]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.06.28-03.18.38:031][783]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.06.28-03.18.38:031][783]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.06.28-03.18.38:031][783]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.06.28-03.18.38:031][783]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.06.28-03.18.38:042][783]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.06.28-03.18.38:051][783]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.06.28-03.18.38:066][783]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.06.28-03.18.38:083][783]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.06.28-03.18.38:099][783]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.06.28-03.18.38:152][783]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.06.28-03.18.38:152][783]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.06.28-03.18.38:152][783]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.06.28-03.18.38:152][783]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.06.28-03.18.38:152][783]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.06.28-03.18.38:152][783]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.06.28-03.18.38:152][783]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.06.28-03.18.38:152][783]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.06.28-03.18.38:152][783]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.06.28-03.18.38:152][783]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.06.28-03.18.38:168][783]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.06.28-03.18.38:196][783]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.06.28-03.18.38:196][783]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.06.28-03.18.38:196][783]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.06.28-03.18.38:196][783]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.06.28-03.18.38:196][783]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.06.28-03.18.38:216][783]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.06.28-03.18.38:340][783]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.06.28-03.18.38:394][783]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.06.28-03.18.38:408][783]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.06.28-03.18.38:408][783]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.06.28-03.18.38:447][783]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.06.28-03.18.38:447][783]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.06.28-03.18.38:447][783]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.06.28-03.18.38:636][783]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.06.28-03.18.38:636][783]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.06.28-03.18.38:636][783]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.06.28-03.18.38:651][783]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.06.28-03.18.38:664][783]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.06.28-03.18.38:664][783]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.06.28-03.18.38:671][783]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.06.28-03.18.38:672][783]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.06.28-03.18.38:682][783]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.06.28-03.18.38:691][783]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.06.28-03.18.38:691][783]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.06.28-03.18.38:710][783]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.06.28-03.18.38:727][783]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.06.28-03.18.38:727][783]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.06.28-03.18.38:750][783]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.06.28-03.18.38:766][783]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.06.28-03.18.38:766][783]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.06.28-03.18.38:766][783]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.06.28-03.18.38:766][783]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.06.28-03.18.38:834][783]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.06.28-03.18.38:881][783]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.06.28-03.18.38:906][783]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.06.28-03.18.38:963][783]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.06.28-03.18.39:002][783]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.06.28-03.18.39:064][783]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.06.28-03.18.39:088][783]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.06.28-03.18.39:116][783]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.06.28-03.18.39:166][783]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.06.28-03.18.39:166][783]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.06.28-03.18.39:178][783]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.06.28-03.18.39:193][783]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.06.28-03.18.39:248][783]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.06.28-03.18.39:248][783]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.06.28-03.18.39:248][783]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.06.28-03.18.39:259][783]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.06.28-03.18.39:259][783]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.06.28-03.18.39:272][783]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.06.28-03.18.39:308][783]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.06.28-03.18.39:332][783]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.06.28-03.18.39:358][783]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.06.28-03.18.39:370][783]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.06.28-03.18.39:370][783]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.06.28-03.18.39:370][783]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.06.28-03.18.39:370][783]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.06.28-03.18.39:370][783]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.06.28-03.18.39:432][783]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.06.28-03.18.39:432][783]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.06.28-03.18.39:432][783]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.06.28-03.18.39:432][783]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.06.28-03.18.39:432][783]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.06.28-03.18.39:432][783]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.06.28-03.18.39:445][783]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.06.28-03.18.39:445][783]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.06.28-03.18.39:457][783]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.06.28-03.18.39:557][783]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.06.28-03.18.39:618][783]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.06.28-03.18.39:618][783]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.06.28-03.18.39:618][783]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.06.28-03.18.39:629][783]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.06.28-03.18.39:640][783]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.06.28-03.18.39:640][783]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.06.28-03.18.39:640][783]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.06.28-03.18.39:640][783]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.06.28-03.18.39:640][783]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.06.28-03.18.39:649][783]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.06.28-03.18.39:649][783]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.06.28-03.18.39:649][783]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.06.28-03.18.39:696][783]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.06.28-03.18.39:696][783]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.06.28-03.18.39:703][783]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.06.28-03.18.39:703][783]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.06.28-03.18.39:712][783]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.06.28-03.18.39:712][783]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.06.28-03.18.39:712][783]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.06.28-03.18.39:712][783]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.06.28-03.18.39:712][783]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.06.28-03.18.39:830][783]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.06.28-03.18.39:897][783]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.06.28-03.18.39:897][783]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.06.28-03.18.39:897][783]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.06.28-03.18.39:897][783]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.06.28-03.18.39:957][783]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.06.28-03.18.40:028][783]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.06.28-03.18.40:038][783]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.06.28-03.18.40:038][783]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.06.28-03.18.40:038][783]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.06.28-03.18.40:038][783]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.06.28-03.18.40:038][783]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.06.28-03.18.40:082][783]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.06.28-03.18.40:095][783]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.06.28-03.18.40:147][783]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.06.28-03.18.40:169][783]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.06.28-03.18.40:179][783]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.06.28-03.18.40:227][783]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.06.28-03.18.40:238][783]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.06.28-03.18.40:238][783]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.06.28-03.18.40:238][783]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.06.28-03.18.40:238][783]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.06.28-03.18.40:266][783]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.06.28-03.18.40:367][783]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.06.28-03.18.40:488][783]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.06.28-03.18.40:557][783]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.06.28-03.18.40:581][783]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.06.28-03.18.40:581][783]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.06.28-03.18.40:626][783]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.06.28-03.18.40:626][783]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.06.28-03.18.40:627][783]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.06.28-03.18.40:627][783]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.06.28-03.18.40:664][783]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.06.28-03.18.40:664][783]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.06.28-03.18.40:716][783]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.06.28-03.18.40:716][783]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.06.28-03.18.40:742][783]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.06.28-03.18.40:742][783]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.06.28-03.18.40:773][783]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.06.28-03.18.40:805][783]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.06.28-03.18.40:832][783]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.06.28-03.18.40:832][783]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.06.28-03.18.40:922][783]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.06.28-03.18.40:922][783]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.06.28-03.18.40:974][783]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.06.28-03.18.40:987][783]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.06.28-03.18.40:988][783]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.06.28-03.18.41:000][783]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.06.28-03.18.41:119][783]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.06.28-03.18.41:119][783]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.06.28-03.18.41:119][783]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.06.28-03.18.41:153][783]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.06.28-03.18.41:153][783]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.06.28-03.18.41:157][783]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.06.28-03.18.41:157][783]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.06.28-03.18.41:157][783]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.06.28-03.18.41:157][783]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.06.28-03.18.41:157][783]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.06.28-03.18.41:157][783]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.06.28-03.18.41:332][783]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.28-03.18.41:332][783]LogDirectoryWatcher: A directory notification for '../../../../../../Github/Prototype/Prototype/Content/' was aborted.
+[2017.06.28-03.18.41:332][783]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.28-03.18.41:332][783]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.06.28-03.18.41:353][783]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.06.28-03.18.41:354][783]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.06.28-03.18.41:354][783]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.06.28-03.18.41:354][783]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.06.28-03.18.41:354][783]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.06.28-03.18.41:415][783]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.06.28-03.18.41:453][783]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.06.28-03.18.41:453][783]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.06.28-03.18.41:482][783]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.06.28-03.18.41:549][783]LogDerivedDataCache: Shutdown
+[2017.06.28-03.18.41:549][783]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.06.28-03.18.41:549][783]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.06.28-03.18.41:634][783]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.06.28-03.18.41:673][783]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.06.28-03.18.41:723][783]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.06.28-03.18.41:737][783]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.06.28-03.18.41:794][783]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.06.28-03.18.41:794][783]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.06.28-03.18.41:794][783]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.06.28-03.18.41:794][783]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.06.28-03.18.41:824][783]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.06.28-03.18.41:824][783]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.06.28-03.18.41:824][783]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.06.28-03.18.41:824][783]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.06.28-03.18.41:825][783]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.06.28-03.18.41:825][783]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.06.28-03.18.41:825][783]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.06.28-03.18.41:825][783]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.06.28-03.18.41:825][783]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.06.28-03.18.41:825][783]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.06.28-03.18.41:825][783]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.06.28-03.18.41:825][783]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.06.28-03.18.41:825][783]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.06.28-03.18.41:825][783]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.06.28-03.18.41:825][783]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.06.28-03.18.41:859][783]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.06.28-03.18.41:859][783]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.06.28-03.18.41:874][783]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.06.28-03.18.41:888][783]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.06.28-03.18.41:897][783]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.06.28-03.18.41:914][783]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.06.28-03.18.41:914][783]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.06.28-03.18.41:941][783]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.06.28-03.18.41:941][783]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.06.28-03.18.41:941][783]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.06.28-03.18.41:941][783]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.06.28-03.18.41:941][783]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.06.28-03.18.41:941][783]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.06.28-03.18.41:941][783]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.06.28-03.18.41:941][783]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.06.28-03.18.41:941][783]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.06.28-03.18.41:941][783]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.06.28-03.18.41:941][783]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.06.28-03.18.41:941][783]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.06.28-03.18.41:961][783]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.06.28-03.18.41:961][783]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.06.28-03.18.41:986][783]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.06.28-03.18.41:986][783]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.06.28-03.18.41:986][783]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.06.28-03.18.41:986][783]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.28-03.18.42:058][783]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.06.28-03.18.42:110][783]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.06.28-03.18.42:110][783]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.28-03.18.42:143][783]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCC9EE2E0-49A0-3D06-46E2-EEA79A8CB28D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=bf92da534460ef4fffe5538a57123b69%7Cd69066f2b01f4486a3f6117e9ce9183c%7C22dd3724-3e71-479b-9265-f227670cc2a5&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.28-03.18.42:154][783]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.06.28-03.18.42:192][783]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.06.28-03.18.42:206][783]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.06.28-03.18.42:215][783]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.06.28-03.18.42:215][783]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.28-03.18.42:251][783]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.28-03.18.42:251][783]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.28-03.18.42:251][783]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.28-03.18.42:251][783]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.28-03.18.42:291][783]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.28-03.18.42:924][783]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.28-03.18.42:924][783]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.28-03.18.42:937][783]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.28-03.18.42:937][783]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.28-03.18.42:937][783]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.28-03.18.42:937][783]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.28-03.18.42:989][783]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.28-03.18.43:000][783]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.28-03.18.43:000][783]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.28-03.18.43:002][783]LogExit: Exiting.
+[2017.06.28-03.18.43:025][783]Log file closed, 06/27/17 20:18:43
